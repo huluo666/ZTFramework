@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>UniversalLib.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ZTFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>ZTFrameworkBundle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CDA2CA4A19654E2F00C8D186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDA2CA5A19654E2F00C8D186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDA2CA7419654EB400C8D186</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDBDA857196D23E3000FA46B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
