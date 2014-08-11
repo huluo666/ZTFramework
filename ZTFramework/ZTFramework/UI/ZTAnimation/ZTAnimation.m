@@ -22,7 +22,7 @@
     //移动动画
     CAKeyframeAnimation *moveAnimaction = [CAKeyframeAnimation animationWithKeyPath:@"position"];
     moveAnimaction.path = movePath.CGPath;
-    
+
     return moveAnimaction;
 }
 

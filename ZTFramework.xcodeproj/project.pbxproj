@@ -7,93 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD006F5B1966996400BAA1AD /* ZTFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CD006F591966996400BAA1AD /* ZTFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD006F5C1966996400BAA1AD /* ZTFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CD006F5A1966996400BAA1AD /* ZTFile.m */; };
-		CD03EF6A196E2C74000B1969 /* ZTTabBarConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03EF68196E2C74000B1969 /* ZTTabBarConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD03EF6B196E2C74000B1969 /* ZTTabBarConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03EF69196E2C74000B1969 /* ZTTabBarConfigs.m */; };
-		CD03EF6F196E3FCA000B1969 /* ZTNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03EF6D196E3FCA000B1969 /* ZTNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD03EF70196E3FCA000B1969 /* ZTNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03EF6E196E3FCA000B1969 /* ZTNavigation.m */; };
-		CD03EF81196E5842000B1969 /* ZTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03EF74196E5842000B1969 /* ZTTableView.m */; };
-		CD03EF82196E5842000B1969 /* ZTTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03EF75196E5842000B1969 /* ZTTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD03EF90196E5AF7000B1969 /* ZTTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03EF8E196E5AF7000B1969 /* ZTTableCell.m */; };
-		CD03EF91196E5AF7000B1969 /* ZTTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03EF8F196E5AF7000B1969 /* ZTTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD03EF9A196E5BA2000B1969 /* ZTTableMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03EF98196E5BA2000B1969 /* ZTTableMoreCell.m */; };
-		CD03EF9E196E5D06000B1969 /* ZTTableSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03EF9C196E5D06000B1969 /* ZTTableSectionModel.m */; };
-		CD03EF9F196E5D06000B1969 /* ZTTableSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03EF9D196E5D06000B1969 /* ZTTableSectionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD03EFA2196E5D88000B1969 /* ZTTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03EFA0196E5D88000B1969 /* ZTTableDelegate.m */; };
-		CD03EFA3196E5D88000B1969 /* ZTTableDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03EFA1196E5D88000B1969 /* ZTTableDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD03EFA6196E5F79000B1969 /* ZTTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03EFA4196E5F79000B1969 /* ZTTableDataSource.m */; };
-		CD03EFA7196E5F79000B1969 /* ZTTableDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03EFA5196E5F79000B1969 /* ZTTableDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD03F1D6196E74F1000B1969 /* ZTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F1D4196E74F1000B1969 /* ZTWebView.m */; };
-		CD03F1D7196E74F1000B1969 /* ZTWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03F1D5196E74F1000B1969 /* ZTWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD03F230196E8680000B1969 /* ZTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F22E196E8680000B1969 /* ZTImageView.m */; };
-		CD03F256196E8743000B1969 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F235196E8743000B1969 /* MKAnnotationView+WebCache.m */; };
-		CD03F258196E8743000B1969 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F237196E8743000B1969 /* NSData+ImageContentType.m */; };
-		CD03F25A196E8743000B1969 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F239196E8743000B1969 /* SDImageCache.m */; };
-		CD03F25C196E8743000B1969 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F23B196E8743000B1969 /* SDWebImageCompat.m */; };
-		CD03F25E196E8743000B1969 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F23D196E8743000B1969 /* SDWebImageDecoder.m */; };
-		CD03F260196E8743000B1969 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F23F196E8743000B1969 /* SDWebImageDownloader.m */; };
-		CD03F262196E8743000B1969 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F241196E8743000B1969 /* SDWebImageDownloaderOperation.m */; };
-		CD03F264196E8743000B1969 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F243196E8743000B1969 /* SDWebImageManager.m */; };
-		CD03F267196E8743000B1969 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F246196E8743000B1969 /* SDWebImagePrefetcher.m */; };
-		CD03F269196E8743000B1969 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F248196E8743000B1969 /* UIButton+WebCache.m */; };
-		CD03F26B196E8743000B1969 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F24A196E8743000B1969 /* UIImage+GIF.m */; };
-		CD03F26D196E8743000B1969 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F24C196E8743000B1969 /* UIImage+MultiFormat.m */; };
-		CD03F26F196E8743000B1969 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F24E196E8743000B1969 /* UIImage+WebP.m */; };
-		CD03F271196E8743000B1969 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F250196E8743000B1969 /* UIImageView+HighlightedWebCache.m */; };
-		CD03F273196E8743000B1969 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F252196E8743000B1969 /* UIImageView+WebCache.m */; };
-		CD03F275196E8743000B1969 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F254196E8743000B1969 /* UIView+WebCacheOperation.m */; };
-		CD03F276196E8872000B1969 /* ZTImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03F22D196E8680000B1969 /* ZTImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD03F27A196E88B9000B1969 /* ZTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F278196E88B9000B1969 /* ZTButton.m */; };
-		CD03F27B196E88B9000B1969 /* ZTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03F279196E88B9000B1969 /* ZTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD03F280196E8A25000B1969 /* ZTSDWebCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD03F27E196E8A25000B1969 /* ZTSDWebCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD03F281196E8A25000B1969 /* ZTSDWebCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD03F27F196E8A25000B1969 /* ZTSDWebCacheManager.m */; };
-		CD13F1F0196E8F6E00DFB2F4 /* ZTImageBrowZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD13F1E8196E8F6E00DFB2F4 /* ZTImageBrowZoomView.m */; };
-		CD13F1F2196E8F6E00DFB2F4 /* ZTImageBrowOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD13F1EA196E8F6E00DFB2F4 /* ZTImageBrowOverlayView.m */; };
-		CD13F1F4196E8F6E00DFB2F4 /* ZTImageBrowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD13F1EC196E8F6E00DFB2F4 /* ZTImageBrowModel.m */; };
-		CD13F1F5196E8F6E00DFB2F4 /* ZTImageBrowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CD13F1ED196E8F6E00DFB2F4 /* ZTImageBrowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD13F1F6196E8F6E00DFB2F4 /* ZTImageBrow.m in Sources */ = {isa = PBXBuildFile; fileRef = CD13F1EE196E8F6E00DFB2F4 /* ZTImageBrow.m */; };
-		CD13F1F7196E8F6E00DFB2F4 /* ZTImageBrow.h in Headers */ = {isa = PBXBuildFile; fileRef = CD13F1EF196E8F6E00DFB2F4 /* ZTImageBrow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD345781196B8037001195CB /* ZTQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = CD34577F196B8037001195CB /* ZTQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD345782196B8037001195CB /* ZTQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = CD345780196B8037001195CB /* ZTQRCode.m */; };
-		CD3457C1196B8044001195CB /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = CD34579C196B8044001195CB /* bitstream.c */; };
-		CD3457C3196B8044001195CB /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = CD34579E196B8044001195CB /* mask.c */; };
-		CD3457C6196B8044001195CB /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3457A1196B8044001195CB /* QRCodeGenerator.m */; };
-		CD3457C7196B8044001195CB /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = CD3457A2196B8044001195CB /* qrencode.c */; };
-		CD3457C9196B8044001195CB /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = CD3457A4196B8044001195CB /* qrinput.c */; };
-		CD3457CB196B8044001195CB /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = CD3457A6196B8044001195CB /* qrspec.c */; };
-		CD3457CD196B8044001195CB /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = CD3457A8196B8044001195CB /* rscode.c */; };
-		CD3457CF196B8044001195CB /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = CD3457AA196B8044001195CB /* split.c */; };
-		CD3457D1196B8044001195CB /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3457AC196B8044001195CB /* libzbar.a */; };
+		CD536CB519988C69001F3587 /* ZTFrameworkConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = CD536CB419988C69001F3587 /* ZTFrameworkConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD536CB719988D09001F3587 /* ZTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = CD536CB619988D09001F3587 /* ZTFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD738BBD19988DF5001B1BAE /* ZTSystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CD738BBB19988DF5001B1BAE /* ZTSystemInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD738BBE19988DF5001B1BAE /* ZTSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CD738BBC19988DF5001B1BAE /* ZTSystemInfo.m */; };
 		CD845B1F1974BFE8000D6B51 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD845B1E1974BFE8000D6B51 /* Security.framework */; };
-		CD8F1CDF196CDDB300069646 /* ZTTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8F1CD2196CDDB300069646 /* ZTTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD8F1CE0196CDDB300069646 /* ZTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8F1CD3196CDDB300069646 /* ZTTabBar.m */; };
-		CD8F1CEE196CE22B00069646 /* ZTTabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8F1CEC196CE22B00069646 /* ZTTabBarModel.m */; };
-		CD8F1CEF196CE22B00069646 /* ZTTabBarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8F1CED196CE22B00069646 /* ZTTabBarModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD8F1CF4196CE37C00069646 /* ZTTabBarNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8F1CF2196CE37C00069646 /* ZTTabBarNotificationModel.m */; };
-		CD8F1CF8196CE39400069646 /* ZTTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8F1CF6196CE39400069646 /* ZTTabBarItem.m */; };
-		CD8F1CFC196CE3B200069646 /* ZTTabBarItemBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8F1CFA196CE3B200069646 /* ZTTabBarItemBadge.m */; };
-		CD8F1D04196CE40300069646 /* ZTTabBarItemGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8F1D02196CE40300069646 /* ZTTabBarItemGroup.m */; };
-		CD9003301967A42D00BC6158 /* ZTFrameworkConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = CD90032E1967A42D00BC6158 /* ZTFrameworkConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD9003311967A42D00BC6158 /* ZTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CD90032F1967A42D00BC6158 /* ZTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD9003351967A54100BC6158 /* ZTAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9003331967A54100BC6158 /* ZTAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD9003361967A54100BC6158 /* ZTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9003341967A54100BC6158 /* ZTAnimation.m */; };
-		CD9640DD197E52A900AABDA9 /* ZTUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9640DB197E52A900AABDA9 /* ZTUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD9640DE197E52A900AABDA9 /* ZTUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9640DC197E52A900AABDA9 /* ZTUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CDA2CA4F19654E2F00C8D186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA4E19654E2F00C8D186 /* Foundation.framework */; };
 		CDA2CA821965535500C8D186 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA811965535500C8D186 /* UIKit.framework */; };
 		CDA2CA841965536E00C8D186 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA831965536E00C8D186 /* CoreGraphics.framework */; };
 		CDA2CA87196553D300C8D186 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA86196553D300C8D186 /* QuartzCore.framework */; };
 		CDBDA85A196D23E3000FA46B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBDA859196D23E3000FA46B /* CoreFoundation.framework */; };
 		CDBDA870196D26E2000FA46B /* Images in Resources */ = {isa = PBXBuildFile; fileRef = CDBDA86F196D26E2000FA46B /* Images */; };
-		CDF50FC2196F8813000857D0 /* ZTImageScrollViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF50FBE196F8813000857D0 /* ZTImageScrollViewModel.m */; };
-		CDF50FC3196F8813000857D0 /* ZTImageScrollViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF50FBF196F8813000857D0 /* ZTImageScrollViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDF50FC4196F8813000857D0 /* ZTImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF50FC0196F8813000857D0 /* ZTImageScrollView.m */; };
-		CDF50FC5196F8813000857D0 /* ZTImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF50FC1196F8813000857D0 /* ZTImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDFAF30F196B891900D8972C /* ZTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAF30D196B891900D8972C /* ZTReachability.m */; };
-		CDFAF312196B894100D8972C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFAF310196B894100D8972C /* Reachability.m */; };
-		CDFAF31A196B8DA500D8972C /* ZTReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFAF30C196B891900D8972C /* ZTReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDFAF31E196B8DEE00D8972C /* ZTMacroUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFAF318196B89A300D8972C /* ZTMacroUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490171993278200496F24 /* ZTWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FC91993278200496F24 /* ZTWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490181993278200496F24 /* ZTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FCA1993278200496F24 /* ZTWebView.m */; };
+		CDF490191993278200496F24 /* ZTUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FCC1993278200496F24 /* ZTUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4901A1993278200496F24 /* ZTUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FCD1993278200496F24 /* ZTUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CDF4901B1993278200496F24 /* ZTTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FCF1993278200496F24 /* ZTTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4901C1993278200496F24 /* ZTTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FD01993278200496F24 /* ZTTableCell.m */; };
+		CDF4901D1993278200496F24 /* ZTTableDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FD11993278200496F24 /* ZTTableDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4901E1993278200496F24 /* ZTTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FD21993278200496F24 /* ZTTableDataSource.m */; };
+		CDF4901F1993278200496F24 /* ZTTableDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FD31993278200496F24 /* ZTTableDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490201993278200496F24 /* ZTTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FD41993278200496F24 /* ZTTableDelegate.m */; };
+		CDF490211993278200496F24 /* ZTTableHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FD51993278200496F24 /* ZTTableHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490221993278200496F24 /* ZTTableMoreCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FD61993278200496F24 /* ZTTableMoreCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490231993278200496F24 /* ZTTableMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FD71993278200496F24 /* ZTTableMoreCell.m */; };
+		CDF490241993278200496F24 /* ZTTableSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FD81993278200496F24 /* ZTTableSectionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490251993278200496F24 /* ZTTableSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FD91993278200496F24 /* ZTTableSectionModel.m */; };
+		CDF490261993278200496F24 /* ZTTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FDA1993278200496F24 /* ZTTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490271993278200496F24 /* ZTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FDB1993278200496F24 /* ZTTableView.m */; };
+		CDF490281993278200496F24 /* ZTTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FDD1993278200496F24 /* ZTTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490291993278200496F24 /* ZTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FDE1993278200496F24 /* ZTTabBar.m */; };
+		CDF4902A1993278200496F24 /* ZTTabBarConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FDF1993278200496F24 /* ZTTabBarConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4902B1993278200496F24 /* ZTTabBarConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FE01993278200496F24 /* ZTTabBarConfigs.m */; };
+		CDF4902C1993278200496F24 /* ZTTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FE11993278200496F24 /* ZTTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4902D1993278200496F24 /* ZTTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FE21993278200496F24 /* ZTTabBarItem.m */; };
+		CDF4902E1993278200496F24 /* ZTTabBarItemBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FE31993278200496F24 /* ZTTabBarItemBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4902F1993278200496F24 /* ZTTabBarItemBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FE41993278200496F24 /* ZTTabBarItemBadge.m */; };
+		CDF490301993278200496F24 /* ZTTabBarItemGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FE51993278200496F24 /* ZTTabBarItemGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490311993278200496F24 /* ZTTabBarItemGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FE61993278200496F24 /* ZTTabBarItemGroup.m */; };
+		CDF490321993278200496F24 /* ZTTabBarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FE71993278200496F24 /* ZTTabBarModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490331993278200496F24 /* ZTTabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FE81993278200496F24 /* ZTTabBarModel.m */; };
+		CDF490341993278200496F24 /* ZTTabBarNotificationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FE91993278200496F24 /* ZTTabBarNotificationModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490351993278200496F24 /* ZTTabBarNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FEA1993278200496F24 /* ZTTabBarNotificationModel.m */; };
+		CDF490361993278200496F24 /* ZTSDWebCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FEC1993278200496F24 /* ZTSDWebCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490371993278200496F24 /* ZTSDWebCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FED1993278200496F24 /* ZTSDWebCacheManager.m */; };
+		CDF490381993278200496F24 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FEF1993278200496F24 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490391993278200496F24 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FF01993278200496F24 /* Reachability.m */; };
+		CDF4903A1993278200496F24 /* ZTReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FF11993278200496F24 /* ZTReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4903B1993278200496F24 /* ZTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FF21993278200496F24 /* ZTReachability.m */; };
+		CDF4903C1993278200496F24 /* ZTQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FF41993278200496F24 /* ZTQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4903D1993278200496F24 /* ZTQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FF51993278200496F24 /* ZTQRCode.m */; };
+		CDF4903E1993278200496F24 /* ZTNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FF71993278200496F24 /* ZTNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4903F1993278200496F24 /* ZTNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FF81993278200496F24 /* ZTNavigation.m */; };
+		CDF490431993278200496F24 /* ZTImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF48FFE1993278200496F24 /* ZTImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490441993278200496F24 /* ZTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF48FFF1993278200496F24 /* ZTImageView.m */; };
+		CDF490451993278200496F24 /* ZTImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490011993278200496F24 /* ZTImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490461993278200496F24 /* ZTImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490021993278200496F24 /* ZTImageScrollView.m */; };
+		CDF490471993278200496F24 /* ZTImageScrollViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490031993278200496F24 /* ZTImageScrollViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490481993278200496F24 /* ZTImageScrollViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490041993278200496F24 /* ZTImageScrollViewModel.m */; };
+		CDF490491993278200496F24 /* ZTImageBrow.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490061993278200496F24 /* ZTImageBrow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4904A1993278200496F24 /* ZTImageBrow.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490071993278200496F24 /* ZTImageBrow.m */; };
+		CDF4904B1993278200496F24 /* ZTImageBrowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490081993278200496F24 /* ZTImageBrowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4904C1993278200496F24 /* ZTImageBrowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490091993278200496F24 /* ZTImageBrowModel.m */; };
+		CDF4904D1993278200496F24 /* ZTImageBrowOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4900A1993278200496F24 /* ZTImageBrowOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF4904E1993278200496F24 /* ZTImageBrowOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4900B1993278200496F24 /* ZTImageBrowOverlayView.m */; };
+		CDF4904F1993278200496F24 /* ZTImageBrowZoomView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4900C1993278200496F24 /* ZTImageBrowZoomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490501993278200496F24 /* ZTImageBrowZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4900D1993278200496F24 /* ZTImageBrowZoomView.m */; };
+		CDF490511993278200496F24 /* ZTFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4900F1993278200496F24 /* ZTFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490521993278200496F24 /* ZTFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490101993278200496F24 /* ZTFile.m */; };
+		CDF490531993278200496F24 /* ZTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490121993278200496F24 /* ZTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490541993278200496F24 /* ZTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490131993278200496F24 /* ZTButton.m */; };
+		CDF490551993278200496F24 /* ZTAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490151993278200496F24 /* ZTAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490561993278200496F24 /* ZTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490161993278200496F24 /* ZTAnimation.m */; };
+		CDF490A31993284C00496F24 /* Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4905B1993284C00496F24 /* Decoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490A41993284C00496F24 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4905C1993284C00496F24 /* Exception.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490A51993284C00496F24 /* Image.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4905D1993284C00496F24 /* Image.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490A61993284C00496F24 /* ImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4905E1993284C00496F24 /* ImageScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490A71993284C00496F24 /* Processor.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4905F1993284C00496F24 /* Processor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490A81993284C00496F24 /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490601993284C00496F24 /* Scanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490A91993284C00496F24 /* Symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490611993284C00496F24 /* Symbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490AA1993284C00496F24 /* Video.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490621993284C00496F24 /* Video.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490AB1993284C00496F24 /* Window.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490631993284C00496F24 /* Window.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490AC1993284C00496F24 /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490641993284C00496F24 /* zbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490AD1993284C00496F24 /* ZBarCameraSimulator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490651993284C00496F24 /* ZBarCameraSimulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490AE1993284C00496F24 /* ZBarCaptureReader.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490661993284C00496F24 /* ZBarCaptureReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490AF1993284C00496F24 /* ZBarHelpController.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490671993284C00496F24 /* ZBarHelpController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490B01993284C00496F24 /* ZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490681993284C00496F24 /* ZBarImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490B11993284C00496F24 /* ZBarImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490691993284C00496F24 /* ZBarImageScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490B21993284C00496F24 /* ZBarReaderController.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4906A1993284C00496F24 /* ZBarReaderController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490B31993284C00496F24 /* ZBarReaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4906B1993284C00496F24 /* ZBarReaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490B41993284C00496F24 /* ZBarReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4906C1993284C00496F24 /* ZBarReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490B51993284C00496F24 /* ZBarSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4906D1993284C00496F24 /* ZBarSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490B61993284C00496F24 /* ZBarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4906E1993284C00496F24 /* ZBarSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490B71993284C00496F24 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = CDF490701993284C00496F24 /* bitstream.c */; };
+		CDF490B81993284C00496F24 /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490711993284C00496F24 /* bitstream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490B91993284C00496F24 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = CDF490721993284C00496F24 /* mask.c */; };
+		CDF490BA1993284C00496F24 /* mask.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490731993284C00496F24 /* mask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490BB1993284C00496F24 /* QRCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490741993284C00496F24 /* QRCodeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490BC1993284C00496F24 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490751993284C00496F24 /* QRCodeGenerator.m */; };
+		CDF490BD1993284C00496F24 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = CDF490761993284C00496F24 /* qrencode.c */; };
+		CDF490BE1993284C00496F24 /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490771993284C00496F24 /* qrencode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490BF1993284C00496F24 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = CDF490781993284C00496F24 /* qrinput.c */; };
+		CDF490C01993284C00496F24 /* qrinput.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490791993284C00496F24 /* qrinput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490C11993284C00496F24 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = CDF4907A1993284C00496F24 /* qrspec.c */; };
+		CDF490C21993284C00496F24 /* qrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4907B1993284C00496F24 /* qrspec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490C31993284C00496F24 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = CDF4907C1993284C00496F24 /* rscode.c */; };
+		CDF490C41993284C00496F24 /* rscode.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4907D1993284C00496F24 /* rscode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490C51993284C00496F24 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = CDF4907E1993284C00496F24 /* split.c */; };
+		CDF490C61993284C00496F24 /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4907F1993284C00496F24 /* split.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490C71993284C00496F24 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF490801993284C00496F24 /* libzbar.a */; };
+		CDF490C81993284C00496F24 /* MKAnnotationView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490821993284C00496F24 /* MKAnnotationView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490C91993284C00496F24 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490831993284C00496F24 /* MKAnnotationView+WebCache.m */; };
+		CDF490CA1993284C00496F24 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490841993284C00496F24 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490CB1993284C00496F24 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490851993284C00496F24 /* NSData+ImageContentType.m */; };
+		CDF490CC1993284C00496F24 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490861993284C00496F24 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490CD1993284C00496F24 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490871993284C00496F24 /* SDImageCache.m */; };
+		CDF490CE1993284C00496F24 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490881993284C00496F24 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490CF1993284C00496F24 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490891993284C00496F24 /* SDWebImageCompat.m */; };
+		CDF490D01993284C00496F24 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4908A1993284C00496F24 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490D11993284C00496F24 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4908B1993284C00496F24 /* SDWebImageDecoder.m */; };
+		CDF490D21993284C00496F24 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4908C1993284C00496F24 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490D31993284C00496F24 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4908D1993284C00496F24 /* SDWebImageDownloader.m */; };
+		CDF490D41993284C00496F24 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4908E1993284C00496F24 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490D51993284C00496F24 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4908F1993284C00496F24 /* SDWebImageDownloaderOperation.m */; };
+		CDF490D61993284C00496F24 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490901993284C00496F24 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490D71993284C00496F24 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490911993284C00496F24 /* SDWebImageManager.m */; };
+		CDF490D81993284C00496F24 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490921993284C00496F24 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490D91993284C00496F24 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490931993284C00496F24 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490DA1993284C00496F24 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490941993284C00496F24 /* SDWebImagePrefetcher.m */; };
+		CDF490DB1993284C00496F24 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490951993284C00496F24 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490DC1993284C00496F24 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490961993284C00496F24 /* UIButton+WebCache.m */; };
+		CDF490DD1993284C00496F24 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490971993284C00496F24 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490DE1993284C00496F24 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490981993284C00496F24 /* UIImage+GIF.m */; };
+		CDF490DF1993284C00496F24 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490991993284C00496F24 /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490E01993284C00496F24 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4909A1993284C00496F24 /* UIImage+MultiFormat.m */; };
+		CDF490E11993284C00496F24 /* UIImage+WebP.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4909B1993284C00496F24 /* UIImage+WebP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490E21993284C00496F24 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4909C1993284C00496F24 /* UIImage+WebP.m */; };
+		CDF490E31993284C00496F24 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4909D1993284C00496F24 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490E41993284C00496F24 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF4909E1993284C00496F24 /* UIImageView+HighlightedWebCache.m */; };
+		CDF490E51993284C00496F24 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF4909F1993284C00496F24 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490E61993284C00496F24 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490A01993284C00496F24 /* UIImageView+WebCache.m */; };
+		CDF490E71993284C00496F24 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490A11993284C00496F24 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490E81993284C00496F24 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490A21993284C00496F24 /* UIView+WebCacheOperation.m */; };
+		CDF490EF199329F600496F24 /* UIWindow+ZTDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490EB199329F600496F24 /* UIWindow+ZTDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490F0199329F600496F24 /* UIWindow+ZTDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490EC199329F600496F24 /* UIWindow+ZTDebug.m */; };
+		CDF490F1199329F600496F24 /* ZTDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490ED199329F600496F24 /* ZTDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490F2199329F600496F24 /* ZTDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF490EE199329F600496F24 /* ZTDebug.m */; };
+		CDF490F419932A5E00496F24 /* ZTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490F319932A5E00496F24 /* ZTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490F619932A6A00496F24 /* ZTPrecompile.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490F519932A6A00496F24 /* ZTPrecompile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDF490FF19932E0700496F24 /* ZTMacroUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490FE19932E0700496F24 /* ZTMacroUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,131 +171,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CD006F591966996400BAA1AD /* ZTFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFile.h; sourceTree = "<group>"; };
-		CD006F5A1966996400BAA1AD /* ZTFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFile.m; sourceTree = "<group>"; };
-		CD03EF68196E2C74000B1969 /* ZTTabBarConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarConfigs.h; sourceTree = "<group>"; };
-		CD03EF69196E2C74000B1969 /* ZTTabBarConfigs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarConfigs.m; sourceTree = "<group>"; };
-		CD03EF6D196E3FCA000B1969 /* ZTNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTNavigation.h; sourceTree = "<group>"; };
-		CD03EF6E196E3FCA000B1969 /* ZTNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTNavigation.m; sourceTree = "<group>"; };
-		CD03EF74196E5842000B1969 /* ZTTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableView.m; sourceTree = "<group>"; };
-		CD03EF75196E5842000B1969 /* ZTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableView.h; sourceTree = "<group>"; };
-		CD03EF8E196E5AF7000B1969 /* ZTTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableCell.m; sourceTree = "<group>"; };
-		CD03EF8F196E5AF7000B1969 /* ZTTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableCell.h; sourceTree = "<group>"; };
-		CD03EF98196E5BA2000B1969 /* ZTTableMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableMoreCell.m; sourceTree = "<group>"; };
-		CD03EF99196E5BA2000B1969 /* ZTTableMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableMoreCell.h; sourceTree = "<group>"; };
-		CD03EF9C196E5D06000B1969 /* ZTTableSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableSectionModel.m; sourceTree = "<group>"; };
-		CD03EF9D196E5D06000B1969 /* ZTTableSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableSectionModel.h; sourceTree = "<group>"; };
-		CD03EFA0196E5D88000B1969 /* ZTTableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableDelegate.m; sourceTree = "<group>"; };
-		CD03EFA1196E5D88000B1969 /* ZTTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableDelegate.h; sourceTree = "<group>"; };
-		CD03EFA4196E5F79000B1969 /* ZTTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableDataSource.m; sourceTree = "<group>"; };
-		CD03EFA5196E5F79000B1969 /* ZTTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableDataSource.h; sourceTree = "<group>"; };
-		CD03F1D4196E74F1000B1969 /* ZTWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTWebView.m; sourceTree = "<group>"; };
-		CD03F1D5196E74F1000B1969 /* ZTWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTWebView.h; sourceTree = "<group>"; };
-		CD03F22D196E8680000B1969 /* ZTImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageView.h; sourceTree = "<group>"; };
-		CD03F22E196E8680000B1969 /* ZTImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageView.m; sourceTree = "<group>"; };
-		CD03F234196E8743000B1969 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
-		CD03F235196E8743000B1969 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
-		CD03F236196E8743000B1969 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
-		CD03F237196E8743000B1969 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
-		CD03F238196E8743000B1969 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
-		CD03F239196E8743000B1969 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
-		CD03F23A196E8743000B1969 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
-		CD03F23B196E8743000B1969 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
-		CD03F23C196E8743000B1969 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
-		CD03F23D196E8743000B1969 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
-		CD03F23E196E8743000B1969 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
-		CD03F23F196E8743000B1969 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
-		CD03F240196E8743000B1969 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
-		CD03F241196E8743000B1969 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
-		CD03F242196E8743000B1969 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
-		CD03F243196E8743000B1969 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
-		CD03F244196E8743000B1969 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
-		CD03F245196E8743000B1969 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
-		CD03F246196E8743000B1969 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
-		CD03F247196E8743000B1969 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
-		CD03F248196E8743000B1969 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
-		CD03F249196E8743000B1969 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
-		CD03F24A196E8743000B1969 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
-		CD03F24B196E8743000B1969 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
-		CD03F24C196E8743000B1969 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
-		CD03F24D196E8743000B1969 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
-		CD03F24E196E8743000B1969 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
-		CD03F24F196E8743000B1969 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
-		CD03F250196E8743000B1969 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
-		CD03F251196E8743000B1969 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
-		CD03F252196E8743000B1969 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
-		CD03F253196E8743000B1969 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
-		CD03F254196E8743000B1969 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		CD03F278196E88B9000B1969 /* ZTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTButton.m; sourceTree = "<group>"; };
-		CD03F279196E88B9000B1969 /* ZTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTButton.h; sourceTree = "<group>"; };
-		CD03F27E196E8A25000B1969 /* ZTSDWebCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTSDWebCacheManager.h; sourceTree = "<group>"; };
-		CD03F27F196E8A25000B1969 /* ZTSDWebCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTSDWebCacheManager.m; sourceTree = "<group>"; };
-		CD13F1E8196E8F6E00DFB2F4 /* ZTImageBrowZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrowZoomView.m; sourceTree = "<group>"; };
-		CD13F1E9196E8F6E00DFB2F4 /* ZTImageBrowZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrowZoomView.h; sourceTree = "<group>"; };
-		CD13F1EA196E8F6E00DFB2F4 /* ZTImageBrowOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrowOverlayView.m; sourceTree = "<group>"; };
-		CD13F1EB196E8F6E00DFB2F4 /* ZTImageBrowOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrowOverlayView.h; sourceTree = "<group>"; };
-		CD13F1EC196E8F6E00DFB2F4 /* ZTImageBrowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrowModel.m; sourceTree = "<group>"; };
-		CD13F1ED196E8F6E00DFB2F4 /* ZTImageBrowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrowModel.h; sourceTree = "<group>"; };
-		CD13F1EE196E8F6E00DFB2F4 /* ZTImageBrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrow.m; sourceTree = "<group>"; };
-		CD13F1EF196E8F6E00DFB2F4 /* ZTImageBrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrow.h; sourceTree = "<group>"; };
-		CD34577F196B8037001195CB /* ZTQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTQRCode.h; sourceTree = "<group>"; };
-		CD345780196B8037001195CB /* ZTQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTQRCode.m; sourceTree = "<group>"; };
-		CD34579C196B8044001195CB /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
-		CD34579D196B8044001195CB /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
-		CD34579E196B8044001195CB /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
-		CD34579F196B8044001195CB /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
-		CD3457A0196B8044001195CB /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
-		CD3457A1196B8044001195CB /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
-		CD3457A2196B8044001195CB /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
-		CD3457A3196B8044001195CB /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
-		CD3457A4196B8044001195CB /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
-		CD3457A5196B8044001195CB /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
-		CD3457A6196B8044001195CB /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
-		CD3457A7196B8044001195CB /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
-		CD3457A8196B8044001195CB /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
-		CD3457A9196B8044001195CB /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
-		CD3457AA196B8044001195CB /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
-		CD3457AB196B8044001195CB /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
-		CD3457AC196B8044001195CB /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
-		CD3457D6196B80D9001195CB /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
-		CD3457D7196B80D9001195CB /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
-		CD3457D8196B80D9001195CB /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
-		CD3457D9196B80D9001195CB /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
-		CD3457DA196B80D9001195CB /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
-		CD3457DB196B80D9001195CB /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
-		CD3457DC196B80D9001195CB /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
-		CD3457DD196B80D9001195CB /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
-		CD3457DE196B80D9001195CB /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
-		CD3457DF196B80D9001195CB /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
-		CD3457E0196B80D9001195CB /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
-		CD3457E1196B80D9001195CB /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
-		CD3457E2196B80D9001195CB /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
-		CD3457E3196B80D9001195CB /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
-		CD3457E4196B80D9001195CB /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
-		CD3457E5196B80D9001195CB /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
-		CD3457E6196B80D9001195CB /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
-		CD3457E7196B80D9001195CB /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
-		CD3457E8196B80D9001195CB /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
-		CD3457E9196B80D9001195CB /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		CD536CB419988C69001F3587 /* ZTFrameworkConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFrameworkConstant.h; sourceTree = "<group>"; };
+		CD536CB619988D09001F3587 /* ZTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFoundation.h; sourceTree = "<group>"; };
+		CD738BBB19988DF5001B1BAE /* ZTSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTSystemInfo.h; sourceTree = "<group>"; };
+		CD738BBC19988DF5001B1BAE /* ZTSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTSystemInfo.m; sourceTree = "<group>"; };
 		CD845B1E1974BFE8000D6B51 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		CD8F1CD2196CDDB300069646 /* ZTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBar.h; sourceTree = "<group>"; };
-		CD8F1CD3196CDDB300069646 /* ZTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBar.m; sourceTree = "<group>"; };
-		CD8F1CEC196CE22B00069646 /* ZTTabBarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarModel.m; sourceTree = "<group>"; };
-		CD8F1CED196CE22B00069646 /* ZTTabBarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarModel.h; sourceTree = "<group>"; };
-		CD8F1CF2196CE37C00069646 /* ZTTabBarNotificationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarNotificationModel.m; sourceTree = "<group>"; };
-		CD8F1CF3196CE37C00069646 /* ZTTabBarNotificationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarNotificationModel.h; sourceTree = "<group>"; };
-		CD8F1CF6196CE39400069646 /* ZTTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarItem.m; sourceTree = "<group>"; };
-		CD8F1CF7196CE39400069646 /* ZTTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarItem.h; sourceTree = "<group>"; };
-		CD8F1CFA196CE3B200069646 /* ZTTabBarItemBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarItemBadge.m; sourceTree = "<group>"; };
-		CD8F1CFB196CE3B200069646 /* ZTTabBarItemBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarItemBadge.h; sourceTree = "<group>"; };
-		CD8F1D02196CE40300069646 /* ZTTabBarItemGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarItemGroup.m; sourceTree = "<group>"; };
-		CD8F1D03196CE40300069646 /* ZTTabBarItemGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarItemGroup.h; sourceTree = "<group>"; };
-		CD90032E1967A42D00BC6158 /* ZTFrameworkConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFrameworkConstant.h; sourceTree = "<group>"; };
-		CD90032F1967A42D00BC6158 /* ZTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTKit.h; sourceTree = "<group>"; };
-		CD9003331967A54100BC6158 /* ZTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTAnimation.h; sourceTree = "<group>"; };
-		CD9003341967A54100BC6158 /* ZTAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTAnimation.m; sourceTree = "<group>"; };
-		CD9640DB197E52A900AABDA9 /* ZTUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTUDID.h; sourceTree = "<group>"; };
-		CD9640DC197E52A900AABDA9 /* ZTUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTUDID.m; sourceTree = "<group>"; };
 		CDA2CA4B19654E2F00C8D186 /* libZTFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZTFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA2CA4E19654E2F00C8D186 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CDA2CA5219654E2F00C8D186 /* ZTFramework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZTFramework-Prefix.pch"; sourceTree = "<group>"; };
@@ -245,15 +187,144 @@
 		CDBDA859196D23E3000FA46B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		CDBDA85D196D23E3000FA46B /* ZTFrameworkBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZTFrameworkBundle-Info.plist"; sourceTree = "<group>"; };
 		CDBDA86F196D26E2000FA46B /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
-		CDF50FBE196F8813000857D0 /* ZTImageScrollViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageScrollViewModel.m; sourceTree = "<group>"; };
-		CDF50FBF196F8813000857D0 /* ZTImageScrollViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageScrollViewModel.h; sourceTree = "<group>"; };
-		CDF50FC0196F8813000857D0 /* ZTImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageScrollView.m; sourceTree = "<group>"; };
-		CDF50FC1196F8813000857D0 /* ZTImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageScrollView.h; sourceTree = "<group>"; };
-		CDFAF30C196B891900D8972C /* ZTReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTReachability.h; sourceTree = "<group>"; };
-		CDFAF30D196B891900D8972C /* ZTReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTReachability.m; sourceTree = "<group>"; };
-		CDFAF310196B894100D8972C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		CDFAF311196B894100D8972C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		CDFAF318196B89A300D8972C /* ZTMacroUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTMacroUtils.h; sourceTree = "<group>"; };
+		CDF48FC91993278200496F24 /* ZTWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTWebView.h; sourceTree = "<group>"; };
+		CDF48FCA1993278200496F24 /* ZTWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTWebView.m; sourceTree = "<group>"; };
+		CDF48FCC1993278200496F24 /* ZTUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTUDID.h; sourceTree = "<group>"; };
+		CDF48FCD1993278200496F24 /* ZTUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTUDID.m; sourceTree = "<group>"; };
+		CDF48FCF1993278200496F24 /* ZTTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableCell.h; sourceTree = "<group>"; };
+		CDF48FD01993278200496F24 /* ZTTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableCell.m; sourceTree = "<group>"; };
+		CDF48FD11993278200496F24 /* ZTTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableDataSource.h; sourceTree = "<group>"; };
+		CDF48FD21993278200496F24 /* ZTTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableDataSource.m; sourceTree = "<group>"; };
+		CDF48FD31993278200496F24 /* ZTTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableDelegate.h; sourceTree = "<group>"; };
+		CDF48FD41993278200496F24 /* ZTTableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableDelegate.m; sourceTree = "<group>"; };
+		CDF48FD51993278200496F24 /* ZTTableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableHeader.h; sourceTree = "<group>"; };
+		CDF48FD61993278200496F24 /* ZTTableMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableMoreCell.h; sourceTree = "<group>"; };
+		CDF48FD71993278200496F24 /* ZTTableMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableMoreCell.m; sourceTree = "<group>"; };
+		CDF48FD81993278200496F24 /* ZTTableSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableSectionModel.h; sourceTree = "<group>"; };
+		CDF48FD91993278200496F24 /* ZTTableSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableSectionModel.m; sourceTree = "<group>"; };
+		CDF48FDA1993278200496F24 /* ZTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableView.h; sourceTree = "<group>"; };
+		CDF48FDB1993278200496F24 /* ZTTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableView.m; sourceTree = "<group>"; };
+		CDF48FDD1993278200496F24 /* ZTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBar.h; sourceTree = "<group>"; };
+		CDF48FDE1993278200496F24 /* ZTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBar.m; sourceTree = "<group>"; };
+		CDF48FDF1993278200496F24 /* ZTTabBarConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarConfigs.h; sourceTree = "<group>"; };
+		CDF48FE01993278200496F24 /* ZTTabBarConfigs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarConfigs.m; sourceTree = "<group>"; };
+		CDF48FE11993278200496F24 /* ZTTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarItem.h; sourceTree = "<group>"; };
+		CDF48FE21993278200496F24 /* ZTTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarItem.m; sourceTree = "<group>"; };
+		CDF48FE31993278200496F24 /* ZTTabBarItemBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarItemBadge.h; sourceTree = "<group>"; };
+		CDF48FE41993278200496F24 /* ZTTabBarItemBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarItemBadge.m; sourceTree = "<group>"; };
+		CDF48FE51993278200496F24 /* ZTTabBarItemGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarItemGroup.h; sourceTree = "<group>"; };
+		CDF48FE61993278200496F24 /* ZTTabBarItemGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarItemGroup.m; sourceTree = "<group>"; };
+		CDF48FE71993278200496F24 /* ZTTabBarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarModel.h; sourceTree = "<group>"; };
+		CDF48FE81993278200496F24 /* ZTTabBarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarModel.m; sourceTree = "<group>"; };
+		CDF48FE91993278200496F24 /* ZTTabBarNotificationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarNotificationModel.h; sourceTree = "<group>"; };
+		CDF48FEA1993278200496F24 /* ZTTabBarNotificationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarNotificationModel.m; sourceTree = "<group>"; };
+		CDF48FEC1993278200496F24 /* ZTSDWebCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTSDWebCacheManager.h; sourceTree = "<group>"; };
+		CDF48FED1993278200496F24 /* ZTSDWebCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTSDWebCacheManager.m; sourceTree = "<group>"; };
+		CDF48FEF1993278200496F24 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CDF48FF01993278200496F24 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CDF48FF11993278200496F24 /* ZTReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTReachability.h; sourceTree = "<group>"; };
+		CDF48FF21993278200496F24 /* ZTReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTReachability.m; sourceTree = "<group>"; };
+		CDF48FF41993278200496F24 /* ZTQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTQRCode.h; sourceTree = "<group>"; };
+		CDF48FF51993278200496F24 /* ZTQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTQRCode.m; sourceTree = "<group>"; };
+		CDF48FF71993278200496F24 /* ZTNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTNavigation.h; sourceTree = "<group>"; };
+		CDF48FF81993278200496F24 /* ZTNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTNavigation.m; sourceTree = "<group>"; };
+		CDF48FFE1993278200496F24 /* ZTImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageView.h; sourceTree = "<group>"; };
+		CDF48FFF1993278200496F24 /* ZTImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageView.m; sourceTree = "<group>"; };
+		CDF490011993278200496F24 /* ZTImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageScrollView.h; sourceTree = "<group>"; };
+		CDF490021993278200496F24 /* ZTImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageScrollView.m; sourceTree = "<group>"; };
+		CDF490031993278200496F24 /* ZTImageScrollViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageScrollViewModel.h; sourceTree = "<group>"; };
+		CDF490041993278200496F24 /* ZTImageScrollViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageScrollViewModel.m; sourceTree = "<group>"; };
+		CDF490061993278200496F24 /* ZTImageBrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrow.h; sourceTree = "<group>"; };
+		CDF490071993278200496F24 /* ZTImageBrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrow.m; sourceTree = "<group>"; };
+		CDF490081993278200496F24 /* ZTImageBrowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrowModel.h; sourceTree = "<group>"; };
+		CDF490091993278200496F24 /* ZTImageBrowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrowModel.m; sourceTree = "<group>"; };
+		CDF4900A1993278200496F24 /* ZTImageBrowOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrowOverlayView.h; sourceTree = "<group>"; };
+		CDF4900B1993278200496F24 /* ZTImageBrowOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrowOverlayView.m; sourceTree = "<group>"; };
+		CDF4900C1993278200496F24 /* ZTImageBrowZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrowZoomView.h; sourceTree = "<group>"; };
+		CDF4900D1993278200496F24 /* ZTImageBrowZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrowZoomView.m; sourceTree = "<group>"; };
+		CDF4900F1993278200496F24 /* ZTFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFile.h; sourceTree = "<group>"; };
+		CDF490101993278200496F24 /* ZTFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFile.m; sourceTree = "<group>"; };
+		CDF490121993278200496F24 /* ZTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTButton.h; sourceTree = "<group>"; };
+		CDF490131993278200496F24 /* ZTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTButton.m; sourceTree = "<group>"; };
+		CDF490151993278200496F24 /* ZTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTAnimation.h; sourceTree = "<group>"; };
+		CDF490161993278200496F24 /* ZTAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTAnimation.m; sourceTree = "<group>"; };
+		CDF4905B1993284C00496F24 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		CDF4905C1993284C00496F24 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		CDF4905D1993284C00496F24 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		CDF4905E1993284C00496F24 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		CDF4905F1993284C00496F24 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		CDF490601993284C00496F24 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		CDF490611993284C00496F24 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		CDF490621993284C00496F24 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		CDF490631993284C00496F24 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		CDF490641993284C00496F24 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		CDF490651993284C00496F24 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		CDF490661993284C00496F24 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		CDF490671993284C00496F24 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		CDF490681993284C00496F24 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		CDF490691993284C00496F24 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		CDF4906A1993284C00496F24 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		CDF4906B1993284C00496F24 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		CDF4906C1993284C00496F24 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		CDF4906D1993284C00496F24 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		CDF4906E1993284C00496F24 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		CDF490701993284C00496F24 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		CDF490711993284C00496F24 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		CDF490721993284C00496F24 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		CDF490731993284C00496F24 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		CDF490741993284C00496F24 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		CDF490751993284C00496F24 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		CDF490761993284C00496F24 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		CDF490771993284C00496F24 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		CDF490781993284C00496F24 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		CDF490791993284C00496F24 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		CDF4907A1993284C00496F24 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		CDF4907B1993284C00496F24 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		CDF4907C1993284C00496F24 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		CDF4907D1993284C00496F24 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		CDF4907E1993284C00496F24 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		CDF4907F1993284C00496F24 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		CDF490801993284C00496F24 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		CDF490821993284C00496F24 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		CDF490831993284C00496F24 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		CDF490841993284C00496F24 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		CDF490851993284C00496F24 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		CDF490861993284C00496F24 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		CDF490871993284C00496F24 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		CDF490881993284C00496F24 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		CDF490891993284C00496F24 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		CDF4908A1993284C00496F24 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		CDF4908B1993284C00496F24 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		CDF4908C1993284C00496F24 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		CDF4908D1993284C00496F24 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		CDF4908E1993284C00496F24 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		CDF4908F1993284C00496F24 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		CDF490901993284C00496F24 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		CDF490911993284C00496F24 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		CDF490921993284C00496F24 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		CDF490931993284C00496F24 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		CDF490941993284C00496F24 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		CDF490951993284C00496F24 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		CDF490961993284C00496F24 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		CDF490971993284C00496F24 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		CDF490981993284C00496F24 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		CDF490991993284C00496F24 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		CDF4909A1993284C00496F24 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		CDF4909B1993284C00496F24 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		CDF4909C1993284C00496F24 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		CDF4909D1993284C00496F24 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		CDF4909E1993284C00496F24 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		CDF4909F1993284C00496F24 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		CDF490A01993284C00496F24 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		CDF490A11993284C00496F24 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		CDF490A21993284C00496F24 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		CDF490EB199329F600496F24 /* UIWindow+ZTDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+ZTDebug.h"; sourceTree = "<group>"; };
+		CDF490EC199329F600496F24 /* UIWindow+ZTDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+ZTDebug.m"; sourceTree = "<group>"; };
+		CDF490ED199329F600496F24 /* ZTDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTDebug.h; sourceTree = "<group>"; };
+		CDF490EE199329F600496F24 /* ZTDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTDebug.m; sourceTree = "<group>"; };
+		CDF490F319932A5E00496F24 /* ZTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTKit.h; sourceTree = "<group>"; };
+		CDF490F519932A6A00496F24 /* ZTPrecompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTPrecompile.h; sourceTree = "<group>"; };
+		CDF490FE19932E0700496F24 /* ZTMacroUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTMacroUtils.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,8 +334,8 @@
 			files = (
 				CD845B1F1974BFE8000D6B51 /* Security.framework in Frameworks */,
 				CDA2CA87196553D300C8D186 /* QuartzCore.framework in Frameworks */,
+				CDF490C71993284C00496F24 /* libzbar.a in Frameworks */,
 				CDA2CA841965536E00C8D186 /* CoreGraphics.framework in Frameworks */,
-				CD3457D1196B8044001195CB /* libzbar.a in Frameworks */,
 				CDA2CA821965535500C8D186 /* UIKit.framework in Frameworks */,
 				CDA2CA4F19654E2F00C8D186 /* Foundation.framework in Frameworks */,
 			);
@@ -281,286 +352,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CD006F581966974A00BAA1AD /* ZTFile */ = {
+		CD76AE741991F40300400119 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				CD006F591966996400BAA1AD /* ZTFile.h */,
-				CD006F5A1966996400BAA1AD /* ZTFile.m */,
+				CDF48FC81993278200496F24 /* ZTWebView */,
+				CDF48FCB1993278200496F24 /* ZTUDID */,
+				CDF48FCE1993278200496F24 /* ZTTable */,
+				CDF48FDC1993278200496F24 /* ZTTabBar */,
+				CDF48FEB1993278200496F24 /* ZTSDWebCacheManager */,
+				CDF48FEE1993278200496F24 /* ZTReachability */,
+				CDF48FF31993278200496F24 /* ZTQRCode */,
+				CDF48FF61993278200496F24 /* ZTNavigation */,
+				CDF48FFD1993278200496F24 /* ZTImageView */,
+				CDF490001993278200496F24 /* ZTImageScrollView */,
+				CDF490051993278200496F24 /* ZTImageBrow */,
+				CDF4900E1993278200496F24 /* ZTFile */,
+				CDF490111993278200496F24 /* ZTButton */,
+				CDF490141993278200496F24 /* ZTAnimation */,
 			);
-			path = ZTFile;
-			sourceTree = "<group>";
-		};
-		CD03EF6C196E3FB2000B1969 /* ZTNavigation */ = {
-			isa = PBXGroup;
-			children = (
-				CD03EF6D196E3FCA000B1969 /* ZTNavigation.h */,
-				CD03EF6E196E3FCA000B1969 /* ZTNavigation.m */,
-			);
-			path = ZTNavigation;
-			sourceTree = "<group>";
-		};
-		CD03EF73196E5827000B1969 /* ZTTable */ = {
-			isa = PBXGroup;
-			children = (
-				CD03EF8F196E5AF7000B1969 /* ZTTableCell.h */,
-				CD03EF8E196E5AF7000B1969 /* ZTTableCell.m */,
-				CD03EFA5196E5F79000B1969 /* ZTTableDataSource.h */,
-				CD03EFA4196E5F79000B1969 /* ZTTableDataSource.m */,
-				CD03EFA1196E5D88000B1969 /* ZTTableDelegate.h */,
-				CD03EFA0196E5D88000B1969 /* ZTTableDelegate.m */,
-				CD03EF99196E5BA2000B1969 /* ZTTableMoreCell.h */,
-				CD03EF98196E5BA2000B1969 /* ZTTableMoreCell.m */,
-				CD03EF9D196E5D06000B1969 /* ZTTableSectionModel.h */,
-				CD03EF9C196E5D06000B1969 /* ZTTableSectionModel.m */,
-				CD03EF75196E5842000B1969 /* ZTTableView.h */,
-				CD03EF74196E5842000B1969 /* ZTTableView.m */,
-			);
-			path = ZTTable;
-			sourceTree = "<group>";
-		};
-		CD03F1D3196E74DD000B1969 /* ZTWebView */ = {
-			isa = PBXGroup;
-			children = (
-				CD03F1D4196E74F1000B1969 /* ZTWebView.m */,
-				CD03F1D5196E74F1000B1969 /* ZTWebView.h */,
-			);
-			path = ZTWebView;
-			sourceTree = "<group>";
-		};
-		CD03F22C196E8665000B1969 /* ZTImageView */ = {
-			isa = PBXGroup;
-			children = (
-				CD03F22D196E8680000B1969 /* ZTImageView.h */,
-				CD03F22E196E8680000B1969 /* ZTImageView.m */,
-			);
-			path = ZTImageView;
-			sourceTree = "<group>";
-		};
-		CD03F233196E8743000B1969 /* SDWebImage_v3.6 */ = {
-			isa = PBXGroup;
-			children = (
-				CD03F234196E8743000B1969 /* MKAnnotationView+WebCache.h */,
-				CD03F235196E8743000B1969 /* MKAnnotationView+WebCache.m */,
-				CD03F236196E8743000B1969 /* NSData+ImageContentType.h */,
-				CD03F237196E8743000B1969 /* NSData+ImageContentType.m */,
-				CD03F238196E8743000B1969 /* SDImageCache.h */,
-				CD03F239196E8743000B1969 /* SDImageCache.m */,
-				CD03F23A196E8743000B1969 /* SDWebImageCompat.h */,
-				CD03F23B196E8743000B1969 /* SDWebImageCompat.m */,
-				CD03F23C196E8743000B1969 /* SDWebImageDecoder.h */,
-				CD03F23D196E8743000B1969 /* SDWebImageDecoder.m */,
-				CD03F23E196E8743000B1969 /* SDWebImageDownloader.h */,
-				CD03F23F196E8743000B1969 /* SDWebImageDownloader.m */,
-				CD03F240196E8743000B1969 /* SDWebImageDownloaderOperation.h */,
-				CD03F241196E8743000B1969 /* SDWebImageDownloaderOperation.m */,
-				CD03F242196E8743000B1969 /* SDWebImageManager.h */,
-				CD03F243196E8743000B1969 /* SDWebImageManager.m */,
-				CD03F244196E8743000B1969 /* SDWebImageOperation.h */,
-				CD03F245196E8743000B1969 /* SDWebImagePrefetcher.h */,
-				CD03F246196E8743000B1969 /* SDWebImagePrefetcher.m */,
-				CD03F247196E8743000B1969 /* UIButton+WebCache.h */,
-				CD03F248196E8743000B1969 /* UIButton+WebCache.m */,
-				CD03F249196E8743000B1969 /* UIImage+GIF.h */,
-				CD03F24A196E8743000B1969 /* UIImage+GIF.m */,
-				CD03F24B196E8743000B1969 /* UIImage+MultiFormat.h */,
-				CD03F24C196E8743000B1969 /* UIImage+MultiFormat.m */,
-				CD03F24D196E8743000B1969 /* UIImage+WebP.h */,
-				CD03F24E196E8743000B1969 /* UIImage+WebP.m */,
-				CD03F24F196E8743000B1969 /* UIImageView+HighlightedWebCache.h */,
-				CD03F250196E8743000B1969 /* UIImageView+HighlightedWebCache.m */,
-				CD03F251196E8743000B1969 /* UIImageView+WebCache.h */,
-				CD03F252196E8743000B1969 /* UIImageView+WebCache.m */,
-				CD03F253196E8743000B1969 /* UIView+WebCacheOperation.h */,
-				CD03F254196E8743000B1969 /* UIView+WebCacheOperation.m */,
-			);
-			path = SDWebImage_v3.6;
-			sourceTree = "<group>";
-		};
-		CD03F277196E88A2000B1969 /* ZTButton */ = {
-			isa = PBXGroup;
-			children = (
-				CD03F279196E88B9000B1969 /* ZTButton.h */,
-				CD03F278196E88B9000B1969 /* ZTButton.m */,
-			);
-			path = ZTButton;
-			sourceTree = "<group>";
-		};
-		CD03F27D196E8A19000B1969 /* ZTSDWebCacheManager */ = {
-			isa = PBXGroup;
-			children = (
-				CD03F27E196E8A25000B1969 /* ZTSDWebCacheManager.h */,
-				CD03F27F196E8A25000B1969 /* ZTSDWebCacheManager.m */,
-			);
-			path = ZTSDWebCacheManager;
-			sourceTree = "<group>";
-		};
-		CD13F1E7196E8F5B00DFB2F4 /* ZTImageBrow */ = {
-			isa = PBXGroup;
-			children = (
-				CD13F1EF196E8F6E00DFB2F4 /* ZTImageBrow.h */,
-				CD13F1EE196E8F6E00DFB2F4 /* ZTImageBrow.m */,
-				CD13F1ED196E8F6E00DFB2F4 /* ZTImageBrowModel.h */,
-				CD13F1EC196E8F6E00DFB2F4 /* ZTImageBrowModel.m */,
-				CD13F1EB196E8F6E00DFB2F4 /* ZTImageBrowOverlayView.h */,
-				CD13F1EA196E8F6E00DFB2F4 /* ZTImageBrowOverlayView.m */,
-				CD13F1E9196E8F6E00DFB2F4 /* ZTImageBrowZoomView.h */,
-				CD13F1E8196E8F6E00DFB2F4 /* ZTImageBrowZoomView.m */,
-			);
-			path = ZTImageBrow;
-			sourceTree = "<group>";
-		};
-		CD34577E196B8037001195CB /* ZTQRCode */ = {
-			isa = PBXGroup;
-			children = (
-				CD34577F196B8037001195CB /* ZTQRCode.h */,
-				CD345780196B8037001195CB /* ZTQRCode.m */,
-			);
-			path = ZTQRCode;
-			sourceTree = "<group>";
-		};
-		CD345783196B8044001195CB /* ZBarSdk_v1.2.1 */ = {
-			isa = PBXGroup;
-			children = (
-				CD3457D3196B80D9001195CB /* Headers */,
-				CD34579B196B8044001195CB /* libqrencode */,
-				CD3457AC196B8044001195CB /* libzbar.a */,
-			);
-			path = ZBarSdk_v1.2.1;
-			sourceTree = "<group>";
-		};
-		CD34579B196B8044001195CB /* libqrencode */ = {
-			isa = PBXGroup;
-			children = (
-				CD34579C196B8044001195CB /* bitstream.c */,
-				CD34579D196B8044001195CB /* bitstream.h */,
-				CD34579E196B8044001195CB /* mask.c */,
-				CD34579F196B8044001195CB /* mask.h */,
-				CD3457A0196B8044001195CB /* QRCodeGenerator.h */,
-				CD3457A1196B8044001195CB /* QRCodeGenerator.m */,
-				CD3457A2196B8044001195CB /* qrencode.c */,
-				CD3457A3196B8044001195CB /* qrencode.h */,
-				CD3457A4196B8044001195CB /* qrinput.c */,
-				CD3457A5196B8044001195CB /* qrinput.h */,
-				CD3457A6196B8044001195CB /* qrspec.c */,
-				CD3457A7196B8044001195CB /* qrspec.h */,
-				CD3457A8196B8044001195CB /* rscode.c */,
-				CD3457A9196B8044001195CB /* rscode.h */,
-				CD3457AA196B8044001195CB /* split.c */,
-				CD3457AB196B8044001195CB /* split.h */,
-			);
-			path = libqrencode;
-			sourceTree = "<group>";
-		};
-		CD3457D3196B80D9001195CB /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				CD3457D4196B80D9001195CB /* ZBarSDK */,
-			);
-			path = Headers;
-			sourceTree = "<group>";
-		};
-		CD3457D4196B80D9001195CB /* ZBarSDK */ = {
-			isa = PBXGroup;
-			children = (
-				CD3457D5196B80D9001195CB /* zbar */,
-				CD3457DF196B80D9001195CB /* zbar.h */,
-				CD3457E0196B80D9001195CB /* ZBarCameraSimulator.h */,
-				CD3457E1196B80D9001195CB /* ZBarCaptureReader.h */,
-				CD3457E2196B80D9001195CB /* ZBarHelpController.h */,
-				CD3457E3196B80D9001195CB /* ZBarImage.h */,
-				CD3457E4196B80D9001195CB /* ZBarImageScanner.h */,
-				CD3457E5196B80D9001195CB /* ZBarReaderController.h */,
-				CD3457E6196B80D9001195CB /* ZBarReaderView.h */,
-				CD3457E7196B80D9001195CB /* ZBarReaderViewController.h */,
-				CD3457E8196B80D9001195CB /* ZBarSDK.h */,
-				CD3457E9196B80D9001195CB /* ZBarSymbol.h */,
-			);
-			path = ZBarSDK;
-			sourceTree = "<group>";
-		};
-		CD3457D5196B80D9001195CB /* zbar */ = {
-			isa = PBXGroup;
-			children = (
-				CD3457D6196B80D9001195CB /* Decoder.h */,
-				CD3457D7196B80D9001195CB /* Exception.h */,
-				CD3457D8196B80D9001195CB /* Image.h */,
-				CD3457D9196B80D9001195CB /* ImageScanner.h */,
-				CD3457DA196B80D9001195CB /* Processor.h */,
-				CD3457DB196B80D9001195CB /* Scanner.h */,
-				CD3457DC196B80D9001195CB /* Symbol.h */,
-				CD3457DD196B80D9001195CB /* Video.h */,
-				CD3457DE196B80D9001195CB /* Window.h */,
-			);
-			path = zbar;
-			sourceTree = "<group>";
-		};
-		CD8F1CD1196CDDB300069646 /* ZTTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				CD8F1CD2196CDDB300069646 /* ZTTabBar.h */,
-				CD8F1CD3196CDDB300069646 /* ZTTabBar.m */,
-				CD8F1CF7196CE39400069646 /* ZTTabBarItem.h */,
-				CD8F1CF6196CE39400069646 /* ZTTabBarItem.m */,
-				CD8F1CFB196CE3B200069646 /* ZTTabBarItemBadge.h */,
-				CD8F1CFA196CE3B200069646 /* ZTTabBarItemBadge.m */,
-				CD8F1D03196CE40300069646 /* ZTTabBarItemGroup.h */,
-				CD8F1D02196CE40300069646 /* ZTTabBarItemGroup.m */,
-				CD8F1CED196CE22B00069646 /* ZTTabBarModel.h */,
-				CD8F1CEC196CE22B00069646 /* ZTTabBarModel.m */,
-				CD8F1CF3196CE37C00069646 /* ZTTabBarNotificationModel.h */,
-				CD8F1CF2196CE37C00069646 /* ZTTabBarNotificationModel.m */,
-				CD03EF68196E2C74000B1969 /* ZTTabBarConfigs.h */,
-				CD03EF69196E2C74000B1969 /* ZTTabBarConfigs.m */,
-			);
-			path = ZTTabBar;
-			sourceTree = "<group>";
-		};
-		CD90032D1967A42D00BC6158 /* ZTMacro */ = {
-			isa = PBXGroup;
-			children = (
-				CD90032E1967A42D00BC6158 /* ZTFrameworkConstant.h */,
-				CDFAF318196B89A300D8972C /* ZTMacroUtils.h */,
-				CD90032F1967A42D00BC6158 /* ZTKit.h */,
-			);
-			path = ZTMacro;
-			sourceTree = "<group>";
-		};
-		CD9003321967A53500BC6158 /* ZTAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				CD9003331967A54100BC6158 /* ZTAnimation.h */,
-				CD9003341967A54100BC6158 /* ZTAnimation.m */,
-			);
-			path = ZTAnimation;
-			sourceTree = "<group>";
-		};
-		CD9640DA197E529F00AABDA9 /* ZTUDID */ = {
-			isa = PBXGroup;
-			children = (
-				CD9640DB197E52A900AABDA9 /* ZTUDID.h */,
-				CD9640DC197E52A900AABDA9 /* ZTUDID.m */,
-			);
-			path = ZTUDID;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		CD9EA3F81966517900226861 /* ZTFramework */ = {
 			isa = PBXGroup;
 			children = (
-				CD9640DA197E529F00AABDA9 /* ZTUDID */,
-				CDF50FBD196F87FC000857D0 /* ZTImageScrollView */,
-				CD13F1E7196E8F5B00DFB2F4 /* ZTImageBrow */,
-				CD03F27D196E8A19000B1969 /* ZTSDWebCacheManager */,
-				CD03F277196E88A2000B1969 /* ZTButton */,
-				CD03F22C196E8665000B1969 /* ZTImageView */,
-				CD03F1D3196E74DD000B1969 /* ZTWebView */,
-				CD03EF73196E5827000B1969 /* ZTTable */,
-				CD03EF6C196E3FB2000B1969 /* ZTNavigation */,
-				CD8F1CD1196CDDB300069646 /* ZTTabBar */,
-				CDFAF30B196B88F200D8972C /* ZTReachability */,
-				CD34577E196B8037001195CB /* ZTQRCode */,
-				CD9003321967A53500BC6158 /* ZTAnimation */,
-				CD90032D1967A42D00BC6158 /* ZTMacro */,
-				CD006F581966974A00BAA1AD /* ZTFile */,
+				CDF490F519932A6A00496F24 /* ZTPrecompile.h */,
+				CDF490F319932A5E00496F24 /* ZTKit.h */,
+				CDF490F719932ACD00496F24 /* Foundation */,
+				CDF490EA199329F600496F24 /* Debug */,
+				CD76AE741991F40300400119 /* UI */,
 			);
 			path = ZTFramework;
 			sourceTree = "<group>";
@@ -619,8 +439,8 @@
 		CDA9E5371967AE3000A73A4B /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				CD03F233196E8743000B1969 /* SDWebImage_v3.6 */,
-				CD345783196B8044001195CB /* ZBarSdk_v1.2.1 */,
+				CDF490571993284C00496F24 /* ZBarSdk_v1.2.1 */,
+				CDF490811993284C00496F24 /* SDWebImage_v3.6 */,
 			);
 			path = Libs;
 			sourceTree = "<group>";
@@ -642,26 +462,302 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CDF50FBD196F87FC000857D0 /* ZTImageScrollView */ = {
+		CDF48FC81993278200496F24 /* ZTWebView */ = {
 			isa = PBXGroup;
 			children = (
-				CDF50FC1196F8813000857D0 /* ZTImageScrollView.h */,
-				CDF50FC0196F8813000857D0 /* ZTImageScrollView.m */,
-				CDF50FBF196F8813000857D0 /* ZTImageScrollViewModel.h */,
-				CDF50FBE196F8813000857D0 /* ZTImageScrollViewModel.m */,
+				CDF48FC91993278200496F24 /* ZTWebView.h */,
+				CDF48FCA1993278200496F24 /* ZTWebView.m */,
+			);
+			path = ZTWebView;
+			sourceTree = "<group>";
+		};
+		CDF48FCB1993278200496F24 /* ZTUDID */ = {
+			isa = PBXGroup;
+			children = (
+				CDF48FCC1993278200496F24 /* ZTUDID.h */,
+				CDF48FCD1993278200496F24 /* ZTUDID.m */,
+			);
+			path = ZTUDID;
+			sourceTree = "<group>";
+		};
+		CDF48FCE1993278200496F24 /* ZTTable */ = {
+			isa = PBXGroup;
+			children = (
+				CDF48FCF1993278200496F24 /* ZTTableCell.h */,
+				CDF48FD01993278200496F24 /* ZTTableCell.m */,
+				CDF48FD11993278200496F24 /* ZTTableDataSource.h */,
+				CDF48FD21993278200496F24 /* ZTTableDataSource.m */,
+				CDF48FD31993278200496F24 /* ZTTableDelegate.h */,
+				CDF48FD41993278200496F24 /* ZTTableDelegate.m */,
+				CDF48FD51993278200496F24 /* ZTTableHeader.h */,
+				CDF48FD61993278200496F24 /* ZTTableMoreCell.h */,
+				CDF48FD71993278200496F24 /* ZTTableMoreCell.m */,
+				CDF48FD81993278200496F24 /* ZTTableSectionModel.h */,
+				CDF48FD91993278200496F24 /* ZTTableSectionModel.m */,
+				CDF48FDA1993278200496F24 /* ZTTableView.h */,
+				CDF48FDB1993278200496F24 /* ZTTableView.m */,
+			);
+			path = ZTTable;
+			sourceTree = "<group>";
+		};
+		CDF48FDC1993278200496F24 /* ZTTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CDF48FDD1993278200496F24 /* ZTTabBar.h */,
+				CDF48FDE1993278200496F24 /* ZTTabBar.m */,
+				CDF48FDF1993278200496F24 /* ZTTabBarConfigs.h */,
+				CDF48FE01993278200496F24 /* ZTTabBarConfigs.m */,
+				CDF48FE11993278200496F24 /* ZTTabBarItem.h */,
+				CDF48FE21993278200496F24 /* ZTTabBarItem.m */,
+				CDF48FE31993278200496F24 /* ZTTabBarItemBadge.h */,
+				CDF48FE41993278200496F24 /* ZTTabBarItemBadge.m */,
+				CDF48FE51993278200496F24 /* ZTTabBarItemGroup.h */,
+				CDF48FE61993278200496F24 /* ZTTabBarItemGroup.m */,
+				CDF48FE71993278200496F24 /* ZTTabBarModel.h */,
+				CDF48FE81993278200496F24 /* ZTTabBarModel.m */,
+				CDF48FE91993278200496F24 /* ZTTabBarNotificationModel.h */,
+				CDF48FEA1993278200496F24 /* ZTTabBarNotificationModel.m */,
+			);
+			path = ZTTabBar;
+			sourceTree = "<group>";
+		};
+		CDF48FEB1993278200496F24 /* ZTSDWebCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				CDF48FEC1993278200496F24 /* ZTSDWebCacheManager.h */,
+				CDF48FED1993278200496F24 /* ZTSDWebCacheManager.m */,
+			);
+			path = ZTSDWebCacheManager;
+			sourceTree = "<group>";
+		};
+		CDF48FEE1993278200496F24 /* ZTReachability */ = {
+			isa = PBXGroup;
+			children = (
+				CDF48FEF1993278200496F24 /* Reachability.h */,
+				CDF48FF01993278200496F24 /* Reachability.m */,
+				CDF48FF11993278200496F24 /* ZTReachability.h */,
+				CDF48FF21993278200496F24 /* ZTReachability.m */,
+			);
+			path = ZTReachability;
+			sourceTree = "<group>";
+		};
+		CDF48FF31993278200496F24 /* ZTQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				CDF48FF41993278200496F24 /* ZTQRCode.h */,
+				CDF48FF51993278200496F24 /* ZTQRCode.m */,
+			);
+			path = ZTQRCode;
+			sourceTree = "<group>";
+		};
+		CDF48FF61993278200496F24 /* ZTNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				CDF48FF71993278200496F24 /* ZTNavigation.h */,
+				CDF48FF81993278200496F24 /* ZTNavigation.m */,
+			);
+			path = ZTNavigation;
+			sourceTree = "<group>";
+		};
+		CDF48FFD1993278200496F24 /* ZTImageView */ = {
+			isa = PBXGroup;
+			children = (
+				CDF48FFE1993278200496F24 /* ZTImageView.h */,
+				CDF48FFF1993278200496F24 /* ZTImageView.m */,
+			);
+			path = ZTImageView;
+			sourceTree = "<group>";
+		};
+		CDF490001993278200496F24 /* ZTImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				CDF490011993278200496F24 /* ZTImageScrollView.h */,
+				CDF490021993278200496F24 /* ZTImageScrollView.m */,
+				CDF490031993278200496F24 /* ZTImageScrollViewModel.h */,
+				CDF490041993278200496F24 /* ZTImageScrollViewModel.m */,
 			);
 			path = ZTImageScrollView;
 			sourceTree = "<group>";
 		};
-		CDFAF30B196B88F200D8972C /* ZTReachability */ = {
+		CDF490051993278200496F24 /* ZTImageBrow */ = {
 			isa = PBXGroup;
 			children = (
-				CDFAF310196B894100D8972C /* Reachability.m */,
-				CDFAF311196B894100D8972C /* Reachability.h */,
-				CDFAF30C196B891900D8972C /* ZTReachability.h */,
-				CDFAF30D196B891900D8972C /* ZTReachability.m */,
+				CDF490061993278200496F24 /* ZTImageBrow.h */,
+				CDF490071993278200496F24 /* ZTImageBrow.m */,
+				CDF490081993278200496F24 /* ZTImageBrowModel.h */,
+				CDF490091993278200496F24 /* ZTImageBrowModel.m */,
+				CDF4900A1993278200496F24 /* ZTImageBrowOverlayView.h */,
+				CDF4900B1993278200496F24 /* ZTImageBrowOverlayView.m */,
+				CDF4900C1993278200496F24 /* ZTImageBrowZoomView.h */,
+				CDF4900D1993278200496F24 /* ZTImageBrowZoomView.m */,
 			);
-			path = ZTReachability;
+			path = ZTImageBrow;
+			sourceTree = "<group>";
+		};
+		CDF4900E1993278200496F24 /* ZTFile */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4900F1993278200496F24 /* ZTFile.h */,
+				CDF490101993278200496F24 /* ZTFile.m */,
+			);
+			path = ZTFile;
+			sourceTree = "<group>";
+		};
+		CDF490111993278200496F24 /* ZTButton */ = {
+			isa = PBXGroup;
+			children = (
+				CDF490121993278200496F24 /* ZTButton.h */,
+				CDF490131993278200496F24 /* ZTButton.m */,
+			);
+			path = ZTButton;
+			sourceTree = "<group>";
+		};
+		CDF490141993278200496F24 /* ZTAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CDF490151993278200496F24 /* ZTAnimation.h */,
+				CDF490161993278200496F24 /* ZTAnimation.m */,
+			);
+			path = ZTAnimation;
+			sourceTree = "<group>";
+		};
+		CDF490571993284C00496F24 /* ZBarSdk_v1.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				CDF490581993284C00496F24 /* Headers */,
+				CDF4906F1993284C00496F24 /* libqrencode */,
+				CDF490801993284C00496F24 /* libzbar.a */,
+			);
+			path = ZBarSdk_v1.2.1;
+			sourceTree = "<group>";
+		};
+		CDF490581993284C00496F24 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CDF490591993284C00496F24 /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		CDF490591993284C00496F24 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4905A1993284C00496F24 /* zbar */,
+				CDF490641993284C00496F24 /* zbar.h */,
+				CDF490651993284C00496F24 /* ZBarCameraSimulator.h */,
+				CDF490661993284C00496F24 /* ZBarCaptureReader.h */,
+				CDF490671993284C00496F24 /* ZBarHelpController.h */,
+				CDF490681993284C00496F24 /* ZBarImage.h */,
+				CDF490691993284C00496F24 /* ZBarImageScanner.h */,
+				CDF4906A1993284C00496F24 /* ZBarReaderController.h */,
+				CDF4906B1993284C00496F24 /* ZBarReaderView.h */,
+				CDF4906C1993284C00496F24 /* ZBarReaderViewController.h */,
+				CDF4906D1993284C00496F24 /* ZBarSDK.h */,
+				CDF4906E1993284C00496F24 /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		CDF4905A1993284C00496F24 /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4905B1993284C00496F24 /* Decoder.h */,
+				CDF4905C1993284C00496F24 /* Exception.h */,
+				CDF4905D1993284C00496F24 /* Image.h */,
+				CDF4905E1993284C00496F24 /* ImageScanner.h */,
+				CDF4905F1993284C00496F24 /* Processor.h */,
+				CDF490601993284C00496F24 /* Scanner.h */,
+				CDF490611993284C00496F24 /* Symbol.h */,
+				CDF490621993284C00496F24 /* Video.h */,
+				CDF490631993284C00496F24 /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		CDF4906F1993284C00496F24 /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				CDF490701993284C00496F24 /* bitstream.c */,
+				CDF490711993284C00496F24 /* bitstream.h */,
+				CDF490721993284C00496F24 /* mask.c */,
+				CDF490731993284C00496F24 /* mask.h */,
+				CDF490741993284C00496F24 /* QRCodeGenerator.h */,
+				CDF490751993284C00496F24 /* QRCodeGenerator.m */,
+				CDF490761993284C00496F24 /* qrencode.c */,
+				CDF490771993284C00496F24 /* qrencode.h */,
+				CDF490781993284C00496F24 /* qrinput.c */,
+				CDF490791993284C00496F24 /* qrinput.h */,
+				CDF4907A1993284C00496F24 /* qrspec.c */,
+				CDF4907B1993284C00496F24 /* qrspec.h */,
+				CDF4907C1993284C00496F24 /* rscode.c */,
+				CDF4907D1993284C00496F24 /* rscode.h */,
+				CDF4907E1993284C00496F24 /* split.c */,
+				CDF4907F1993284C00496F24 /* split.h */,
+			);
+			path = libqrencode;
+			sourceTree = "<group>";
+		};
+		CDF490811993284C00496F24 /* SDWebImage_v3.6 */ = {
+			isa = PBXGroup;
+			children = (
+				CDF490821993284C00496F24 /* MKAnnotationView+WebCache.h */,
+				CDF490831993284C00496F24 /* MKAnnotationView+WebCache.m */,
+				CDF490841993284C00496F24 /* NSData+ImageContentType.h */,
+				CDF490851993284C00496F24 /* NSData+ImageContentType.m */,
+				CDF490861993284C00496F24 /* SDImageCache.h */,
+				CDF490871993284C00496F24 /* SDImageCache.m */,
+				CDF490881993284C00496F24 /* SDWebImageCompat.h */,
+				CDF490891993284C00496F24 /* SDWebImageCompat.m */,
+				CDF4908A1993284C00496F24 /* SDWebImageDecoder.h */,
+				CDF4908B1993284C00496F24 /* SDWebImageDecoder.m */,
+				CDF4908C1993284C00496F24 /* SDWebImageDownloader.h */,
+				CDF4908D1993284C00496F24 /* SDWebImageDownloader.m */,
+				CDF4908E1993284C00496F24 /* SDWebImageDownloaderOperation.h */,
+				CDF4908F1993284C00496F24 /* SDWebImageDownloaderOperation.m */,
+				CDF490901993284C00496F24 /* SDWebImageManager.h */,
+				CDF490911993284C00496F24 /* SDWebImageManager.m */,
+				CDF490921993284C00496F24 /* SDWebImageOperation.h */,
+				CDF490931993284C00496F24 /* SDWebImagePrefetcher.h */,
+				CDF490941993284C00496F24 /* SDWebImagePrefetcher.m */,
+				CDF490951993284C00496F24 /* UIButton+WebCache.h */,
+				CDF490961993284C00496F24 /* UIButton+WebCache.m */,
+				CDF490971993284C00496F24 /* UIImage+GIF.h */,
+				CDF490981993284C00496F24 /* UIImage+GIF.m */,
+				CDF490991993284C00496F24 /* UIImage+MultiFormat.h */,
+				CDF4909A1993284C00496F24 /* UIImage+MultiFormat.m */,
+				CDF4909B1993284C00496F24 /* UIImage+WebP.h */,
+				CDF4909C1993284C00496F24 /* UIImage+WebP.m */,
+				CDF4909D1993284C00496F24 /* UIImageView+HighlightedWebCache.h */,
+				CDF4909E1993284C00496F24 /* UIImageView+HighlightedWebCache.m */,
+				CDF4909F1993284C00496F24 /* UIImageView+WebCache.h */,
+				CDF490A01993284C00496F24 /* UIImageView+WebCache.m */,
+				CDF490A11993284C00496F24 /* UIView+WebCacheOperation.h */,
+				CDF490A21993284C00496F24 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage_v3.6;
+			sourceTree = "<group>";
+		};
+		CDF490EA199329F600496F24 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				CDF490EB199329F600496F24 /* UIWindow+ZTDebug.h */,
+				CDF490EC199329F600496F24 /* UIWindow+ZTDebug.m */,
+				CDF490ED199329F600496F24 /* ZTDebug.h */,
+				CDF490EE199329F600496F24 /* ZTDebug.m */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		CDF490F719932ACD00496F24 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				CD536CB419988C69001F3587 /* ZTFrameworkConstant.h */,
+				CDF490FE19932E0700496F24 /* ZTMacroUtils.h */,
+				CD536CB619988D09001F3587 /* ZTFoundation.h */,
+				CD738BBB19988DF5001B1BAE /* ZTSystemInfo.h */,
+				CD738BBC19988DF5001B1BAE /* ZTSystemInfo.m */,
+			);
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -671,31 +767,90 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD345781196B8037001195CB /* ZTQRCode.h in Headers */,
-				CD9003301967A42D00BC6158 /* ZTFrameworkConstant.h in Headers */,
-				CD8F1CDF196CDDB300069646 /* ZTTabBar.h in Headers */,
-				CD9003351967A54100BC6158 /* ZTAnimation.h in Headers */,
-				CD9003311967A42D00BC6158 /* ZTKit.h in Headers */,
-				CD03EF82196E5842000B1969 /* ZTTableView.h in Headers */,
-				CD03EFA3196E5D88000B1969 /* ZTTableDelegate.h in Headers */,
-				CD03EF6A196E2C74000B1969 /* ZTTabBarConfigs.h in Headers */,
-				CD03EF91196E5AF7000B1969 /* ZTTableCell.h in Headers */,
-				CD03EFA7196E5F79000B1969 /* ZTTableDataSource.h in Headers */,
-				CD006F5B1966996400BAA1AD /* ZTFile.h in Headers */,
-				CD03EF9F196E5D06000B1969 /* ZTTableSectionModel.h in Headers */,
-				CD03F1D7196E74F1000B1969 /* ZTWebView.h in Headers */,
-				CDFAF31A196B8DA500D8972C /* ZTReachability.h in Headers */,
-				CD03EF6F196E3FCA000B1969 /* ZTNavigation.h in Headers */,
-				CD8F1CEF196CE22B00069646 /* ZTTabBarModel.h in Headers */,
-				CD13F1F7196E8F6E00DFB2F4 /* ZTImageBrow.h in Headers */,
-				CDFAF31E196B8DEE00D8972C /* ZTMacroUtils.h in Headers */,
-				CDF50FC5196F8813000857D0 /* ZTImageScrollView.h in Headers */,
-				CD13F1F5196E8F6E00DFB2F4 /* ZTImageBrowModel.h in Headers */,
-				CDF50FC3196F8813000857D0 /* ZTImageScrollViewModel.h in Headers */,
-				CD03F27B196E88B9000B1969 /* ZTButton.h in Headers */,
-				CD03F280196E8A25000B1969 /* ZTSDWebCacheManager.h in Headers */,
-				CD9640DD197E52A900AABDA9 /* ZTUDID.h in Headers */,
-				CD03F276196E8872000B1969 /* ZTImageView.h in Headers */,
+				CDF490BA1993284C00496F24 /* mask.h in Headers */,
+				CDF4901D1993278200496F24 /* ZTTableDataSource.h in Headers */,
+				CDF490341993278200496F24 /* ZTTabBarNotificationModel.h in Headers */,
+				CDF490A31993284C00496F24 /* Decoder.h in Headers */,
+				CDF490451993278200496F24 /* ZTImageScrollView.h in Headers */,
+				CDF490A41993284C00496F24 /* Exception.h in Headers */,
+				CDF490261993278200496F24 /* ZTTableView.h in Headers */,
+				CDF490DF1993284C00496F24 /* UIImage+MultiFormat.h in Headers */,
+				CDF490191993278200496F24 /* ZTUDID.h in Headers */,
+				CDF490C81993284C00496F24 /* MKAnnotationView+WebCache.h in Headers */,
+				CDF490C21993284C00496F24 /* qrspec.h in Headers */,
+				CDF490A71993284C00496F24 /* Processor.h in Headers */,
+				CDF490221993278200496F24 /* ZTTableMoreCell.h in Headers */,
+				CDF490211993278200496F24 /* ZTTableHeader.h in Headers */,
+				CDF490171993278200496F24 /* ZTWebView.h in Headers */,
+				CDF490C61993284C00496F24 /* split.h in Headers */,
+				CDF490B51993284C00496F24 /* ZBarSDK.h in Headers */,
+				CDF490361993278200496F24 /* ZTSDWebCacheManager.h in Headers */,
+				CDF490AA1993284C00496F24 /* Video.h in Headers */,
+				CDF4902C1993278200496F24 /* ZTTabBarItem.h in Headers */,
+				CDF490301993278200496F24 /* ZTTabBarItemGroup.h in Headers */,
+				CDF490A51993284C00496F24 /* Image.h in Headers */,
+				CDF490CA1993284C00496F24 /* NSData+ImageContentType.h in Headers */,
+				CDF490AF1993284C00496F24 /* ZBarHelpController.h in Headers */,
+				CDF490281993278200496F24 /* ZTTabBar.h in Headers */,
+				CDF490CE1993284C00496F24 /* SDWebImageCompat.h in Headers */,
+				CDF490CC1993284C00496F24 /* SDImageCache.h in Headers */,
+				CDF490BB1993284C00496F24 /* QRCodeGenerator.h in Headers */,
+				CDF490D21993284C00496F24 /* SDWebImageDownloader.h in Headers */,
+				CDF490B31993284C00496F24 /* ZBarReaderView.h in Headers */,
+				CDF490C01993284C00496F24 /* qrinput.h in Headers */,
+				CDF490A61993284C00496F24 /* ImageScanner.h in Headers */,
+				CDF490B61993284C00496F24 /* ZBarSymbol.h in Headers */,
+				CDF490B01993284C00496F24 /* ZBarImage.h in Headers */,
+				CDF490511993278200496F24 /* ZTFile.h in Headers */,
+				CDF490AB1993284C00496F24 /* Window.h in Headers */,
+				CDF490491993278200496F24 /* ZTImageBrow.h in Headers */,
+				CDF490E51993284C00496F24 /* UIImageView+WebCache.h in Headers */,
+				CDF4904F1993278200496F24 /* ZTImageBrowZoomView.h in Headers */,
+				CDF490D81993284C00496F24 /* SDWebImageOperation.h in Headers */,
+				CDF490B11993284C00496F24 /* ZBarImageScanner.h in Headers */,
+				CDF4901B1993278200496F24 /* ZTTableCell.h in Headers */,
+				CDF490AD1993284C00496F24 /* ZBarCameraSimulator.h in Headers */,
+				CDF4902A1993278200496F24 /* ZTTabBarConfigs.h in Headers */,
+				CDF490E71993284C00496F24 /* UIView+WebCacheOperation.h in Headers */,
+				CDF490D61993284C00496F24 /* SDWebImageManager.h in Headers */,
+				CDF490471993278200496F24 /* ZTImageScrollViewModel.h in Headers */,
+				CDF490E31993284C00496F24 /* UIImageView+HighlightedWebCache.h in Headers */,
+				CDF4903A1993278200496F24 /* ZTReachability.h in Headers */,
+				CDF490A81993284C00496F24 /* Scanner.h in Headers */,
+				CDF490B21993284C00496F24 /* ZBarReaderController.h in Headers */,
+				CDF490AE1993284C00496F24 /* ZBarCaptureReader.h in Headers */,
+				CDF490551993278200496F24 /* ZTAnimation.h in Headers */,
+				CDF490DB1993284C00496F24 /* UIButton+WebCache.h in Headers */,
+				CDF4902E1993278200496F24 /* ZTTabBarItemBadge.h in Headers */,
+				CDF490A91993284C00496F24 /* Symbol.h in Headers */,
+				CDF490C41993284C00496F24 /* rscode.h in Headers */,
+				CDF490D41993284C00496F24 /* SDWebImageDownloaderOperation.h in Headers */,
+				CDF490B81993284C00496F24 /* bitstream.h in Headers */,
+				CDF490BE1993284C00496F24 /* qrencode.h in Headers */,
+				CDF490DD1993284C00496F24 /* UIImage+GIF.h in Headers */,
+				CDF4903E1993278200496F24 /* ZTNavigation.h in Headers */,
+				CDF490B41993284C00496F24 /* ZBarReaderViewController.h in Headers */,
+				CDF4901F1993278200496F24 /* ZTTableDelegate.h in Headers */,
+				CDF490431993278200496F24 /* ZTImageView.h in Headers */,
+				CDF490D01993284C00496F24 /* SDWebImageDecoder.h in Headers */,
+				CDF490531993278200496F24 /* ZTButton.h in Headers */,
+				CDF4904D1993278200496F24 /* ZTImageBrowOverlayView.h in Headers */,
+				CDF4904B1993278200496F24 /* ZTImageBrowModel.h in Headers */,
+				CDF490AC1993284C00496F24 /* zbar.h in Headers */,
+				CDF490E11993284C00496F24 /* UIImage+WebP.h in Headers */,
+				CDF490381993278200496F24 /* Reachability.h in Headers */,
+				CDF490F419932A5E00496F24 /* ZTKit.h in Headers */,
+				CDF490FF19932E0700496F24 /* ZTMacroUtils.h in Headers */,
+				CDF490F1199329F600496F24 /* ZTDebug.h in Headers */,
+				CDF490F619932A6A00496F24 /* ZTPrecompile.h in Headers */,
+				CDF490EF199329F600496F24 /* UIWindow+ZTDebug.h in Headers */,
+				CDF490D91993284C00496F24 /* SDWebImagePrefetcher.h in Headers */,
+				CD536CB519988C69001F3587 /* ZTFrameworkConstant.h in Headers */,
+				CD738BBD19988DF5001B1BAE /* ZTSystemInfo.h in Headers */,
+				CD536CB719988D09001F3587 /* ZTFoundation.h in Headers */,
+				CDF490321993278200496F24 /* ZTTabBarModel.h in Headers */,
+				CDF4903C1993278200496F24 /* ZTQRCode.h in Headers */,
+				CDF490241993278200496F24 /* ZTTableSectionModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,60 +943,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFAF312196B894100D8972C /* Reachability.m in Sources */,
-				CD03EF70196E3FCA000B1969 /* ZTNavigation.m in Sources */,
-				CD03F264196E8743000B1969 /* SDWebImageManager.m in Sources */,
-				CD03F267196E8743000B1969 /* SDWebImagePrefetcher.m in Sources */,
-				CD03F1D6196E74F1000B1969 /* ZTWebView.m in Sources */,
-				CD3457C3196B8044001195CB /* mask.c in Sources */,
-				CD8F1CFC196CE3B200069646 /* ZTTabBarItemBadge.m in Sources */,
-				CD03F275196E8743000B1969 /* UIView+WebCacheOperation.m in Sources */,
-				CD3457CB196B8044001195CB /* qrspec.c in Sources */,
-				CD13F1F6196E8F6E00DFB2F4 /* ZTImageBrow.m in Sources */,
-				CD03F262196E8743000B1969 /* SDWebImageDownloaderOperation.m in Sources */,
-				CDF50FC4196F8813000857D0 /* ZTImageScrollView.m in Sources */,
-				CD9003361967A54100BC6158 /* ZTAnimation.m in Sources */,
-				CDF50FC2196F8813000857D0 /* ZTImageScrollViewModel.m in Sources */,
-				CD8F1CEE196CE22B00069646 /* ZTTabBarModel.m in Sources */,
-				CD3457CD196B8044001195CB /* rscode.c in Sources */,
-				CD03F281196E8A25000B1969 /* ZTSDWebCacheManager.m in Sources */,
-				CD8F1D04196CE40300069646 /* ZTTabBarItemGroup.m in Sources */,
-				CD345782196B8037001195CB /* ZTQRCode.m in Sources */,
-				CD006F5C1966996400BAA1AD /* ZTFile.m in Sources */,
-				CD8F1CF4196CE37C00069646 /* ZTTabBarNotificationModel.m in Sources */,
-				CDFAF30F196B891900D8972C /* ZTReachability.m in Sources */,
-				CD03EFA6196E5F79000B1969 /* ZTTableDataSource.m in Sources */,
-				CD13F1F0196E8F6E00DFB2F4 /* ZTImageBrowZoomView.m in Sources */,
-				CD03F26B196E8743000B1969 /* UIImage+GIF.m in Sources */,
-				CD03EF9A196E5BA2000B1969 /* ZTTableMoreCell.m in Sources */,
-				CD8F1CF8196CE39400069646 /* ZTTabBarItem.m in Sources */,
-				CD03EFA2196E5D88000B1969 /* ZTTableDelegate.m in Sources */,
-				CD03F273196E8743000B1969 /* UIImageView+WebCache.m in Sources */,
-				CD13F1F2196E8F6E00DFB2F4 /* ZTImageBrowOverlayView.m in Sources */,
-				CD3457C7196B8044001195CB /* qrencode.c in Sources */,
-				CD13F1F4196E8F6E00DFB2F4 /* ZTImageBrowModel.m in Sources */,
-				CD03F269196E8743000B1969 /* UIButton+WebCache.m in Sources */,
-				CD03F260196E8743000B1969 /* SDWebImageDownloader.m in Sources */,
-				CD03F26F196E8743000B1969 /* UIImage+WebP.m in Sources */,
-				CD03F26D196E8743000B1969 /* UIImage+MultiFormat.m in Sources */,
-				CD03EF9E196E5D06000B1969 /* ZTTableSectionModel.m in Sources */,
-				CD8F1CE0196CDDB300069646 /* ZTTabBar.m in Sources */,
-				CD3457C9196B8044001195CB /* qrinput.c in Sources */,
-				CD03F27A196E88B9000B1969 /* ZTButton.m in Sources */,
-				CD03F25C196E8743000B1969 /* SDWebImageCompat.m in Sources */,
-				CD03F230196E8680000B1969 /* ZTImageView.m in Sources */,
-				CD9640DE197E52A900AABDA9 /* ZTUDID.m in Sources */,
-				CD03F25E196E8743000B1969 /* SDWebImageDecoder.m in Sources */,
-				CD03F25A196E8743000B1969 /* SDImageCache.m in Sources */,
-				CD03F256196E8743000B1969 /* MKAnnotationView+WebCache.m in Sources */,
-				CD03EF90196E5AF7000B1969 /* ZTTableCell.m in Sources */,
-				CD03EF6B196E2C74000B1969 /* ZTTabBarConfigs.m in Sources */,
-				CD03EF81196E5842000B1969 /* ZTTableView.m in Sources */,
-				CD3457CF196B8044001195CB /* split.c in Sources */,
-				CD03F258196E8743000B1969 /* NSData+ImageContentType.m in Sources */,
-				CD03F271196E8743000B1969 /* UIImageView+HighlightedWebCache.m in Sources */,
-				CD3457C1196B8044001195CB /* bitstream.c in Sources */,
-				CD3457C6196B8044001195CB /* QRCodeGenerator.m in Sources */,
+				CDF490351993278200496F24 /* ZTTabBarNotificationModel.m in Sources */,
+				CDF4901C1993278200496F24 /* ZTTableCell.m in Sources */,
+				CDF490271993278200496F24 /* ZTTableView.m in Sources */,
+				CDF490B91993284C00496F24 /* mask.c in Sources */,
+				CDF4903D1993278200496F24 /* ZTQRCode.m in Sources */,
+				CDF490DE1993284C00496F24 /* UIImage+GIF.m in Sources */,
+				CDF4904E1993278200496F24 /* ZTImageBrowOverlayView.m in Sources */,
+				CDF490D51993284C00496F24 /* SDWebImageDownloaderOperation.m in Sources */,
+				CDF4901E1993278200496F24 /* ZTTableDataSource.m in Sources */,
+				CDF4904C1993278200496F24 /* ZTImageBrowModel.m in Sources */,
+				CDF490BD1993284C00496F24 /* qrencode.c in Sources */,
+				CDF4904A1993278200496F24 /* ZTImageBrow.m in Sources */,
+				CDF490CB1993284C00496F24 /* NSData+ImageContentType.m in Sources */,
+				CDF4903F1993278200496F24 /* ZTNavigation.m in Sources */,
+				CDF490311993278200496F24 /* ZTTabBarItemGroup.m in Sources */,
+				CDF490181993278200496F24 /* ZTWebView.m in Sources */,
+				CDF490E81993284C00496F24 /* UIView+WebCacheOperation.m in Sources */,
+				CDF490461993278200496F24 /* ZTImageScrollView.m in Sources */,
+				CDF4902D1993278200496F24 /* ZTTabBarItem.m in Sources */,
+				CDF490541993278200496F24 /* ZTButton.m in Sources */,
+				CDF490501993278200496F24 /* ZTImageBrowZoomView.m in Sources */,
+				CD738BBE19988DF5001B1BAE /* ZTSystemInfo.m in Sources */,
+				CDF490201993278200496F24 /* ZTTableDelegate.m in Sources */,
+				CDF490CF1993284C00496F24 /* SDWebImageCompat.m in Sources */,
+				CDF490E01993284C00496F24 /* UIImage+MultiFormat.m in Sources */,
+				CDF490291993278200496F24 /* ZTTabBar.m in Sources */,
+				CDF490C11993284C00496F24 /* qrspec.c in Sources */,
+				CDF490E21993284C00496F24 /* UIImage+WebP.m in Sources */,
+				CDF490D71993284C00496F24 /* SDWebImageManager.m in Sources */,
+				CDF490CD1993284C00496F24 /* SDImageCache.m in Sources */,
+				CDF490251993278200496F24 /* ZTTableSectionModel.m in Sources */,
+				CDF490DA1993284C00496F24 /* SDWebImagePrefetcher.m in Sources */,
+				CDF490C31993284C00496F24 /* rscode.c in Sources */,
+				CDF490B71993284C00496F24 /* bitstream.c in Sources */,
+				CDF490C91993284C00496F24 /* MKAnnotationView+WebCache.m in Sources */,
+				CDF490BC1993284C00496F24 /* QRCodeGenerator.m in Sources */,
+				CDF490BF1993284C00496F24 /* qrinput.c in Sources */,
+				CDF490521993278200496F24 /* ZTFile.m in Sources */,
+				CDF490D11993284C00496F24 /* SDWebImageDecoder.m in Sources */,
+				CDF4903B1993278200496F24 /* ZTReachability.m in Sources */,
+				CDF490E41993284C00496F24 /* UIImageView+HighlightedWebCache.m in Sources */,
+				CDF4901A1993278200496F24 /* ZTUDID.m in Sources */,
+				CDF490F2199329F600496F24 /* ZTDebug.m in Sources */,
+				CDF490C51993284C00496F24 /* split.c in Sources */,
+				CDF490DC1993284C00496F24 /* UIButton+WebCache.m in Sources */,
+				CDF490371993278200496F24 /* ZTSDWebCacheManager.m in Sources */,
+				CDF490E61993284C00496F24 /* UIImageView+WebCache.m in Sources */,
+				CDF490391993278200496F24 /* Reachability.m in Sources */,
+				CDF490D31993284C00496F24 /* SDWebImageDownloader.m in Sources */,
+				CDF490561993278200496F24 /* ZTAnimation.m in Sources */,
+				CDF490F0199329F600496F24 /* UIWindow+ZTDebug.m in Sources */,
+				CDF490331993278200496F24 /* ZTTabBarModel.m in Sources */,
+				CDF490231993278200496F24 /* ZTTableMoreCell.m in Sources */,
+				CDF490481993278200496F24 /* ZTImageScrollViewModel.m in Sources */,
+				CDF490441993278200496F24 /* ZTImageView.m in Sources */,
+				CDF4902B1993278200496F24 /* ZTTabBarConfigs.m in Sources */,
+				CDF4902F1993278200496F24 /* ZTTabBarItemBadge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

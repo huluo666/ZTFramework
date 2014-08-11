@@ -42,6 +42,10 @@ static NSString * const cellMoreIdentifier = @"CellMore";       //加载更多
     return self;
 }
 
+- (void)dealloc {
+    cellConfigureBlock = nil;
+}
+
 //获取单项数据
 - (id)itemAtIndexPath:(NSIndexPath *)indexPath {
     
@@ -117,7 +121,6 @@ static NSString * const cellMoreIdentifier = @"CellMore";       //加载更多
         
         return tableView.moreCell;
     }
-    
     
     //普通cell
     ZTTableCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];

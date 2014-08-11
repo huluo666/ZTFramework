@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>49E64A6A-43EB-4D70-8EBE-C64BB56CABAE</string>
+	<string>858D5704-7201-40CB-A830-BAD07BEC65F5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ZTFramework</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>CCB96887-9155-4EB9-9289-750084341AD5</key>
-		<string>http://git.com/git/library/ios.git</string>
+		<key>ED55BD56-FA1C-4FFB-82A9-37C04B573441</key>
+		<string>https://github.com/Fighting023/ZTFramework.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ZTFramework.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>CCB96887-9155-4EB9-9289-750084341AD5</key>
+		<key>ED55BD56-FA1C-4FFB-82A9-37C04B573441</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://git.com/git/library/ios.git</string>
+	<string>https://github.com/Fighting023/ZTFramework.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>CCB96887-9155-4EB9-9289-750084341AD5</string>
+	<string>ED55BD56-FA1C-4FFB-82A9-37C04B573441</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>CCB96887-9155-4EB9-9289-750084341AD5</string>
+			<string>ED55BD56-FA1C-4FFB-82A9-37C04B573441</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ZTFramework</string>
 		</dict>

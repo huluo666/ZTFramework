@@ -23,7 +23,12 @@
 			<key>isShown</key>
 			<true/>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>2</integer>
+		</dict>
+		<key>ZTFrameworkTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -44,6 +49,16 @@
 			<true/>
 		</dict>
 		<key>CDBDA857196D23E3000FA46B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDEC4CCC1992049B00A5F98A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CDEC4CE21992049B00A5F98A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

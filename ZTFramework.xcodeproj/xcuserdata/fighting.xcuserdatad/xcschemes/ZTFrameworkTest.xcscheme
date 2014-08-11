@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDA2CA4A19654E2F00C8D186"
-               BuildableName = "libZTFramework.a"
-               BlueprintName = "ZTFramework"
-               ReferencedContainer = "container:ZTFramework.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDA2CA5A19654E2F00C8D186"
-               BuildableName = "ZTFrameworkTests.xctest"
-               BlueprintName = "ZTFrameworkTests"
+               BlueprintIdentifier = "CDEC4CCC1992049B00A5F98A"
+               BuildableName = "ZTFrameworkTest.app"
+               BlueprintName = "ZTFrameworkTest"
                ReferencedContainer = "container:ZTFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,23 +32,41 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CDA2CA5A19654E2F00C8D186"
-               BuildableName = "ZTFrameworkTests.xctest"
-               BlueprintName = "ZTFrameworkTests"
+               BlueprintIdentifier = "CDEC4CE21992049B00A5F98A"
+               BuildableName = "ZTFrameworkTestTests.xctest"
+               BlueprintName = "ZTFrameworkTestTests"
                ReferencedContainer = "container:ZTFramework.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CDEC4CCC1992049B00A5F98A"
+            BuildableName = "ZTFrameworkTest.app"
+            BlueprintName = "ZTFrameworkTest"
+            ReferencedContainer = "container:ZTFramework.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CDEC4CCC1992049B00A5F98A"
+            BuildableName = "ZTFrameworkTest.app"
+            BlueprintName = "ZTFrameworkTest"
+            ReferencedContainer = "container:ZTFramework.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -72,6 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CDEC4CCC1992049B00A5F98A"
+            BuildableName = "ZTFrameworkTest.app"
+            BlueprintName = "ZTFrameworkTest"
+            ReferencedContainer = "container:ZTFramework.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

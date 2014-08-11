@@ -11,12 +11,153 @@
 #ifndef ZTFramework_ZTMacroUtils_h
 #define ZTFramework_ZTMacroUtils_h
 
+/******************************************************************/
+
+//单例模式宏
+#undef  ZTSingleton
+#define ZTSingleton(classname) \
+\
+static classname *shared##classname = nil; \
+\
++ (classname *)shared##Instance \
+{ \
+@synchronized(self) \
+{ \
+if (shared##classname == nil) \
+{ \
+shared##classname = [[self alloc] init]; \
+} \
+} \
+\
+return shared##classname; \
+} \
+\
++ (instancetype)allocWithZone:(NSZone *)zone \
+{ \
+@synchronized(self) \
+{ \
+if (shared##classname == nil) \
+{ \
+shared##classname = [super allocWithZone:zone]; \
+return shared##classname; \
+} \
+} \
+\
+return nil; \
+} \
+\
+- (instancetype)copyWithZone:(NSZone *)zone \
+{ \
+return self; \
+} \
+\
 
 
 
 
 
-//----------------------简易方法----------------------
+
+
+/******************************************************************/
+
+// 宏定义字符串 转NSString, __TEXT( __x )
+#undef __TEXT
+#undef __TEXT_intermediary
+#define __TEXT( __x ) __TEXT_intermediary( __x )
+#define __TEXT_intermediary(x) @#x
+
+
+
+
+
+
+
+
+/******************************************************************/
+
+// block 安全self
+#if __has_feature(objc_arc)
+// arc
+#define DEF_WEAKSELF    __weak __typeof(self) wself = self;
+#define DEF_WEAKSELF_( __CLASSNAME__ )      __weak typeof( __CLASSNAME__ *) wself = self;
+#else
+// mrc
+#define DEF_WEAKSELF     __block typeof(id) wself = self;
+#define DEF_WEAKSELF_( __CLASSNAME__ )     __block typeof( __CLASSNAME__ *) wself = self;
+#endif
+
+
+
+
+
+/******************************************************************/
+
+// 执行一次
+#undef	ZT_ONCE_BEGIN
+#define ZT_ONCE_BEGIN( __name ) \
+static dispatch_once_t once_##__name; \
+dispatch_once( &once_##__name , ^{
+
+#undef	ZT_ONCE_END
+#define ZT_ONCE_END		});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************/
+
+// arc mrc 兼容
+#if __has_feature(objc_arc)
+#define ZT_AUTORELEASE(exp) exp
+#define ZT_RELEASE(exp)     exp
+#define ZT_RETAIN(exp)      exp
+#define ZT_STRONG           strong
+#else
+#define ZT_AUTORELEASE(exp) [exp autorelease]
+#define ZT_RELEASE(exp)     [exp release]
+#define ZT_RETAIN(exp)      [exp retain]
+#define ZT_STRONG           retain
+#endif
+
+#if __has_feature(objc_arc_weak)
+#define ZT_WEAK             weak
+#elif __has_feature(objc_arc)
+#define ZT_WEAK             unsafe_unretained
+#else
+#define ZT_WEAK             assign
+#endif
+
+
+
+
+
+
+/******************************************************************/
+
+//颜色
+#define mRGBColor(r, g, b)          [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(1)]
+#define mRGBAColor(r, g, b, a)      [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+
+
+
+
+
+
+
+/******************************************************************/
 
 /** appDelegate */
 #define mAppDelegate                (AppDelegate *)[[UIApplication sharedApplication] delegate]
@@ -27,7 +168,7 @@
 /** KeyWindow */
 #define mKeyWindow                  [[UIApplication sharedApplication] keyWindow]
 
-/** UserDefaults */
+/** NSUserDefaults */
 #define mUserDefaults               [NSUserDefaults standardUserDefaults]
 
 /** NotificationCenter */
@@ -93,89 +234,24 @@ UIKIT_STATIC_INLINE UIImage * mImageByName(NSString *img) {
 
 
 
-//----------------------单例模式宏----------------------
-#define ZTSingleton(classname) \
-\
-static classname *shared##classname = nil; \
-\
-+ (classname *)shared##Instance \
-{ \
-@synchronized(self) \
-{ \
-if (shared##classname == nil) \
-{ \
-shared##classname = [[self alloc] init]; \
-} \
-} \
-\
-return shared##classname; \
-} \
-\
-+ (instancetype)allocWithZone:(NSZone *)zone \
-{ \
-@synchronized(self) \
-{ \
-if (shared##classname == nil) \
-{ \
-shared##classname = [super allocWithZone:zone]; \
-return shared##classname; \
-} \
-} \
-\
-return nil; \
-} \
-\
-- (instancetype)copyWithZone:(NSZone *)zone \
-{ \
-return self; \
-} \
-\
 
 
 
 
 
-//----------------------非ARC 宏----------------------
-#ifndef PX_STRONG
-#if __has_feature(objc_arc)
-#define PX_STRONG strong
-#else
-#define PX_STRONG retain
-#endif
-#endif
-
-#ifndef PX_WEAK
-#if __has_feature(objc_arc_weak)
-#define PX_WEAK weak
-#elif __has_feature(objc_arc)
-#define PX_WEAK unsafe_unretained
-#else
-#define PX_WEAK assign
-#endif
-#endif
-
-#if __has_feature(objc_arc)
-#define PX_AUTORELEASE(expression) expression
-#define PX_RELEASE(expression) expression
-#define PX_RETAIN(expression) expression
-#else
-#define PX_AUTORELEASE(expression) [expression autorelease]
-#define PX_RELEASE(expression) [expression release]
-#define PX_RETAIN(expression) [expression retain]
-#endif
 
 
 
 
 
-//----------------------DEBUG  模式下打印日志,当前行----------------------
-#ifndef __OPTIMIZE__
-#define TCLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#define NSLog(FORMAT, ...) fprintf(stderr,"\nfunction:%s line:%d content:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
-#else
-#define TCLog(fmt, ...)
-#define NSLog(FORMAT, ...) {}
-#endif
+
+
+
+
+
+
+
+
 
 
 

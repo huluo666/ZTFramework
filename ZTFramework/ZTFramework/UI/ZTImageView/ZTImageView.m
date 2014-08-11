@@ -42,12 +42,12 @@
     
     [actionIndicator startAnimating];
     
-    typeof(self) __weak bself = self;
+    DEF_WEAKSELF
     
     [self sd_setImageWithURL:[NSURL URLWithString:url]
             placeholderImage:mImageByName(placeholder)
                    completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-                       [[bself actionIndicator] stopAnimating];
+                       [wself.actionIndicator stopAnimating];
                    }];
 }
 

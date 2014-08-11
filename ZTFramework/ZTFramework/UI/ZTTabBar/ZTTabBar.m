@@ -40,7 +40,7 @@ ZTSingleton(ZTTabBar)
     int y = 0;
     
     //显示状态栏
-    if (DEVICE_IOS_6) {
+    if (IOS6_OR_EARLIER) {
         [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
         [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
         y = -20;

@@ -161,14 +161,15 @@ static NSString * const cellIdentifier = @"Cell";
 
 //配置cell
 - (void)configureCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
-    typeof(self) __weak bself = self;
+    
+    DEF_WEAKSELF
     
     ZTImageBrowZoomView *imageView = (ZTImageBrowZoomView *)[cell.contentView viewWithTag:1];
 	if (!imageView) {
 		imageView = [[ZTImageBrowZoomView alloc] initWithFrame:self.view.bounds];
 		imageView.userInteractionEnabled = YES;
         imageView.didTapZoom = ^(ZTImageBrowZoomView * zoomView) {
-            bself.displayingDetailedView = !bself.isDisplayingDetailedView;
+            wself.displayingDetailedView = !wself.isDisplayingDetailedView;
         };
 		
 		UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(p_imageViewPanned:)];
@@ -280,6 +281,7 @@ static NSString * const cellIdentifier = @"Cell";
 
 //tableView
 - (UITableView *)photoTableView {
+    
 	if (!photoTableView) {
         CGRect screenBounds = self.view.bounds;
 		photoTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_HEIGHT - NAVIGATION_BAR_HEIGHT, CGRectGetWidth(screenBounds))];
@@ -310,7 +312,7 @@ static NSString * const cellIdentifier = @"Cell";
 	if (!overlayView) {
         
         int y = 0;
-        if (DEVICE_IOS_6) {
+        if (IOS6_OR_EARLIER) {
             y = 20;
         }
         

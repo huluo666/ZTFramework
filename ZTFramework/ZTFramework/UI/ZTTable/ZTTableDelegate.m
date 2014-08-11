@@ -27,6 +27,7 @@ static const CGFloat cellH = 44.0f;
 
 //sectionHeader高度
 - (CGFloat)tableView:(ZTTableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    
     if (sectionHeaderHeight) {
         return sectionHeaderHeight(section);
     }
@@ -36,12 +37,13 @@ static const CGFloat cellH = 44.0f;
 
 //cell高度
 - (CGFloat)tableView:(ZTTableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+        
     //加载更多
     if (tableView.isLoadMore && tableView.numberOfSections == 1 && indexPath.row == [datas count]) {
         return 44;
     }
     
-    if (cellHeight) {
+    if (cellHeight) {        
         return cellHeight(indexPath);
     }
     
@@ -78,6 +80,7 @@ static const CGFloat cellH = 44.0f;
 
 //显示cell
 - (void)tableView:(ZTTableView *)tableView willDisplayCell:(ZTTableCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+    
     //判断cell是否为自定义底部加载，是否自动触发加载更多
     if (tableView.isLoadMore &&
         indexPath.row == [datas count] &&

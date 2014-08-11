@@ -23,7 +23,7 @@ ZTSingleton(ZTReachability);
 //是否有网络
 - (BOOL)isEnableNet {
     
-#ifndef __OPTIMIZE__
+#if (1 == __ZTDEBUG__)
     return YES;
 #else
     

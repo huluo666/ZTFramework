@@ -1,19 +1,15 @@
 /*
  ============================================================================
- Name           : ZTKit.h
+ Name           : ZTDebug.m
  Author         : ZTFramework框架
  Version        : 1.0
  Copyright      : 同城
- Description    : ZTKit declaration
+ Description    : ZTDebug declaration
  ============================================================================
  */
 
-#ifndef ZTFramework_ZTKit_h
-#define ZTFramework_ZTKit_h
+#import "ZTDebug.h"
 
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-#import "ZTMacroUtils.h"
-#import "ZTFrameworkConstant.h"
+@implementation ZTDebug
 
-#endif
+@end

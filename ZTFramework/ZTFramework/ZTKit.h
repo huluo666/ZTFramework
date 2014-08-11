@@ -1,0 +1,23 @@
+/*
+ ============================================================================
+ Name           : ZTKit.h
+ Author         : ZTFramework框架
+ Version        : 1.0
+ Copyright      : 同城
+ Description    : ZTKit declaration
+ ============================================================================
+ */
+
+#ifndef ZTFramework_ZTKit_h
+#define ZTFramework_ZTKit_h
+
+/** 预编译文件 */
+#import "ZTPrecompile.h"
+
+/** 调试文件 */
+#import "ZTDebug.h"
+
+/** 基础类 */
+#import "ZTFoundation.h"
+
+#endif

@@ -159,7 +159,7 @@ static const char kKeychainUDIDItemIdentifier[]  = "UUID";
     
     // The keychain access group attribute determines if this item can be shared
     // amongst multiple apps whose code signing entitlements contain the same keychain access group.
-    NSString *accessGroup = DEVICE_APP_BUNDLE_IDENTIFIER;
+    NSString *accessGroup = [ZTSystemInfo appIdentifier];
     if (accessGroup != nil)
     {
 #if TARGET_IPHONE_SIMULATOR
@@ -223,7 +223,7 @@ static const char kKeychainUDIDItemIdentifier[]  = "UUID";
     
     // The keychain access group attribute determines if this item can be shared
     // amongst multiple apps whose code signing entitlements contain the same keychain access group.
-    NSString *accessGroup = DEVICE_APP_BUNDLE_IDENTIFIER;
+    NSString *accessGroup = [ZTSystemInfo appIdentifier];
     if (accessGroup != nil)
     {
 #if TARGET_IPHONE_SIMULATOR

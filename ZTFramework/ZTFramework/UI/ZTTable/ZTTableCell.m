@@ -16,7 +16,8 @@
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
-    if (self) {
+    if (self) {        
+        self.selectionStyle = UITableViewCellSelectionStyleGray;
         // Initialization code
     }
     return self;

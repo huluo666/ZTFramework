@@ -65,7 +65,7 @@
     NSMutableArray *leftAry = [[NSMutableArray alloc] init];
     NSMutableArray *rightAry = [[NSMutableArray alloc] init];
     
-    if (DEVICE_IOS_6) {
+    if (IOS6_OR_EARLIER) {
         UIBarButtonItem *flexSpacer = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
         [leftAry addObject:flexSpacer];
         [leftAry addObject:left];
@@ -108,7 +108,7 @@
     
     CGRect rect = CGRectMake(0, 0, image.size.width, image.size.height);
     //
-    //    if (DEVICE_IOS_6) {
+    //    if (IOS6_OR_LATER) {
     //        [navLeftBtn setContentEdgeInsets:UIEdgeInsetsMake(0, 0, 0, -20)];
     //    }
     
@@ -164,7 +164,7 @@
     
     [vc.navigationController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
     
-    if (DEVICE_IOS_6) {
+    if (IOS6_OR_EARLIER) {
         //去掉多余的背景
         [vc.navigationController.navigationBar.layer setMasksToBounds:YES];
     }
