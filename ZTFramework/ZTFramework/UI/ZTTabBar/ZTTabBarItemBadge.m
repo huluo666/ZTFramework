@@ -29,7 +29,7 @@
 
 @interface ZTTabBarItemBadge()
 
-@property (nonatomic, strong) UIFont *font;
+@property (nonatomic, ZT_ARC_STRONG) UIFont *font;
 @property (nonatomic) NSUInteger width;
 
 @end

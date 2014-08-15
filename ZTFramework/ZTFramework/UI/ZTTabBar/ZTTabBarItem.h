@@ -40,7 +40,7 @@
 @property (nonatomic, unsafe_unretained)    BOOL                        selected;
 
 /** 数据 */
-@property (nonatomic, strong)               ZTTabBarModel               *data;
+@property (nonatomic, ZT_ARC_STRONG)               ZTTabBarModel               *data;
 
 /** 气泡数字 */
 @property (nonatomic, unsafe_unretained)    int                         badgeNumber;

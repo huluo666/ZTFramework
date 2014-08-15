@@ -9,6 +9,7 @@
  */
 
 #import "ZTSystemInfo.h"
+#import "ZTUDID.h"
 
 @implementation ZTSystemInfo
 
@@ -85,6 +86,13 @@
 #else
 	return nil;
 #endif
+}
+
+//------------------设备相关
+
+//udid
++ (NSString *)deviceUDID {
+    return [ZTUDID UniquelyIdentifies];
 }
 
 //设备的类别

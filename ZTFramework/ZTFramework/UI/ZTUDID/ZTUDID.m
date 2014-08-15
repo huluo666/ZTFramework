@@ -22,6 +22,7 @@ static const char kKeychainUDIDItemIdentifier[]  = "UUID";
 
 //唯一身份
 + (NSString *)UniquelyIdentifies {
+    
     NSString *udid = [ZTUDID getUDIDFromKeyChain];
     if (!udid) {
         
@@ -111,7 +112,7 @@ static const char kKeychainUDIDItemIdentifier[]  = "UUID";
     // Befor going any further...
     if (errorFlag != NULL)
     {
-        NSLog(@"Error: %@", errorFlag);
+        ZTLogD(@"Error: %@", errorFlag);
         if (msgBuffer) {
             free(msgBuffer);
         }
@@ -132,7 +133,7 @@ static const char kKeychainUDIDItemIdentifier[]  = "UUID";
     NSString *macAddressString = [NSString stringWithFormat:@"%02X:%02X:%02X:%02X:%02X:%02X",
                                   macAddress[0], macAddress[1], macAddress[2],
                                   macAddress[3], macAddress[4], macAddress[5]];
-    NSLog(@"Mac Address: %@", macAddressString);
+    ZTLogD(@"Mac Address: %@", macAddressString);
     
     // Release the buffer memory
     free(msgBuffer);
@@ -190,13 +191,13 @@ static const char kKeychainUDIDItemIdentifier[]  = "UUID";
     queryErr = SecItemCopyMatching((CFDictionaryRef)dictForQuery, (CFTypeRef*)&dict);
     
     if (queryErr == errSecItemNotFound) {
-        NSLog(@"KeyChain Item: %@ not found!!!", [NSString stringWithUTF8String:kKeychainUDIDItemIdentifier]);
+        ZTLogD(@"KeyChain Item: %@ not found!!!", [NSString stringWithUTF8String:kKeychainUDIDItemIdentifier]);
     }
     else if (queryErr != errSecSuccess) {
-        NSLog(@"KeyChain Item query Error!!! Error code:%ld", queryErr);
+        ZTLogD(@"KeyChain Item query Error!!! Error code:%ld", queryErr);
     }
     if (queryErr == errSecSuccess) {
-        NSLog(@"KeyChain Item: %@", udidValue);
+        ZTLogD(@"KeyChain Item: %@", udidValue);
         
         if (udidValue) {
             udid = [NSString stringWithUTF8String:udidValue.bytes];
@@ -253,13 +254,13 @@ static const char kKeychainUDIDItemIdentifier[]  = "UUID";
     else {          // add item to keychain
         writeErr = SecItemAdd((CFDictionaryRef)dictForAdd, NULL);
         if (writeErr != errSecSuccess) {
-            NSLog(@"Add KeyChain Item Error!!! Error Code:%ld", writeErr);
+            ZTLogD(@"Add KeyChain Item Error!!! Error Code:%ld", writeErr);
             
             [dictForAdd release];
             return NO;
         }
         else {
-            NSLog(@"Add KeyChain Item Success!!!");
+            ZTLogD(@"Add KeyChain Item Success!!!");
             [dictForAdd release];
             return YES;
         }
@@ -281,12 +282,12 @@ static const char kKeychainUDIDItemIdentifier[]  = "UUID";
     OSStatus deleteErr = noErr;
     deleteErr = SecItemDelete((CFDictionaryRef)dictToDelete);
     if (deleteErr != errSecSuccess) {
-        NSLog(@"delete UUID from KeyChain Error!!! Error code:%ld", deleteErr);
+        ZTLogD(@"delete UUID from KeyChain Error!!! Error code:%ld", deleteErr);
         [dictToDelete release];
         return NO;
     }
     else {
-        NSLog(@"delete success!!!");
+        ZTLogD(@"delete success!!!");
     }
     
     [dictToDelete release];
@@ -330,14 +331,14 @@ static const char kKeychainUDIDItemIdentifier[]  = "UUID";
         
         updateErr = SecItemUpdate((CFDictionaryRef)updateItem, (CFDictionaryRef)dictForUpdate);
         if (updateErr != errSecSuccess) {
-            NSLog(@"Update KeyChain Item Error!!! Error Code:%ld", updateErr);
+            ZTLogD(@"Update KeyChain Item Error!!! Error Code:%ld", updateErr);
             
             [dictForQuery release];
             [dictForUpdate release];
             return NO;
         }
         else {
-            NSLog(@"Update KeyChain Item Success!!!");
+            ZTLogD(@"Update KeyChain Item Success!!!");
             [dictForQuery release];
             [dictForUpdate release];
             return YES;

@@ -20,13 +20,13 @@ const ZTTabBarConfigs *tabBarConfig;
 @interface ZTTabBarItem()
 
 /** 图标 */
-@property (nonatomic, strong) UIImageView *icon;
+@property (nonatomic, ZT_ARC_STRONG) UIImageView *icon;
 
 /** 标题 */
-@property (nonatomic, strong) UILabel *title;
+@property (nonatomic, ZT_ARC_STRONG) UILabel *title;
 
 /** 气泡 */
-@property (nonatomic, strong) ZTTabBarItemBadge *badge;
+@property (nonatomic, ZT_ARC_STRONG) ZTTabBarItemBadge *badge;
 
 @end
 
@@ -57,8 +57,8 @@ const ZTTabBarConfigs *tabBarConfig;
     
     //图片
     icon = [[UIImageView alloc] init];
-    icon.image = mImageByName(data.image);
-    icon.highlightedImage = mImageByName(data.imageSel);
+    icon.image = ZT_M_ImageByName(data.image);
+    icon.highlightedImage = ZT_M_ImageByName(data.imageSel);
     [self addSubview:icon];
     
     //文字
@@ -66,7 +66,7 @@ const ZTTabBarConfigs *tabBarConfig;
     title.text = data.title;
     title.font = [UIFont systemFontOfSize:tabBarConfig.tabBarItemTextSize];
     title.backgroundColor = [UIColor clearColor];
-    title.textAlignment = ZTTextAlignmentCenter;
+    title.textAlignment = ZT_Text_AlignmentCenter;
     title.textColor = [UIColor colorWithCGColor:tabBarConfig.tabBarItemTextColor];
     title.highlightedTextColor = [UIColor colorWithCGColor:tabBarConfig.tabBarItemTextHighlightedColor];
     [self addSubview:title];
@@ -75,6 +75,7 @@ const ZTTabBarConfigs *tabBarConfig;
     badge = [[ZTTabBarItemBadge alloc] init];
     badge.badgeColor = [UIColor redColor];
     badge.delegate = self;
+    badge.hidden = YES;
     [self addSubview:badge];
 }
 
@@ -104,6 +105,13 @@ const ZTTabBarConfigs *tabBarConfig;
 
 //气泡数
 - (void)setBadgeNumber:(int)number {
+    
+    if (0 >= number) {
+        badge.hidden = YES;
+        return;
+    }
+    
+    badge.hidden = NO;
     badge.badgeString = [NSString stringWithFormat:@"%d", number];
 }
 

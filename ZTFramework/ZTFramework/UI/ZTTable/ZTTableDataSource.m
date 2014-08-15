@@ -15,8 +15,6 @@
 #import "ZTTableMoreCell.h"
 #import "ZTTableDelegate.h"
 
-static NSString * const cellMoreIdentifier = @"CellMore";       //加载更多
-
 @interface ZTTableDataSource()
 
 /** cell名 */

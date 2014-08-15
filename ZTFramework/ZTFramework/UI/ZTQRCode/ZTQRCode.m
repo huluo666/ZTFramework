@@ -15,10 +15,10 @@
 @interface ZTQRCode()<ZBarReaderViewDelegate>
 
 /** 扫描回调方法 */
-@property (nonatomic, copy)                 ZTBLOCK_1       QRcodeDidEndScanBlock;
+@property (nonatomic, copy)                 ZTQRCode_BLOCK  QRcodeDidEndScanBlock;
 
 /** 扫描区域视图 */
-@property (nonatomic, strong)               ZBarReaderView  *readerView;
+@property (nonatomic, ZT_ARC_STRONG)               ZBarReaderView  *readerView;
 
 @end
 
@@ -52,7 +52,7 @@
         break;
     }
     
-    NSLog(@"scanning===>%@", symbol.data);
+    ZTLogD(@"scanning===>%@", symbol.data);
     
     [zbar stop];
     
@@ -135,7 +135,7 @@
 #pragma mark - GET/SET
 
 //扫描回调
-- (void)setQRcodeDidEndScan:(ZTBLOCK_1)block {
+- (void)setQRcodeDidEndScan:(ZTQRCode_BLOCK)block {
     QRcodeDidEndScanBlock = [block copy];
 }
 

@@ -36,13 +36,13 @@ typedef void(^ ZTLoadMoreData)();
 @interface ZTTableDelegate : NSObject<UITableViewDelegate>
 
 /** 数据 */
-@property (nonatomic, strong)               id                                          datas;
+@property (nonatomic, ZT_ARC_STRONG)               id                                          datas;
 
 /** section 间距 */
 @property (nonatomic, unsafe_unretained)    float                                       sectionGap;
 
 /** 分组数据 */
-@property (nonatomic, strong)               NSMutableArray                              *sectionDatas;
+@property (nonatomic, ZT_ARC_STRONG)               NSMutableArray                              *sectionDatas;
 
 /** Cell高度 */
 @property (nonatomic, copy)                 ZTTableDelegateCellHeight                   cellHeight;

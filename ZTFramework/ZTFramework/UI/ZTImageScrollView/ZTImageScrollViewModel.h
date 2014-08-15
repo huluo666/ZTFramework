@@ -17,9 +17,9 @@
 @interface ZTImageScrollViewModel : NSObject
 
 /** 图片 */
-@property (nonatomic, strong) UIImage *img;
+@property (nonatomic, ZT_ARC_STRONG) UIImage *img;
 
 /** 图片src */
-@property (nonatomic, strong) NSString *imgSrc;
+@property (nonatomic, ZT_ARC_STRONG) NSString *imgSrc;
 
 @end

@@ -16,12 +16,8 @@
  **/
 @interface ZTReachability : NSObject
 
-/**
- *  单例模式
- *
- *  @return TCReachability
- */
-+ (ZTReachability *) sharedInstance;
+/** 单例模式 */
+ZT_SINGLETON_AS(ZTReachability);
 
 /**
  *  是否有网络

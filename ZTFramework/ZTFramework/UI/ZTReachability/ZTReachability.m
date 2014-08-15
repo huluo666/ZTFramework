@@ -13,7 +13,7 @@
 
 @implementation ZTReachability
 
-ZTSingleton(ZTReachability);
+ZT_SINGLETON_DEF(ZTReachability);
 
 //获取网络类型
 - (NetworkStatus) NetworkReachabilityType {

@@ -9,6 +9,9 @@
  */
 
 #import "ZTKit.h"
+#import "ZTTableConstant.h"
+
+
 @class ZTTableMoreCell;
 
 /**
@@ -30,6 +33,6 @@
 @property (nonatomic, unsafe_unretained) ZTTableViewState state;
 
 /** 更多cell */
-@property (nonatomic, strong) ZTTableMoreCell *moreCell;
+@property (nonatomic, ZT_ARC_STRONG) ZTTableMoreCell *moreCell;
 
 @end

@@ -55,34 +55,34 @@
 @property (nonatomic, unsafe_unretained)    id<ZTNavigationDelegate>    delegate;
 
 /** nav标题颜色 */
-@property (nonatomic, strong)               UIColor                     *navTitleColor;
+@property (nonatomic, ZT_ARC_STRONG)               UIColor                     *navTitleColor;
 
 /** nav背景图片 */
-@property (nonatomic, strong)               UIImage                     *navBackGroudImage;
+@property (nonatomic, ZT_ARC_STRONG)               UIImage                     *navBackGroudImage;
 
 /** 左按钮 */
-@property (nonatomic, strong)               UIButton                    *navLeftBtn;
+@property (nonatomic, ZT_ARC_STRONG)               UIButton                    *navLeftBtn;
 
 /** 左按钮图片 */
-@property (nonatomic, strong)               UIImage                     *navLeftImage;
+@property (nonatomic, ZT_ARC_STRONG)               UIImage                     *navLeftImage;
 
 /** 左按钮文字 */
-@property (nonatomic, weak)                 NSString                    *navLeftText;
+@property (nonatomic, ZT_ARC_WEAK)                 NSString                    *navLeftText;
 
 /** 右按钮 */
-@property (nonatomic, strong)               UIButton                    *navRightBtn;
+@property (nonatomic, ZT_ARC_STRONG)               UIButton                    *navRightBtn;
 
 /** 右按钮图片 */
-@property (nonatomic, strong)               UIImage                     *navRightImage;
+@property (nonatomic, ZT_ARC_STRONG)               UIImage                     *navRightImage;
 
 /** 右按钮文字 */
-@property (nonatomic, weak)                 NSString                    *navRightText;
+@property (nonatomic, ZT_ARC_WEAK)                 NSString                    *navRightText;
 
 /** 标题 */
-@property (nonatomic, weak)                 NSString                    *navTitle;
+@property (nonatomic, ZT_ARC_WEAK)                 NSString                    *navTitle;
 
 /** 标题View */
-@property (nonatomic, strong)               UIView                      *navTitleView;
+@property (nonatomic, ZT_ARC_STRONG)               UIView                      *navTitleView;
 
 /**
  *  初始化

@@ -8,49 +8,42 @@
  ============================================================================
  */
 
+/**
+ *ZTMacroUtils:工具宏
+ *Author:Fighting
+ **/
+
 #ifndef ZTFramework_ZTMacroUtils_h
 #define ZTFramework_ZTMacroUtils_h
 
 /******************************************************************/
+// 单例模式
+#undef	ZT_SINGLETON_AS
+#define ZT_SINGLETON_AS( __class ) \
++ (__class *)sharedInstance;
+//+ (void) purgeSharedInstance;
 
-//单例模式宏
-#undef  ZTSingleton
-#define ZTSingleton(classname) \
-\
-static classname *shared##classname = nil; \
-\
-+ (classname *)shared##Instance \
+#undef	ZT_SINGLETON_DEF
+#define ZT_SINGLETON_DEF( __class ) \
++ (__class *)sharedInstance \
 { \
-@synchronized(self) \
-{ \
-if (shared##classname == nil) \
-{ \
-shared##classname = [[self alloc] init]; \
-} \
-} \
-\
-return shared##classname; \
-} \
-\
-+ (instancetype)allocWithZone:(NSZone *)zone \
-{ \
-@synchronized(self) \
-{ \
-if (shared##classname == nil) \
-{ \
-shared##classname = [super allocWithZone:zone]; \
-return shared##classname; \
-} \
-} \
-\
-return nil; \
-} \
-\
-- (instancetype)copyWithZone:(NSZone *)zone \
-{ \
-return self; \
-} \
-\
+static dispatch_once_t once; \
+static __class * __singleton__; \
+dispatch_once( &once, ^{ __singleton__ = [[self alloc] init]; } ); \
+return __singleton__; \
+}
+
+
+
+
+
+/**************************************************************/
+// GCD 多线程
+#define ZT_GCD_MainFun(aFun) dispatch_async( dispatch_get_main_queue(), ^(void){aFun;} );
+#define ZT_GCD_MainBlock(block) dispatch_async( dispatch_get_main_queue(), block );
+
+#define ZT_GCD_BackGroundBlock(block) dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), block );
+#define ZT_GCD_BackGroundFun(aFun) dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){aFun;} );
 
 
 
@@ -60,11 +53,11 @@ return self; \
 
 /******************************************************************/
 
-// 宏定义字符串 转NSString, __TEXT( __x )
-#undef __TEXT
-#undef __TEXT_intermediary
-#define __TEXT( __x ) __TEXT_intermediary( __x )
-#define __TEXT_intermediary(x) @#x
+// 宏定义字符串 转NSString, ZT_TEXT( __x )
+#undef  ZT_TEXT
+#undef  ZT_TEXT_intermediary
+#define ZT_TEXT( __x ) ZT_TEXT_intermediary( __x )
+#define ZT_TEXT_intermediary(x) @#x
 
 
 
@@ -78,13 +71,14 @@ return self; \
 // block 安全self
 #if __has_feature(objc_arc)
 // arc
-#define DEF_WEAKSELF    __weak __typeof(self) wself = self;
-#define DEF_WEAKSELF_( __CLASSNAME__ )      __weak typeof( __CLASSNAME__ *) wself = self;
+#define ZT_WEAKSELF_DEF    __weak __typeof(self) wself = self;
+#define ZT_WEAKSELF_DEF_( __CLASSNAME__ )      __weak typeof( __CLASSNAME__ *) wself = self;
 #else
 // mrc
-#define DEF_WEAKSELF     __block typeof(id) wself = self;
-#define DEF_WEAKSELF_( __CLASSNAME__ )     __block typeof( __CLASSNAME__ *) wself = self;
+#define ZT_WEAKSELF_DEF     __block typeof(id) wself = self;
+#define ZT_WEAKSELF_DEF_( __CLASSNAME__ )     __block typeof( __CLASSNAME__ *) wself = self;
 #endif
+
 
 
 
@@ -120,23 +114,23 @@ dispatch_once( &once_##__name , ^{
 
 // arc mrc 兼容
 #if __has_feature(objc_arc)
-#define ZT_AUTORELEASE(exp) exp
-#define ZT_RELEASE(exp)     exp
-#define ZT_RETAIN(exp)      exp
-#define ZT_STRONG           strong
+#define ZT_ARC_AUTORELEASE(exp) exp
+#define ZT_ARC_RELEASE(exp)     exp
+#define ZT_ARC_RETAIN(exp)      exp
+#define ZT_ARC_STRONG           strong
 #else
-#define ZT_AUTORELEASE(exp) [exp autorelease]
-#define ZT_RELEASE(exp)     [exp release]
-#define ZT_RETAIN(exp)      [exp retain]
-#define ZT_STRONG           retain
+#define ZT_ARC_AUTORELEASE(exp) [exp autorelease]
+#define ZT_ARC_RELEASE(exp)     [exp release]
+#define ZT_ARC_RETAIN(exp)      [exp retain]
+#define ZT_ARC_STRONG           retain
 #endif
 
 #if __has_feature(objc_arc_weak)
-#define ZT_WEAK             weak
+#define ZT_ARC_WEAK             weak
 #elif __has_feature(objc_arc)
-#define ZT_WEAK             unsafe_unretained
+#define ZT_ARC_WEAK             unsafe_unretained
 #else
-#define ZT_WEAK             assign
+#define ZT_ARC_WEAK             assign
 #endif
 
 
@@ -147,8 +141,20 @@ dispatch_once( &once_##__name , ^{
 /******************************************************************/
 
 //颜色
-#define mRGBColor(r, g, b)          [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(1)]
-#define mRGBAColor(r, g, b, a)      [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+#define ZT_M_RGBColor(r, g, b)          [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1.000f]
+#define ZT_M_RGBAColor(r, g, b, a)      [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
+
+
+
+
+
+/******************************************************************/
+
+//NSUserDefaults
+#define ZT_M_UserDefaults               [NSUserDefaults standardUserDefaults]
+
+
 
 
 
@@ -159,98 +165,46 @@ dispatch_once( &once_##__name , ^{
 
 /******************************************************************/
 
-/** appDelegate */
-#define mAppDelegate                (AppDelegate *)[[UIApplication sharedApplication] delegate]
+//appDelegate
+#define ZT_M_AppDelegate                (AppDelegate *)[[UIApplication sharedApplication] delegate]
 
-/** Window */
-#define mWindow                     [[[UIApplication sharedApplication] windows] lastObject]
+//Window
+#define ZT_M_Window                     [[[UIApplication sharedApplication] windows] lastObject]
 
-/** KeyWindow */
-#define mKeyWindow                  [[UIApplication sharedApplication] keyWindow]
+//KeyWindow
+#define ZT_M_KeyWindow                  [[UIApplication sharedApplication] keyWindow]
 
-/** NSUserDefaults */
-#define mUserDefaults               [NSUserDefaults standardUserDefaults]
 
-/** NotificationCenter */
-#define mNotificationCenter         [NSNotificationCenter defaultCenter]
+
+
+
+
+
+
+/******************************************************************/
 
 /** 文字排版兼容处理 */
-#ifdef __IPHONE_OS_VERSION_MIN_REQUIRED
-#define ZTTextAlignmentLeft             NSTextAlignmentLeft
-#define ZTTextAlignmentCenter           NSTextAlignmentCenter
-#define ZTTextAlignmentRight            NSTextAlignmentRight
-#define ZTLineBreakModeCharaterWrap     NSLineBreakByCharWrapping
-#define ZTLineBreakModeWordWrap         NSLineBreakByWordWrapping
-#define ZTLineBreakModeClip             NSLineBreakByClipping
-#define ZTLineBreakModeTruncatingHead   NSLineBreakByTruncatingHead
-#define ZTLineBreakModeTruncatingMiddle NSLineBreakByTruncatingMiddle
-#define ZTLineBreakModeTruncatingTail   NSLineBreakByTruncatingTail
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 60000
+#define ZT_Text_AlignmentLeft             NSTextAlignmentLeft
+#define ZT_Text_AlignmentCenter           NSTextAlignmentCenter
+#define ZT_Text_AlignmentRight            NSTextAlignmentRight
+#define ZT_Line_BreakModeCharaterWrap     NSLineBreakByCharWrapping
+#define ZT_Line_BreakModeWordWrap         NSLineBreakByWordWrapping
+#define ZT_Line_BreakModeClip             NSLineBreakByClipping
+#define ZT_Line_BreakModeTruncatingHead   NSLineBreakByTruncatingHead
+#define ZT_Line_BreakModeTruncatingMiddle NSLineBreakByTruncatingMiddle
+#define ZT_Line_BreakModeTruncatingTail   NSLineBreakByTruncatingTail
 #else
-#define ZTTextAlignmentLeft             UITextAlignmentLeft
-#define ZTTextAlignmentCenter           UITextAlignmentCenter
-#define ZTTextAlignmentRight            UITextAlignmentRight
-#define ZTLineBreakModeCharaterWrap     UILineBreakModeCharacterWrap
-#define ZTLineBreakModeWordWrap         UILineBreakModeWordWrap
-#define ZTLineBreakModeClip             UILineBreakModeClip
-#define ZTLineBreakModeTruncatingHead   UILineBreakModeHeadTruncation
-#define ZTLineBreakModeTruncatingMiddle UILineBreakModeMiddleTruncation
-#define ZTLineBreakModeTruncatingTail   UILineBreakModeTailTruncation
+#define ZT_Text_AlignmentLeft             UITextAlignmentLeft
+#define ZT_Text_AlignmentCenter           UITextAlignmentCenter
+#define ZT_Text_AlignmentRight            UITextAlignmentRight
+#define ZT_Line_BreakModeCharaterWrap     UILineBreakModeCharacterWrap
+#define ZT_Line_BreakModeWordWrap         UILineBreakModeWordWrap
+#define ZT_Line_BreakModeClip             UILineBreakModeClip
+#define ZT_Line_BreakModeTruncatingHead   UILineBreakModeHeadTruncation
+#define ZT_Line_BreakModeTruncatingMiddle UILineBreakModeMiddleTruncation
+#define ZT_Line_BreakModeTruncatingTail   UILineBreakModeTailTruncation
 #endif
-
-//判断是否为null
-UIKIT_STATIC_INLINE const BOOL mIsNull(id str) {
-    if (str == nil || (NSNull *)str == [NSNull null]) {
-        return YES;
-    }
-    
-    return NO;
-}
-
-/** 加载图片 */
-UIKIT_STATIC_INLINE UIImage * mImageByPath(NSString *name, NSString *ext) {
-    
-    if (mIsNull(name)) {
-        return nil;
-    }
-    
-    return [UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:name ofType:ext]];
-}
-
-/** 加载图片 */
-UIKIT_STATIC_INLINE UIImage * mImageByName(NSString *img) {
-    
-    if (mIsNull(img)) {
-        return nil;
-    }
-    
-    return mImageByPath(img, @"png");
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

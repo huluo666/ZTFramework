@@ -54,6 +54,8 @@
 
 #import "Reachability.h"
 
+#import "ZTDebug.h"
+
 
 NSString *kReachabilityChangedNotification = @"kNetworkReachabilityChangedNotification";
 

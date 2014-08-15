@@ -20,16 +20,16 @@ static NSString * const cellIdentifier = @"Cell";
 @interface ZTImageBrow ()<UIScrollViewDelegate, UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate, ZTNavigationDelegate>
 
 /** 数据 */
-@property (nonatomic, strong) NSArray *datas;
+@property (nonatomic, ZT_ARC_STRONG) NSArray *datas;
 
 /** tableView */
-@property (nonatomic, strong) UITableView *photoTableView;;
+@property (nonatomic, ZT_ARC_STRONG) UITableView *photoTableView;;
 
 /** 说明 */
-@property (nonatomic, strong) ZTImageBrowOverlayView *overlayView;
+@property (nonatomic, ZT_ARC_STRONG) ZTImageBrowOverlayView *overlayView;
 
 /** navigation */
-@property (nonatomic, strong) ZTNavigation *navigation;
+@property (nonatomic, ZT_ARC_STRONG) ZTNavigation *navigation;
 
 @property (nonatomic, assign, getter = isDisplayingDetailedView) BOOL displayingDetailedView;
 
@@ -88,7 +88,7 @@ static NSString * const cellIdentifier = @"Cell";
     //nav
     navigation = [[ZTNavigation alloc] initConfigWith:self];
     navigation.delegate = self;
-    navigation.navLeftImage = mImageByPath([NSString stringWithFormat:@"%@/nav_Icon_02", ZTFrameworkBundle_Image_Path], @"png");
+    navigation.navLeftImage = [ZTCommon imageByZTBundle:@"nav_Icon_02"];
     navigation.navTitle = [NSString stringWithFormat:@"%d/%d", current, (int)[datas count]];
     
     //变量
@@ -162,7 +162,7 @@ static NSString * const cellIdentifier = @"Cell";
 //配置cell
 - (void)configureCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    DEF_WEAKSELF
+    ZT_WEAKSELF_DEF
     
     ZTImageBrowZoomView *imageView = (ZTImageBrowZoomView *)[cell.contentView viewWithTag:1];
 	if (!imageView) {
@@ -236,13 +236,13 @@ static NSString * const cellIdentifier = @"Cell";
     
     ZTImageBrowModel *model = [datas objectAtIndex:current - 1];
     
-    if (!mIsNull(model.title)) {
+    if (!ZT_M_IsNull(model.title)) {
 		self.overlayView.title = model.title;
 	} else {
         self.overlayView.title = @"";
     }
 	
-	if (!mIsNull(model.desc)) {
+	if (!ZT_M_IsNull(model.desc)) {
 		self.overlayView.description = model.desc;
 	} else {
         self.overlayView.description = @"";
@@ -284,7 +284,7 @@ static NSString * const cellIdentifier = @"Cell";
     
 	if (!photoTableView) {
         CGRect screenBounds = self.view.bounds;
-		photoTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_HEIGHT - NAVIGATION_BAR_HEIGHT, CGRectGetWidth(screenBounds))];
+		photoTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, ZT_M_SCREEN_HEIGHT - ZT_M_NAVIGATION_BAR_HEIGHT, CGRectGetWidth(screenBounds))];
         photoTableView.dataSource = self;
         photoTableView.delegate = self;
         photoTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -312,11 +312,11 @@ static NSString * const cellIdentifier = @"Cell";
 	if (!overlayView) {
         
         int y = 0;
-        if (IOS6_OR_EARLIER) {
+        if (ZT_IOS6_OR_EARLIER) {
             y = 20;
         }
         
-        overlayView = [[ZTImageBrowOverlayView alloc] initWithFrame:CGRectMake(0, self.view.bounds.size.height - NAVIGATION_BAR_HEIGHT - 120.0f + y, CGRectGetWidth(self.view.frame), 120.0f)];
+        overlayView = [[ZTImageBrowOverlayView alloc] initWithFrame:CGRectMake(0, self.view.bounds.size.height - ZT_M_NAVIGATION_BAR_HEIGHT - 120.0f + y, CGRectGetWidth(self.view.frame), 120.0f)];
 	}
 	
 	return overlayView;

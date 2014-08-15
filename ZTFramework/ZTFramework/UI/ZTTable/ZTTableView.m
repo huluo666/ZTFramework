@@ -26,7 +26,7 @@
     if (self = [super initWithFrame:frame style:style]) {
         self.backgroundColor = [UIColor clearColor];
         
-        if (IOS6_OR_LATER) {
+        if (ZT_IOS6_OR_LATER) {
             self.backgroundView = nil;
         }
     }

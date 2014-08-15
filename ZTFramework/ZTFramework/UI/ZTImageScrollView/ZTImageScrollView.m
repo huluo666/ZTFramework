@@ -14,13 +14,13 @@
 @interface ZTImageScrollView()<UIScrollViewDelegate>
 
 /** 滚动条 */
-@property (nonatomic, strong)                   UIScrollView                    *scrollView;
+@property (nonatomic, ZT_ARC_STRONG)                   UIScrollView                    *scrollView;
 
 /** 翻页 */
-@property (nonatomic, strong)                   UIPageControl                   *pageControl;
+@property (nonatomic, ZT_ARC_STRONG)                   UIPageControl                   *pageControl;
 
 /** 菊花 */
-@property (nonatomic, strong)                   UIActivityIndicatorView         *actionIndicator;
+@property (nonatomic, ZT_ARC_STRONG)                   UIActivityIndicatorView         *actionIndicator;
 
 /** 总记录 */
 @property (nonatomic, unsafe_unretained)        int                             rowCount;
@@ -29,7 +29,7 @@
 @property (nonatomic, unsafe_unretained)        int                             page;
 
 /** 计数器 */
-@property (nonatomic, strong)                   NSTimer                         *timer;
+@property (nonatomic, ZT_ARC_STRONG)                   NSTimer                         *timer;
 
 @end
 
@@ -152,7 +152,7 @@
         imgView.userInteractionEnabled = YES;
         imgView.frame = CGRectMake(x, 0, w, h);
         
-        if (!mIsNull(item.imgSrc)) {
+        if (!ZT_M_IsNull(item.imgSrc)) {
             [imgView setImageWithURL:item.imgSrc placeholderImage:placeholderImage];
         } else {
             imgView.image = item.img;

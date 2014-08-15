@@ -17,10 +17,10 @@
 @interface ZTTableSectionModel : NSObject
 
 /** section标题 */
-@property (readonly, nonatomic, strong) NSString *title;
+@property (readonly, nonatomic, ZT_ARC_STRONG) NSString *title;
 
 /** sectionKey */
-@property (readonly, nonatomic, strong) NSString *key;
+@property (readonly, nonatomic, ZT_ARC_STRONG) NSString *key;
 
 /**
  *  配置

@@ -38,7 +38,7 @@
 @property (nonatomic, unsafe_unretained)        id<ZTTabBarItemGroupDelegate>   delegate;
 
 /** 背景图片 */
-@property (nonatomic, strong)                   UIImage                         *backGroudImage;
+@property (nonatomic, ZT_ARC_STRONG)            UIImage                         *backGroudImage;
 
 /** 选中某个 */
 @property (nonatomic, unsafe_unretained)        int                             selectIndex;
@@ -47,7 +47,7 @@
 @property (nonatomic, unsafe_unretained)        NSInteger                       tabBarItemCount;
 
 /** 存储TabBarItem */
-@property (nonatomic, strong)                   NSMutableArray                  *tabBarItemAry;
+@property (nonatomic, ZT_ARC_STRONG)            NSMutableArray                  *tabBarItemAry;
 
 /**
  *  追加一个TabBarItem

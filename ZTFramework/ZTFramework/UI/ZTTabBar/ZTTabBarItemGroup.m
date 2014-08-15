@@ -23,7 +23,7 @@ const ZTTabBarConfigs *tabBarConfig;
 @property (nonatomic, unsafe_unretained)    NSInteger           cureentItem;
 
 /** 背景图片View */
-@property (nonatomic, strong)               UIImageView         *backgroudImageView;
+@property (nonatomic, ZT_ARC_STRONG)               UIImageView         *backgroudImageView;
 
 @end
 
@@ -55,8 +55,19 @@ const ZTTabBarConfigs *tabBarConfig;
     [self addSubview:backgroudImageView];
     
     //注册广播接收器
-    if (!mIsNull(tabBarConfig.tabBarBadgeNotificationName)) {
-        [mNotificationCenter addObserver:self selector:@selector(bagedNotification:) name:tabBarConfig.tabBarBadgeNotificationName object:nil];
+    if (!ZT_M_IsNull(tabBarConfig.tabBarBadgeNotificationName)) {
+    
+        //气泡通知
+        [self registerNotification:tabBarConfig.tabBarBadgeNotificationName
+                             block:^(NSNotification *notification) {
+                                 if (ZT_M_IsNull([notification object])) {
+                                     return ;
+                                 }
+    
+                                 ZTTabBarNotificationModel *model = (ZTTabBarNotificationModel *)[notification object];
+                                 ZTTabBarItem *item = [tabBarItemAry objectAtIndex:model.tabBarItem - 1];
+                                 item.badgeNumber = model.bagedNumber;
+                             }];
     }
 }
 
@@ -66,7 +77,7 @@ const ZTTabBarConfigs *tabBarConfig;
         item.delegate = nil;
     }
     
-    [mNotificationCenter removeObserver:self];
+    [self unregisterAllNotification];
 }
 
 #pragma mark - Delegate
@@ -82,17 +93,6 @@ const ZTTabBarConfigs *tabBarConfig;
     if (delegate && [delegate respondsToSelector:@selector(ZTTabBarItemGroup_Click:)]) {
         [delegate ZTTabBarItemGroup_Click:item.data];
     }
-}
-
-//气泡广播
-- (void)bagedNotification:(NSNotification *)sender {
-    if (mIsNull([sender object])) {
-        return;
-    }
-    
-    ZTTabBarNotificationModel *model = (ZTTabBarNotificationModel *)[sender object];
-    ZTTabBarItem *item = [tabBarItemAry objectAtIndex:model.tabBarItem - 1];
-    item.badgeNumber = model.bagedNumber;
 }
 
 #pragma mark - Private

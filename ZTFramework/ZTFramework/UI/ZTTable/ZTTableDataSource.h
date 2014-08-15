@@ -24,10 +24,10 @@ typedef void(^ ZTTableDataSourceCellConfig)(ZTTableCell *cell, id data, NSIndexP
 @interface ZTTableDataSource : NSObject<UITableViewDataSource>
 
 /** 数据 */
-@property (nonatomic, strong)               id                  datas;
+@property (nonatomic, ZT_ARC_STRONG)               id                  datas;
 
 /** 分组数据 */
-@property (nonatomic, strong)               NSMutableArray      *sectionDatas;
+@property (nonatomic, ZT_ARC_STRONG)               NSMutableArray      *sectionDatas;
 
 /** 是否显示索引 */
 @property (nonatomic, unsafe_unretained)    BOOL                indexShow;

@@ -13,8 +13,6 @@
 #import "ZTTableView.h"
 #import "ZTTableMoreCell.h"
 
-static const CGFloat cellH = 44.0f;
-
 @implementation ZTTableDelegate
 
 - (instancetype)init {
@@ -47,7 +45,7 @@ static const CGFloat cellH = 44.0f;
         return cellHeight(indexPath);
     }
     
-    return cellH;
+    return cellDefH;
 }
 
 //点击

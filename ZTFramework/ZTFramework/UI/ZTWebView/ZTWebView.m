@@ -13,7 +13,7 @@
 @interface ZTWebView()<UIWebViewDelegate>
 
 /** webview */
-@property (nonatomic, strong) UIWebView *webview;
+@property (nonatomic, ZT_ARC_STRONG) UIWebView *webview;
 
 @end
 
@@ -80,7 +80,7 @@
     //文件路径
     NSString *urlPath = [tmpURL substringFromIndex:1];
     
-    NSLog(@"urlBasePath===>%@, urlExtends===>%@, urlPath===>%@", urlBasePath, urlExtends, urlPath);
+    ZTLogD(@"urlBasePath===>%@, urlExtends===>%@, urlPath===>%@", urlBasePath, urlExtends, urlPath);
     
     //获取文件
     NSString *htmlFile = [[NSBundle mainBundle] pathForResource:urlPath ofType:urlExtends inDirectory:urlBasePath];
@@ -118,12 +118,12 @@
 
 //解析WEBVIEW
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
-    NSLog(@"scheme===>%@", request.URL.scheme);
+    ZTLogD(@"scheme===>%@", request.URL.scheme);
     
     // 处理事件
     NSString *requestString = [[request URL] absoluteString];
     
-    NSLog(@"request===>%@", requestString);
+    ZTLogD(@"request===>%@", requestString);
     
     if ([[requestString substringToIndex:5] isEqualToString:@"tc://"]) {
         NSMutableArray *tmpArray = [NSMutableArray arrayWithArray:[requestString componentsSeparatedByString:@"::"]];

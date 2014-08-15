@@ -9,6 +9,9 @@
  */
 
 #import "ZTTableCell.h"
+#import "ZTTableConstant.h"
+
+@class ZTTableView;
 
 /**
  *ZTTableMoreCell:更多Cell

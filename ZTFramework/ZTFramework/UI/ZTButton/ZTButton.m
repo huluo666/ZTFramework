@@ -14,7 +14,7 @@
 @interface ZTButton()
 
 /** 菊花 */
-@property (nonatomic, strong) UIActivityIndicatorView *actionIndicator;
+@property (nonatomic, ZT_ARC_STRONG) UIActivityIndicatorView *actionIndicator;
 
 @end
 
@@ -48,7 +48,7 @@
     
     [actionIndicator startAnimating];
     
-    DEF_WEAKSELF
+    ZT_WEAKSELF_DEF
     
     [self sd_setImageWithURL:[NSURL URLWithString:url]
                     forState:forState

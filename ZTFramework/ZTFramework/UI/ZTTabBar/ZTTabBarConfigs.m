@@ -52,7 +52,7 @@
 //背景图
 - (CGImageRef)tabBarBackgroudImage {
     if (tabBarBackgroudImage == nil) {
-        return [mImageByPath([NSString stringWithFormat:@"%@/tabBar_Icon_01", ZTFrameworkBundle_Image_Path], @"png") CGImage];
+        return [[ZTCommon imageByZTBundle:@"tabBar_Icon_01"] CGImage];
     }
     
     return tabBarBackgroudImage;

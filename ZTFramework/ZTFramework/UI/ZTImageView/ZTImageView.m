@@ -14,7 +14,7 @@
 @interface ZTImageView()
 
 /** 菊花 */
-@property (nonatomic, strong) UIActivityIndicatorView *actionIndicator;     
+@property (nonatomic, ZT_ARC_STRONG) UIActivityIndicatorView *actionIndicator;     
 
 @end
 
@@ -42,10 +42,10 @@
     
     [actionIndicator startAnimating];
     
-    DEF_WEAKSELF
+    ZT_WEAKSELF_DEF
     
     [self sd_setImageWithURL:[NSURL URLWithString:url]
-            placeholderImage:mImageByName(placeholder)
+            placeholderImage:ZT_M_ImageByName(placeholder)
                    completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
                        [wself.actionIndicator stopAnimating];
                    }];

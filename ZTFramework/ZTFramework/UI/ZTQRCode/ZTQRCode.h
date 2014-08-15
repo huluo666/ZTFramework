@@ -10,13 +10,14 @@
 
 #import "ZTKit.h"
 
-enum {
+/** 二维码类型 */
+typedef NS_ENUM(NSInteger, QRcodeType) {
     QRcodeType_RQCode,            /** 二维码 */
     QRcodeType_BarCode            /** 条形码 */
 };
 
-/** 二维码类型 */
-typedef NSUInteger QRcodeType;
+/** 回调 */
+typedef void(^ ZTQRCode_BLOCK)(NSString *val);
 
 /**
  *ZTQRCode:二维码/条形码扫描视图，生成二维码图片
@@ -25,7 +26,7 @@ typedef NSUInteger QRcodeType;
 @interface ZTQRCode : NSObject
 
 /** 扫描结束，回调 */
-@property (nonatomic, strong) ZTBLOCK_1 QRcodeDidEndScan;
+@property (nonatomic, ZT_ARC_STRONG) ZTQRCode_BLOCK QRcodeDidEndScan;
 
 /**
  *  二维码扫描，条形码扫描

@@ -8,6 +8,11 @@
  ============================================================================
  */
 
+/**
+ *ZTKit:框架文件
+ *Author:Fighting
+ **/
+
 #ifndef ZTFramework_ZTKit_h
 #define ZTFramework_ZTKit_h
 

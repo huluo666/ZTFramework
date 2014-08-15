@@ -10,35 +10,11 @@
 
 #import "UIWindow+ZTDebug.h"
 #import "ZTPrecompile.h"
+#import "ZTFoundation.h"
 
 /****************************************************************/
 
 #pragma mark - UIWindow+ZTDebug
-
-/**
- *  劫持类方法
- *
- *  @param c           类
- *  @param original    原方法
- *  @param replacement 劫持后的方法
- *
- *  @return 返回劫持前的方法original
- */
-static Method ZTSwizzleInstanceMethod(Class c, SEL original, SEL replacement) {
-    Method a = class_getInstanceMethod(c, original);
-    Method b = class_getInstanceMethod(c, replacement);
-    
-    // class_addMethod 为该类增加一个新方法
-    if (class_addMethod(c, original, method_getImplementation(b), method_getTypeEncoding(b))) {
-        // 替换类方法的定义
-        class_replaceMethod(c, replacement, method_getImplementation(a), method_getTypeEncoding(a));
-        return b;   // 返回劫持前的方法
-    }
-    
-    // 交换2个方法的实现
-    method_exchangeImplementations(a, b);
-    return b;   // 返回劫持前的方法
-}
 
 static void (*__sendEvent)( id, SEL, UIEvent * );
 
@@ -60,7 +36,7 @@ static void (*__sendEvent)( id, SEL, UIEvent * );
         return;
     }
     
-    Method method = ZTSwizzleInstanceMethod([UIWindow class], @selector(sendEvent:), @selector(mySendEvent:));
+    Method method = ZT_COMMON_SwizzleInstanceMethod([UIWindow class], @selector(sendEvent:), @selector(mySendEvent:));
     __sendEvent = (void *) method_getImplementation(method);
     falg = YES;
 #endif
@@ -68,6 +44,7 @@ static void (*__sendEvent)( id, SEL, UIEvent * );
 
 //截止后点击的方法
 - (void)mySendEvent:(UIEvent *)event {
+#if (1 == __ZTDEBUG__SHOWBORDER__)
     UIWindow * keyWindow = [UIApplication sharedApplication].keyWindow;
     
     if (self == keyWindow && UIEventTypeTouches == event.type) {
@@ -88,6 +65,7 @@ static void (*__sendEvent)( id, SEL, UIEvent * );
     if (__sendEvent) {
         __sendEvent(self, _cmd, event);
     }
+#endif
 }
 
 @end

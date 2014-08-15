@@ -22,12 +22,8 @@ UIKIT_EXTERN const ZTTabBarConfigs *tabBarConfig;
  **/
 @interface ZTTabBar : UIViewController
 
-/**
- *  单例模式
- *
- *  @return ZTTabBar
- */
-+ (ZTTabBar *)sharedInstance;
+/** 单例模式 */
+ZT_SINGLETON_AS(ZTTabBar);
 
 /** 切换到某个索引 */
 @property (nonatomic, unsafe_unretained)                int                         selectedIndex;

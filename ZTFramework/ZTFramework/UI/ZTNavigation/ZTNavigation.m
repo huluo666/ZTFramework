@@ -13,10 +13,10 @@
 @interface ZTNavigation()
 
 /** 标题按钮 */
-@property (nonatomic, strong)   UIButton                *navTitleBtn;
+@property (nonatomic, ZT_ARC_STRONG)   UIButton                *navTitleBtn;
 
 /** ViewController */
-@property (nonatomic, weak)     UIViewController        *vc;
+@property (nonatomic, ZT_ARC_WEAK)     UIViewController        *vc;
 
 @end
 
@@ -39,7 +39,7 @@
 - (void)initUI {
     
     //默认背景图片
-    [self setNavBackGroudImage:mImageByPath([NSString stringWithFormat:@"%@/nav_Icon_01", ZTFrameworkBundle_Image_Path], @"png")];
+    [self setNavBackGroudImage:[ZTCommon imageByZTBundle:@"nav_Icon_01"]];
     
     //标题颜色
     [self setNavTitleColor:[UIColor colorWithRed:1.000 green:0.600 blue:0.000 alpha:1.000]];
@@ -65,7 +65,7 @@
     NSMutableArray *leftAry = [[NSMutableArray alloc] init];
     NSMutableArray *rightAry = [[NSMutableArray alloc] init];
     
-    if (IOS6_OR_EARLIER) {
+    if (ZT_IOS6_OR_EARLIER) {
         UIBarButtonItem *flexSpacer = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
         [leftAry addObject:flexSpacer];
         [leftAry addObject:left];
@@ -108,7 +108,7 @@
     
     CGRect rect = CGRectMake(0, 0, image.size.width, image.size.height);
     //
-    //    if (IOS6_OR_LATER) {
+    //    if (ZT_IOS6_OR_EARLIER) {
     //        [navLeftBtn setContentEdgeInsets:UIEdgeInsetsMake(0, 0, 0, -20)];
     //    }
     
@@ -164,7 +164,7 @@
     
     [vc.navigationController.navigationBar setBackgroundImage:image forBarMetrics:UIBarMetricsDefault];
     
-    if (IOS6_OR_EARLIER) {
+    if (ZT_IOS6_OR_EARLIER) {
         //去掉多余的背景
         [vc.navigationController.navigationBar.layer setMasksToBounds:YES];
     }

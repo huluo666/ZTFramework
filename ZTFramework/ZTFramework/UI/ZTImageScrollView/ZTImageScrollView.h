@@ -20,13 +20,13 @@ typedef void(^ ZTImageScrollViewClickEvent)(ZTImageScrollViewModel *model, int c
 @interface ZTImageScrollView : UIViewController
 
 /** 数据 */
-@property (nonatomic, strong)               NSArray                         *datas;
+@property (nonatomic, ZT_ARC_STRONG)               NSArray                         *datas;
 
 /** 是否翻页 */
 @property (nonatomic, unsafe_unretained)    BOOL                            isPageController;
 
 /** 未加载显示图片 */
-@property (nonatomic, strong)               NSString                        *placeholderImage;
+@property (nonatomic, ZT_ARC_STRONG)               NSString                        *placeholderImage;
 
 /** 自动滚动 */
 @property (nonatomic, unsafe_unretained)    BOOL                            isAutoScroll;

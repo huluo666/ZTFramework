@@ -38,12 +38,12 @@
 }
 
 @property (nonatomic, readonly) NSUInteger width;
-@property (nonatomic, strong) NSString *badgeString;
-@property (nonatomic, strong) UITableViewCell *parent;
+@property (nonatomic, ZT_ARC_STRONG) NSString *badgeString;
+@property (nonatomic, ZT_ARC_STRONG) UITableViewCell *parent;
 @property (nonatomic) BOOL shadowEnabled;
-@property (nonatomic, strong) UIColor *badgeColor;
-@property (nonatomic, strong) UIColor *badgeColorHighlighted;
-@property (nonatomic, strong) id delegate;
+@property (nonatomic, ZT_ARC_STRONG) UIColor *badgeColor;
+@property (nonatomic, ZT_ARC_STRONG) UIColor *badgeColorHighlighted;
+@property (nonatomic, ZT_ARC_STRONG) id delegate;
 
 - (void) drawRoundedRect:(CGRect) rrect inContext:(CGContextRef) context 
 			  withRadius:(CGFloat) radius;

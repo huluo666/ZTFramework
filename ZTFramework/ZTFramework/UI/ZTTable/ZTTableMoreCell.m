@@ -13,10 +13,10 @@
 @interface ZTTableMoreCell()
 
 /** 菊花 */
-@property (nonatomic, strong) UIActivityIndicatorView   *actionIndicator;
+@property (nonatomic, ZT_ARC_STRONG) UIActivityIndicatorView   *actionIndicator;
 
 /** 标题 */
-@property (nonatomic, strong) UILabel                   *titleLabel;
+@property (nonatomic, ZT_ARC_STRONG) UILabel                   *titleLabel;
 
 @end
 
@@ -82,7 +82,7 @@
     titleLabel.frame = CGRectMake(self.bounds.origin.x, self.bounds.origin.y/2.0f, self.bounds.size.width, self.bounds.size.height);
     titleLabel.font = [UIFont systemFontOfSize:12.0f];
     titleLabel.textColor = [UIColor colorWithWhite:0.200 alpha:1.000];
-    titleLabel.textAlignment = ZTTextAlignmentCenter;
+    titleLabel.textAlignment = ZT_Text_AlignmentCenter;
     titleLabel.text = @"加载更多";
     titleLabel.backgroundColor = [UIColor clearColor];
     [self addSubview:titleLabel];

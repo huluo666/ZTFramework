@@ -17,7 +17,7 @@ static const float maxZoom = 5.0f;
 @interface ZTImageBrowZoomView()<UIScrollViewDelegate>
 
 /** 图片 */
-@property (strong, nonatomic) ZTImageView *imageView;
+@property (ZT_ARC_STRONG, nonatomic) ZTImageView *imageView;
 
 @end
 

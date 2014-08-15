@@ -17,7 +17,7 @@
 #define ZTFramework_ZTPrecompile_h
 
 /** ZT打包 */
-#define __ZT__Framework__       (0)
+#define __ZTFramework__         (0)
 
 /** 调试模式 */
 #define __ZTDEBUG__             (1)
@@ -27,10 +27,21 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <mach/mach.h>
+#import <mach/mach_host.h>
+#import <execinfo.h>
 #import <objc/runtime.h>
+#import <objc/message.h>
+#import <CommonCrypto/CommonDigest.h>
+#import <CommonCrypto/CommonCryptor.h>
+#import <CoreMotion/CoreMotion.h>
+#import <Social/Social.h>
+#import <AVFoundation/AVFoundation.h>
+#import <ifaddrs.h>
+#import <arpa/inet.h>
+#import <AVFoundation/AVSpeechSynthesis.h>
 
 #import "ZTMacroUtils.h"
-
-#import "ZTFrameworkConstant.h"
+#import "ZTDebug.h"
 
 #endif

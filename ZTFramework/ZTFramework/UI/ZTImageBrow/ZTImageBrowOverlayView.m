@@ -12,7 +12,7 @@
 
 @interface ZTImageBrowOverlayView()
 
-@property (nonatomic, strong) CAGradientLayer *gradientLayer;
+@property (nonatomic, ZT_ARC_STRONG) CAGradientLayer *gradientLayer;
 
 /** 动画 */
 @property (nonatomic, unsafe_unretained) BOOL animated;
@@ -20,16 +20,16 @@
 @property (nonatomic, assign, readwrite, getter = isVisible) BOOL visible;
 
 /** mainView */
-@property (nonatomic, strong) UIView *sharingView;
+@property (nonatomic, ZT_ARC_STRONG) UIView *sharingView;
 
 /** 标题 */
-@property (nonatomic, strong, readwrite) UILabel *titleLabel;
+@property (nonatomic, ZT_ARC_STRONG, readwrite) UILabel *titleLabel;
 
 /** 描述 */
-@property (nonatomic, strong, readwrite) UITextView *descriptionLabel;
+@property (nonatomic, ZT_ARC_STRONG, readwrite) UITextView *descriptionLabel;
 
 /** 分割 */
-@property (nonatomic, strong) UIView *separatorView;
+@property (nonatomic, ZT_ARC_STRONG) UIView *separatorView;
 
 @end
 

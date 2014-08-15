@@ -19,16 +19,16 @@ const ZTTabBarConfigs *tabBarConfig;
 @interface ZTTabBar ()<ZTTabBarItemGroupDelegate>
 
 /** 显示View */
-@property (nonatomic, strong)               UIView                *transitionView;
+@property (nonatomic, ZT_ARC_STRONG)               UIView                *transitionView;
 
 /** tabBar分组 */
-@property (nonatomic, strong)               ZTTabBarItemGroup     *tabBarGroup;
+@property (nonatomic, ZT_ARC_STRONG)               ZTTabBarItemGroup     *tabBarGroup;
 
 @end
 
 @implementation ZTTabBar
 
-ZTSingleton(ZTTabBar)
+ZT_SINGLETON_DEF(ZTTabBar);
 
 //释放
 - (void)dealloc {
@@ -40,7 +40,7 @@ ZTSingleton(ZTTabBar)
     int y = 0;
     
     //显示状态栏
-    if (IOS6_OR_EARLIER) {
+    if (ZT_IOS6_OR_EARLIER) {
         [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
         [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
         y = -20;
@@ -54,12 +54,12 @@ ZTSingleton(ZTTabBar)
 
     //transitionView
     transitionView = [[UIView alloc] init];
-    transitionView.frame = CGRectMake(0, y, SCREEN_WIDTH, SCREEN_HEIGHT);
+    transitionView.frame = CGRectMake(0, y, ZT_M_SCREEN_WIDTH, ZT_M_SCREEN_HEIGHT);
     transitionView.backgroundColor = [UIColor colorWithCGColor:tabBarConfig.transitionBackgroudColor];
     [self.view addSubview:transitionView];
 
     //tabBarGroup
-    tabBarGroup = [[ZTTabBarItemGroup alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(transitionView.frame) - TAB_BAR_HEIGHT + y, SCREEN_WIDTH, TAB_BAR_HEIGHT)];
+    tabBarGroup = [[ZTTabBarItemGroup alloc] initWithFrame:CGRectMake(0, CGRectGetHeight(transitionView.frame) - ZT_M_TAB_BAR_HEIGHT + y, ZT_M_SCREEN_WIDTH, ZT_M_TAB_BAR_HEIGHT)];
     tabBarGroup.delegate = self;
     tabBarGroup.backGroudImage = [UIImage imageWithCGImage:tabBarConfig.tabBarBackgroudImage];
     [self.view addSubview:tabBarGroup];
@@ -128,12 +128,12 @@ ZTSingleton(ZTTabBar)
     }
     
     //显示
-    if (!yesORno && tabBarGroup.frame.origin.y == self.view.frame.size.height - TAB_BAR_HEIGHT) {
+    if (!yesORno && tabBarGroup.frame.origin.y == self.view.frame.size.height - ZT_M_TAB_BAR_HEIGHT) {
         return;
     }
     
     CGRect rect = tabBarGroup.frame;
-    rect.origin.y = yesORno ? rect.origin.y + TAB_BAR_HEIGHT : rect.origin.y - TAB_BAR_HEIGHT;
+    rect.origin.y = yesORno ? rect.origin.y + ZT_M_TAB_BAR_HEIGHT : rect.origin.y - ZT_M_TAB_BAR_HEIGHT;
     
     if (animated) {
         [UIView beginAnimations:nil context:nil];

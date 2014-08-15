@@ -32,6 +32,6 @@
 @property (nonatomic, unsafe_unretained)    CGImageRef  tabBarBackgroudImage;
 
 /** 气泡通知名 */
-@property (nonatomic, strong)               NSString    *tabBarBadgeNotificationName;
+@property (nonatomic, ZT_ARC_STRONG)        NSString    *tabBarBadgeNotificationName;
 
 @end

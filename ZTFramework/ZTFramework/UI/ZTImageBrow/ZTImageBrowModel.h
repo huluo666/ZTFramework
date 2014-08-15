@@ -17,18 +17,18 @@
 @interface ZTImageBrowModel : NSObject
 
 /** 图片 */
-@property (nonatomic, strong) UIImage *img;
+@property (nonatomic, ZT_ARC_STRONG) UIImage *img;
 
 /** 图片URL */
-@property (nonatomic, strong) NSString *imgURL;
+@property (nonatomic, ZT_ARC_STRONG) NSString *imgURL;
 
 /** 图片URL未读到显示 */
-@property (nonatomic, strong) NSString *imgURLplaceholderImage;
+@property (nonatomic, ZT_ARC_STRONG) NSString *imgURLplaceholderImage;
 
 /** 标题 */
-@property (nonatomic, strong) NSString *title;
+@property (nonatomic, ZT_ARC_STRONG) NSString *title;
 
 /** 描述 */
-@property (nonatomic, strong) NSString *desc;
+@property (nonatomic, ZT_ARC_STRONG) NSString *desc;
 
 @end

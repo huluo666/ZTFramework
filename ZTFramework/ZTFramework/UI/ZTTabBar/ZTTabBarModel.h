@@ -17,18 +17,18 @@
 @interface ZTTabBarModel : NSObject
 
 /** nav */
-@property (nonatomic, strong) UINavigationController *nav;
+@property (nonatomic, ZT_ARC_STRONG) UINavigationController *nav;
 
 /** viewController */
-@property (nonatomic, strong) UIViewController *viewController;
+@property (nonatomic, ZT_ARC_STRONG) UIViewController *viewController;
 
 /** 标题 */
-@property (nonatomic, strong) NSString *title;
+@property (nonatomic, ZT_ARC_STRONG) NSString *title;
 
 /** 图标 */
-@property (nonatomic, strong) NSString *image;
+@property (nonatomic, ZT_ARC_STRONG) NSString *image;
 
 /** 选中后图标 */
-@property (nonatomic, strong) NSString *imageSel;
+@property (nonatomic, ZT_ARC_STRONG) NSString *imageSel;
 
 @end
