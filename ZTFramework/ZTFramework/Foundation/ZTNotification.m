@@ -105,6 +105,8 @@ void (*ZTNotification_action)(id, SEL, ...) = (void (*)(id, SEL, ...))objc_msgSe
     
     if (nil == object) {
         NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithCapacity:8];
+        
+        //设置对象关联
         objc_setAssociatedObject(self, ZT_NOTIFICATION_NSOBJECT, dic, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
         return dic;
     }

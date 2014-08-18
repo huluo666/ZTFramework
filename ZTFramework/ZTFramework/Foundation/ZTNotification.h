@@ -10,8 +10,9 @@
 
 #import "ZTPrecompile.h"
 
-/** 通知名称 */
 #undef ZT_M_NOTIFICATION_NAME
+
+/** 通知名称 */
 #define ZT_M_NOTIFICATION_NAME(__name) ZT_TEXT(__name)
 
 /** 通知方法 */
@@ -71,4 +72,5 @@ typedef void(^ ZTNotification_block)(NSNotification *notification);
  *  @param userInfo 数据
  */
 - (void)postNotification:(NSString *)name userInfo:(id)userInfo;
+
 @end

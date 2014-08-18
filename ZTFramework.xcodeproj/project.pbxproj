@@ -10,8 +10,8 @@
 		CD5A417E1999AAA300FA68DE /* ZTSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5A417C1999AAA300FA68DE /* ZTSandbox.m */; };
 		CD5A41831999BD2200FA68DE /* ZTDataLite.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5A41811999BD2200FA68DE /* ZTDataLite.m */; };
 		CD5A41871999C3E900FA68DE /* ZTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5A41851999C3E900FA68DE /* ZTNotification.m */; };
-		CD5A418B1999C41000FA68DE /* ZTObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5A41891999C41000FA68DE /* ZTObserver.m */; };
 		CD5A418F1999C4AA00FA68DE /* ZTThread.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5A418D1999C4AA00FA68DE /* ZTThread.m */; };
+		CD6A111319A1AA0B006F22F6 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6A111219A1AA0B006F22F6 /* mainViewController.m */; };
 		CD6ED8FC1999F3380070CF4E /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = CD6ED8B51999F3380070CF4E /* bitstream.c */; };
 		CD6ED8FE1999F3380070CF4E /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = CD6ED8B71999F3380070CF4E /* mask.c */; };
 		CD6ED9011999F3380070CF4E /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6ED8BA1999F3380070CF4E /* QRCodeGenerator.m */; };
@@ -38,6 +38,8 @@
 		CD6ED92B1999F3380070CF4E /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6ED8E51999F3380070CF4E /* UIImageView+WebCache.m */; };
 		CD6ED92D1999F3380070CF4E /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6ED8E71999F3380070CF4E /* UIView+WebCacheOperation.m */; };
 		CD738BBE19988DF5001B1BAE /* ZTSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CD738BBC19988DF5001B1BAE /* ZTSystemInfo.m */; };
+		CD7EE74919A19F55004909B9 /* ZTObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7EE74719A19F55004909B9 /* ZTObserver.m */; };
+		CD7EE74A19A19F55004909B9 /* ZTObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7EE74819A19F55004909B9 /* ZTObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD845B1F1974BFE8000D6B51 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD845B1E1974BFE8000D6B51 /* Security.framework */; };
 		CDA2CA4F19654E2F00C8D186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA4E19654E2F00C8D186 /* Foundation.framework */; };
 		CDA2CA821965535500C8D186 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA811965535500C8D186 /* UIKit.framework */; };
@@ -45,6 +47,14 @@
 		CDA2CA87196553D300C8D186 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA86196553D300C8D186 /* QuartzCore.framework */; };
 		CDBDA85A196D23E3000FA46B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBDA859196D23E3000FA46B /* CoreFoundation.framework */; };
 		CDBDA870196D26E2000FA46B /* Images in Resources */ = {isa = PBXBuildFile; fileRef = CDBDA86F196D26E2000FA46B /* Images */; };
+		CDC6399B19A1A1AD00571D73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA4E19654E2F00C8D186 /* Foundation.framework */; };
+		CDC6399C19A1A1AD00571D73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA831965536E00C8D186 /* CoreGraphics.framework */; };
+		CDC6399D19A1A1AD00571D73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA811965535500C8D186 /* UIKit.framework */; };
+		CDC639A319A1A1AD00571D73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDC639A119A1A1AD00571D73 /* InfoPlist.strings */; };
+		CDC639A519A1A1AD00571D73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC639A419A1A1AD00571D73 /* main.m */; };
+		CDC639A919A1A1AD00571D73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC639A819A1A1AD00571D73 /* AppDelegate.m */; };
+		CDC639AB19A1A1AD00571D73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC639AA19A1A1AD00571D73 /* Images.xcassets */; };
+		CDC639C419A1A1CB00571D73 /* libZTFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA4B19654E2F00C8D186 /* libZTFramework.a */; };
 		CDC77AD1199AFEE500AF1043 /* ZTDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490ED199329F600496F24 /* ZTDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDC77AD3199AFEFD00AF1043 /* ZTMacroUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF490FE19932E0700496F24 /* ZTMacroUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDC77AD4199AFEFD00AF1043 /* ZTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = CD536CB619988D09001F3587 /* ZTFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -52,7 +62,6 @@
 		CDC77AD6199AFEFD00AF1043 /* ZTSandbox.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5A417B1999AAA300FA68DE /* ZTSandbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDC77AD7199AFEFD00AF1043 /* ZTDataLite.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5A41801999BD2200FA68DE /* ZTDataLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDC77AD8199AFEFD00AF1043 /* ZTNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5A41841999C3E900FA68DE /* ZTNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CDC77AD9199AFEFD00AF1043 /* ZTObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5A41881999C41000FA68DE /* ZTObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDC77ADA199AFEFD00AF1043 /* ZTThread.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5A418C1999C4AA00FA68DE /* ZTThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDC77ADB199AFEFD00AF1043 /* ZTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD75C0E1999E57F00E56B80 /* ZTCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDC77ADC199AFF7C00AF1043 /* ZTWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD75D521999EE4E00E56B80 /* ZTWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -138,10 +147,10 @@
 		CD5A41811999BD2200FA68DE /* ZTDataLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTDataLite.m; sourceTree = "<group>"; };
 		CD5A41841999C3E900FA68DE /* ZTNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTNotification.h; sourceTree = "<group>"; };
 		CD5A41851999C3E900FA68DE /* ZTNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTNotification.m; sourceTree = "<group>"; };
-		CD5A41881999C41000FA68DE /* ZTObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTObserver.h; sourceTree = "<group>"; };
-		CD5A41891999C41000FA68DE /* ZTObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTObserver.m; sourceTree = "<group>"; };
 		CD5A418C1999C4AA00FA68DE /* ZTThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTThread.h; sourceTree = "<group>"; };
 		CD5A418D1999C4AA00FA68DE /* ZTThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTThread.m; sourceTree = "<group>"; };
+		CD6A111119A1AA0B006F22F6 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		CD6A111219A1AA0B006F22F6 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
 		CD6ED8A01999F3380070CF4E /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
 		CD6ED8A11999F3380070CF4E /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
 		CD6ED8A21999F3380070CF4E /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
@@ -214,6 +223,8 @@
 		CD6ED8E71999F3380070CF4E /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		CD738BBB19988DF5001B1BAE /* ZTSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTSystemInfo.h; sourceTree = "<group>"; };
 		CD738BBC19988DF5001B1BAE /* ZTSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTSystemInfo.m; sourceTree = "<group>"; };
+		CD7EE74719A19F55004909B9 /* ZTObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTObserver.m; sourceTree = "<group>"; };
+		CD7EE74819A19F55004909B9 /* ZTObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTObserver.h; sourceTree = "<group>"; };
 		CD845B1E1974BFE8000D6B51 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CDA2CA4B19654E2F00C8D186 /* libZTFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZTFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA2CA4E19654E2F00C8D186 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -226,6 +237,14 @@
 		CDBDA859196D23E3000FA46B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		CDBDA85D196D23E3000FA46B /* ZTFrameworkBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZTFrameworkBundle-Info.plist"; sourceTree = "<group>"; };
 		CDBDA86F196D26E2000FA46B /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		CDC6399A19A1A1AD00571D73 /* main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = main.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC639A019A1A1AD00571D73 /* main-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "main-Info.plist"; sourceTree = "<group>"; };
+		CDC639A219A1A1AD00571D73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC639A419A1A1AD00571D73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDC639A619A1A1AD00571D73 /* main-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "main-Prefix.pch"; sourceTree = "<group>"; };
+		CDC639A719A1A1AD00571D73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDC639A819A1A1AD00571D73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDC639AA19A1A1AD00571D73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CDD75C0E1999E57F00E56B80 /* ZTCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTCommon.h; sourceTree = "<group>"; };
 		CDD75C0F1999E57F00E56B80 /* ZTCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTCommon.m; sourceTree = "<group>"; };
 		CDD75C591999ECAF00E56B80 /* ZTUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTUDID.h; sourceTree = "<group>"; };
@@ -315,6 +334,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDBDA85A196D23E3000FA46B /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC6399719A1A1AD00571D73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC639C419A1A1CB00571D73 /* libZTFramework.a in Frameworks */,
+				CDC6399C19A1A1AD00571D73 /* CoreGraphics.framework in Frameworks */,
+				CDC6399D19A1A1AD00571D73 /* UIKit.framework in Frameworks */,
+				CDC6399B19A1A1AD00571D73 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +484,7 @@
 			children = (
 				CDA2CA5019654E2F00C8D186 /* ZTFramework */,
 				CDBDA85B196D23E3000FA46B /* ZTFrameworkBundle */,
+				CDC6399E19A1A1AD00571D73 /* main */,
 				CDA2CA4D19654E2F00C8D186 /* Frameworks */,
 				CDA2CA4C19654E2F00C8D186 /* Products */,
 			);
@@ -464,6 +495,7 @@
 			children = (
 				CDA2CA4B19654E2F00C8D186 /* libZTFramework.a */,
 				CDBDA858196D23E3000FA46B /* ZTFrameworkBundle.bundle */,
+				CDC6399A19A1A1AD00571D73 /* main.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -522,6 +554,30 @@
 			isa = PBXGroup;
 			children = (
 				CDBDA85D196D23E3000FA46B /* ZTFrameworkBundle-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDC6399E19A1A1AD00571D73 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				CDC639A719A1A1AD00571D73 /* AppDelegate.h */,
+				CDC639A819A1A1AD00571D73 /* AppDelegate.m */,
+				CDC639AA19A1A1AD00571D73 /* Images.xcassets */,
+				CDC6399F19A1A1AD00571D73 /* Supporting Files */,
+				CD6A111119A1AA0B006F22F6 /* mainViewController.h */,
+				CD6A111219A1AA0B006F22F6 /* mainViewController.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		CDC6399F19A1A1AD00571D73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC639A019A1A1AD00571D73 /* main-Info.plist */,
+				CDC639A119A1A1AD00571D73 /* InfoPlist.strings */,
+				CDC639A419A1A1AD00571D73 /* main.m */,
+				CDC639A619A1A1AD00571D73 /* main-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -718,22 +774,22 @@
 		CDF490F719932ACD00496F24 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				CDF490FE19932E0700496F24 /* ZTMacroUtils.h */,
-				CD536CB619988D09001F3587 /* ZTFoundation.h */,
-				CD738BBB19988DF5001B1BAE /* ZTSystemInfo.h */,
-				CD738BBC19988DF5001B1BAE /* ZTSystemInfo.m */,
-				CD5A417B1999AAA300FA68DE /* ZTSandbox.h */,
-				CD5A417C1999AAA300FA68DE /* ZTSandbox.m */,
-				CD5A41801999BD2200FA68DE /* ZTDataLite.h */,
-				CD5A41811999BD2200FA68DE /* ZTDataLite.m */,
-				CD5A41841999C3E900FA68DE /* ZTNotification.h */,
-				CD5A41851999C3E900FA68DE /* ZTNotification.m */,
-				CD5A41881999C41000FA68DE /* ZTObserver.h */,
-				CD5A41891999C41000FA68DE /* ZTObserver.m */,
-				CD5A418C1999C4AA00FA68DE /* ZTThread.h */,
-				CD5A418D1999C4AA00FA68DE /* ZTThread.m */,
 				CDD75C0E1999E57F00E56B80 /* ZTCommon.h */,
 				CDD75C0F1999E57F00E56B80 /* ZTCommon.m */,
+				CD5A41801999BD2200FA68DE /* ZTDataLite.h */,
+				CD5A41811999BD2200FA68DE /* ZTDataLite.m */,
+				CD536CB619988D09001F3587 /* ZTFoundation.h */,
+				CDF490FE19932E0700496F24 /* ZTMacroUtils.h */,
+				CD5A41841999C3E900FA68DE /* ZTNotification.h */,
+				CD5A41851999C3E900FA68DE /* ZTNotification.m */,
+				CD7EE74819A19F55004909B9 /* ZTObserver.h */,
+				CD7EE74719A19F55004909B9 /* ZTObserver.m */,
+				CD5A417B1999AAA300FA68DE /* ZTSandbox.h */,
+				CD5A417C1999AAA300FA68DE /* ZTSandbox.m */,
+				CD738BBB19988DF5001B1BAE /* ZTSystemInfo.h */,
+				CD738BBC19988DF5001B1BAE /* ZTSystemInfo.m */,
+				CD5A418C1999C4AA00FA68DE /* ZTThread.h */,
+				CD5A418D1999C4AA00FA68DE /* ZTThread.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -782,7 +838,7 @@
 				CDC77AFC199AFF7D00AF1043 /* ZTPrecompile.h in Headers */,
 				CDC77AD7199AFEFD00AF1043 /* ZTDataLite.h in Headers */,
 				CDC77AD8199AFEFD00AF1043 /* ZTNotification.h in Headers */,
-				CDC77AD9199AFEFD00AF1043 /* ZTObserver.h in Headers */,
+				CD7EE74A19A19F55004909B9 /* ZTObserver.h in Headers */,
 				CDC77ADA199AFEFD00AF1043 /* ZTThread.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -826,6 +882,23 @@
 			productReference = CDBDA858196D23E3000FA46B /* ZTFrameworkBundle.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		CDC6399919A1A1AD00571D73 /* main */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC639C219A1A1AD00571D73 /* Build configuration list for PBXNativeTarget "main" */;
+			buildPhases = (
+				CDC6399619A1A1AD00571D73 /* Sources */,
+				CDC6399719A1A1AD00571D73 /* Frameworks */,
+				CDC6399819A1A1AD00571D73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = main;
+			productName = main;
+			productReference = CDC6399A19A1A1AD00571D73 /* main.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -850,6 +923,7 @@
 			targets = (
 				CDA2CA4A19654E2F00C8D186 /* ZTFramework */,
 				CDBDA857196D23E3000FA46B /* ZTFrameworkBundle */,
+				CDC6399919A1A1AD00571D73 /* main */,
 			);
 		};
 /* End PBXProject section */
@@ -867,6 +941,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDBDA870196D26E2000FA46B /* Images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC6399819A1A1AD00571D73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC639A319A1A1AD00571D73 /* InfoPlist.strings in Resources */,
+				CDC639AB19A1A1AD00571D73 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -913,7 +996,6 @@
 				CD6ED9081999F3380070CF4E /* rscode.c in Sources */,
 				CD6ED9211999F3380070CF4E /* UIButton+WebCache.m in Sources */,
 				CD6ED9141999F3380070CF4E /* SDWebImageCompat.m in Sources */,
-				CD5A418B1999C41000FA68DE /* ZTObserver.m in Sources */,
 				CDD75DC11999EE4E00E56B80 /* ZTImageView.m in Sources */,
 				CDD75D9F1999EE4E00E56B80 /* ZTTableDataSource.m in Sources */,
 				CD6ED9061999F3380070CF4E /* qrspec.c in Sources */,
@@ -939,6 +1021,7 @@
 				CDD75DD31999EE4E00E56B80 /* ZTAnimation.m in Sources */,
 				CDD75DC51999EE4E00E56B80 /* ZTImageScrollViewModel.m in Sources */,
 				CD6ED9121999F3380070CF4E /* SDImageCache.m in Sources */,
+				CD7EE74919A19F55004909B9 /* ZTObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -949,7 +1032,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDC6399619A1A1AD00571D73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6A111319A1AA0B006F22F6 /* mainViewController.m in Sources */,
+				CDC639A919A1A1AD00571D73 /* AppDelegate.m in Sources */,
+				CDC639A519A1A1AD00571D73 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDC639A119A1A1AD00571D73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC639A219A1A1AD00571D73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CDA2CA6C19654E2F00C8D186 /* Debug */ = {
@@ -1103,6 +1207,38 @@
 			};
 			name = Release;
 		};
+		CDC639BE19A1A1AD00571D73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "main/main-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "main/main-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDC639BF19A1A1AD00571D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "main/main-Prefix.pch";
+				INFOPLIST_FILE = "main/main-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1129,6 +1265,15 @@
 			buildConfigurations = (
 				CDBDA863196D23E3000FA46B /* Debug */,
 				CDBDA864196D23E3000FA46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC639C219A1A1AD00571D73 /* Build configuration list for PBXNativeTarget "main" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC639BE19A1A1AD00571D73 /* Debug */,
+				CDC639BF19A1A1AD00571D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
