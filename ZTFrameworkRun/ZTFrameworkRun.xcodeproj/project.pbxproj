@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD13B51319A490E900691454 /* ZTFrameworkRun-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD13B50B19A490E900691454 /* ZTFrameworkRun-Info.plist */; };
+		CD13B51419A490E900691454 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD13B50C19A490E900691454 /* main.m */; };
+		CD13B51519A490E900691454 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD13B50D19A490E900691454 /* Images.xcassets */; };
+		CD13B51619A490E900691454 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD13B50F19A490E900691454 /* InfoPlist.strings */; };
+		CD13B51719A490E900691454 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD13B51119A490E900691454 /* AppDelegate.m */; };
+		CD13B51B19A4963F00691454 /* libZTFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD13B51A19A4963F00691454 /* libZTFramework.a */; };
+		CD13B51D19A496A500691454 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD13B51C19A496A500691454 /* Security.framework */; };
+		CD13B51F19A496AD00691454 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD13B51E19A496AD00691454 /* QuartzCore.framework */; };
+		CD13B52119A496BB00691454 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD13B52019A496BB00691454 /* CoreFoundation.framework */; };
+		CD13B52A19A4987900691454 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD13B52219A4981200691454 /* libsqlite3.dylib */; };
+		CD13B52B19A4988000691454 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD13B52419A4982D00691454 /* libiconv.dylib */; };
+		CD13B52E19A49A9800691454 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD13B52D19A49A9800691454 /* Storyboard.storyboard */; };
+		CD13B53119A49AD500691454 /* listVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD13B53019A49AD500691454 /* listVC.m */; };
+		CD13B53519A49BB100691454 /* debugVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD13B53419A49BB100691454 /* debugVC.m */; };
+		CDA1466719A4905500A402A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA1466619A4905500A402A8 /* Foundation.framework */; };
+		CDA1466919A4905500A402A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA1466819A4905500A402A8 /* CoreGraphics.framework */; };
+		CDA1466B19A4905500A402A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA1466A19A4905500A402A8 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD13B50A19A490E900691454 /* ZTFrameworkRun-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZTFrameworkRun-Prefix.pch"; sourceTree = "<group>"; };
+		CD13B50B19A490E900691454 /* ZTFrameworkRun-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ZTFrameworkRun-Info.plist"; sourceTree = "<group>"; };
+		CD13B50C19A490E900691454 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD13B50D19A490E900691454 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD13B51019A490E900691454 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		CD13B51119A490E900691454 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD13B51219A490E900691454 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD13B51819A4931E00691454 /* libZTFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZTFramework.a; path = "/Volumes/E/product/ZTFramework/ZTFramework/../build/Release-iphoneos/libZTFramework.a"; sourceTree = "<absolute>"; };
+		CD13B51A19A4963F00691454 /* libZTFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZTFramework.a; path = "../build/Debug-iphonesimulator/libZTFramework.a"; sourceTree = "<group>"; };
+		CD13B51C19A496A500691454 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CD13B51E19A496AD00691454 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CD13B52019A496BB00691454 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		CD13B52219A4981200691454 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CD13B52419A4982D00691454 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		CD13B52D19A49A9800691454 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CD13B52F19A49AD500691454 /* listVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listVC.h; sourceTree = "<group>"; };
+		CD13B53019A49AD500691454 /* listVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listVC.m; sourceTree = "<group>"; };
+		CD13B53319A49BB100691454 /* debugVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debugVC.h; sourceTree = "<group>"; };
+		CD13B53419A49BB100691454 /* debugVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = debugVC.m; sourceTree = "<group>"; };
+		CDA1466319A4905500A402A8 /* ZTFrameworkRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTFrameworkRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA1466619A4905500A402A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDA1466819A4905500A402A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDA1466A19A4905500A402A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDA1467F19A4905500A402A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA1466019A4905500A402A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD13B52B19A4988000691454 /* libiconv.dylib in Frameworks */,
+				CD13B52A19A4987900691454 /* libsqlite3.dylib in Frameworks */,
+				CD13B52119A496BB00691454 /* CoreFoundation.framework in Frameworks */,
+				CD13B51F19A496AD00691454 /* QuartzCore.framework in Frameworks */,
+				CD13B51D19A496A500691454 /* Security.framework in Frameworks */,
+				CD13B51B19A4963F00691454 /* libZTFramework.a in Frameworks */,
+				CDA1466919A4905500A402A8 /* CoreGraphics.framework in Frameworks */,
+				CDA1466B19A4905500A402A8 /* UIKit.framework in Frameworks */,
+				CDA1466719A4905500A402A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD13B50719A490A900691454 /* ZTFrameworkRun */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B50819A490C500691454 /* ZTFrameworkRun */,
+				CD13B50919A490D400691454 /* Supporting Files */,
+			);
+			name = ZTFrameworkRun;
+			sourceTree = "<group>";
+		};
+		CD13B50819A490C500691454 /* ZTFrameworkRun */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B52C19A49A8A00691454 /* VC */,
+				CD13B52D19A49A9800691454 /* Storyboard.storyboard */,
+			);
+			path = ZTFrameworkRun;
+			sourceTree = "<group>";
+		};
+		CD13B50919A490D400691454 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B50A19A490E900691454 /* ZTFrameworkRun-Prefix.pch */,
+				CD13B50B19A490E900691454 /* ZTFrameworkRun-Info.plist */,
+				CD13B50C19A490E900691454 /* main.m */,
+				CD13B50D19A490E900691454 /* Images.xcassets */,
+				CD13B50E19A490E900691454 /* en.lproj */,
+				CD13B51119A490E900691454 /* AppDelegate.m */,
+				CD13B51219A490E900691454 /* AppDelegate.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD13B50E19A490E900691454 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B50F19A490E900691454 /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		CD13B52C19A49A8A00691454 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B53219A49B9F00691454 /* Debug */,
+				CD13B52F19A49AD500691454 /* listVC.h */,
+				CD13B53019A49AD500691454 /* listVC.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		CD13B53219A49B9F00691454 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B53319A49BB100691454 /* debugVC.h */,
+				CD13B53419A49BB100691454 /* debugVC.m */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		CDA1465A19A4905500A402A8 = {
+			isa = PBXGroup;
+			children = (
+				CD13B50719A490A900691454 /* ZTFrameworkRun */,
+				CDA1466519A4905500A402A8 /* Frameworks */,
+				CDA1466419A4905500A402A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA1466419A4905500A402A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1466319A4905500A402A8 /* ZTFrameworkRun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA1466519A4905500A402A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B52419A4982D00691454 /* libiconv.dylib */,
+				CD13B52219A4981200691454 /* libsqlite3.dylib */,
+				CD13B52019A496BB00691454 /* CoreFoundation.framework */,
+				CD13B51E19A496AD00691454 /* QuartzCore.framework */,
+				CD13B51C19A496A500691454 /* Security.framework */,
+				CD13B51A19A4963F00691454 /* libZTFramework.a */,
+				CD13B51819A4931E00691454 /* libZTFramework.a */,
+				CDA1466619A4905500A402A8 /* Foundation.framework */,
+				CDA1466819A4905500A402A8 /* CoreGraphics.framework */,
+				CDA1466A19A4905500A402A8 /* UIKit.framework */,
+				CDA1467F19A4905500A402A8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDA1466219A4905500A402A8 /* ZTFrameworkRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA1468F19A4905500A402A8 /* Build configuration list for PBXNativeTarget "ZTFrameworkRun" */;
+			buildPhases = (
+				CDA1465F19A4905500A402A8 /* Sources */,
+				CDA1466019A4905500A402A8 /* Frameworks */,
+				CDA1466119A4905500A402A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTFrameworkRun;
+			productName = ZTFrameworkRun;
+			productReference = CDA1466319A4905500A402A8 /* ZTFrameworkRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA1465B19A4905500A402A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Fighting;
+			};
+			buildConfigurationList = CDA1465E19A4905500A402A8 /* Build configuration list for PBXProject "ZTFrameworkRun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDA1465A19A4905500A402A8;
+			productRefGroup = CDA1466419A4905500A402A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA1466219A4905500A402A8 /* ZTFrameworkRun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDA1466119A4905500A402A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD13B51319A490E900691454 /* ZTFrameworkRun-Info.plist in Resources */,
+				CD13B52E19A49A9800691454 /* Storyboard.storyboard in Resources */,
+				CD13B51619A490E900691454 /* InfoPlist.strings in Resources */,
+				CD13B51519A490E900691454 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA1465F19A4905500A402A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD13B53519A49BB100691454 /* debugVC.m in Sources */,
+				CD13B51719A490E900691454 /* AppDelegate.m in Sources */,
+				CD13B51419A490E900691454 /* main.m in Sources */,
+				CD13B53119A49AD500691454 /* listVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD13B50F19A490E900691454 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD13B51019A490E900691454 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDA1468D19A4905500A402A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDA1468E19A4905500A402A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA1469019A4905500A402A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7,armv7s";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/../build/$(TARGET_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZTFrameworkRun-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/include",
+				);
+				INFOPLIST_FILE = "ZTFrameworkRun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-objC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = "$(SRCROOT)/../build";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDA1469119A4905500A402A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7,armv7s";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/../build/$(TARGET_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZTFrameworkRun-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/include",
+				);
+				INFOPLIST_FILE = "ZTFrameworkRun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+					"/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator",
+				);
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-objC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = "$(SRCROOT)/../build";
+				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/include";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA1465E19A4905500A402A8 /* Build configuration list for PBXProject "ZTFrameworkRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA1468D19A4905500A402A8 /* Debug */,
+				CDA1468E19A4905500A402A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA1468F19A4905500A402A8 /* Build configuration list for PBXNativeTarget "ZTFrameworkRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA1469019A4905500A402A8 /* Debug */,
+				CDA1469119A4905500A402A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA1465B19A4905500A402A8 /* Project object */;
+}

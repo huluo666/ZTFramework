@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>189F708B-05F4-40CF-A834-8A9242CF9623</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZTFramework</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>ECAF9860-C65D-4420-A961-DD27AF6373A9</key>
+		<string>https://github.com/Fighting023/ZTFramework.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZTFramework.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>ECAF9860-C65D-4420-A961-DD27AF6373A9</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Fighting023/ZTFramework.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>ECAF9860-C65D-4420-A961-DD27AF6373A9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ECAF9860-C65D-4420-A961-DD27AF6373A9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZTFramework</string>
+		</dict>
+	</array>
+</dict>
+</plist>

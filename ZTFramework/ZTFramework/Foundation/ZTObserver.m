@@ -200,7 +200,7 @@ typedef NS_ENUM(NSInteger, ZT_OBSERVER_TYPE) {
 - (void)removeObserverWithObject:(id)sender property:(NSString *)property {
     NSString *key = [NSString stringWithFormat:@"%@_%@", sender, property];
     
-    NSLog(@"kvo remove key ===> %@", key);
+    ZTLogD(@"kvo remove key ===> %@", key);
     
     [self.observers removeObjectForKey:key];
 }
@@ -211,8 +211,7 @@ typedef NS_ENUM(NSInteger, ZT_OBSERVER_TYPE) {
     [self.observers enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) {
         if ([key hasPrefix:prefix]) {
             [self.observers removeObjectForKey:key];
-            
-            NSLog(@"kvo remove key ===> %@", key);
+            ZTLogD(@"kvo remove key ===> %@", key);
         }
     }];
 }
@@ -220,7 +219,7 @@ typedef NS_ENUM(NSInteger, ZT_OBSERVER_TYPE) {
 - (void)removeAllObserver {
     [self.observers removeAllObjects];
     
-    NSLog(@"kvo remove Allkey");
+    ZTLogD(@"kvo remove Allkey");
 }
 
 #pragma mark - Private
@@ -238,7 +237,7 @@ typedef NS_ENUM(NSInteger, ZT_OBSERVER_TYPE) {
     
     NSString *key = [NSString stringWithFormat:@"%@_%@", object, keyPath];
     
-    NSLog(@"observer key ===> %@", key);
+    ZTLogD(@"observer key ===> %@", key);
     
     [self.observers setObject:ob forKey:key];
 }
@@ -250,7 +249,7 @@ typedef NS_ENUM(NSInteger, ZT_OBSERVER_TYPE) {
     
     NSString *key = [NSString stringWithFormat:@"%@_%@", object, keyPath];
     
-    NSLog(@"observer key ===> %@", key);
+    ZTLogD(@"observer key ===> %@", key);
     
     [self.observers setObject:ob forKey:key];
 }

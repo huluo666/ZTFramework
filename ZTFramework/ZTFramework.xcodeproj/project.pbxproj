@@ -1,0 +1,1441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD13B52719A4985800691454 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD13B52619A4985800691454 /* libsqlite3.dylib */; };
+		CD13B52919A4986100691454 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD13B52819A4986100691454 /* libiconv.dylib */; };
+		CD845B1F1974BFE8000D6B51 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD845B1E1974BFE8000D6B51 /* Security.framework */; };
+		CDA1459619A48E8F00A402A8 /* ZTDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144B419A48E8F00A402A8 /* ZTDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1459719A48E8F00A402A8 /* ZTDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144B519A48E8F00A402A8 /* ZTDebug.m */; };
+		CDA1459819A48E8F00A402A8 /* NSArray+ZT.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144B719A48E8F00A402A8 /* NSArray+ZT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1459919A48E8F00A402A8 /* NSArray+ZT.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144B819A48E8F00A402A8 /* NSArray+ZT.m */; };
+		CDA1459A19A48E8F00A402A8 /* NSObject+ZT.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144B919A48E8F00A402A8 /* NSObject+ZT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1459B19A48E8F00A402A8 /* NSObject+ZT.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144BA19A48E8F00A402A8 /* NSObject+ZT.m */; };
+		CDA1459C19A48E8F00A402A8 /* ZTExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144BB19A48E8F00A402A8 /* ZTExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1459D19A48E8F00A402A8 /* ZTExt_LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144BE19A48E8F00A402A8 /* ZTExt_LKDBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1459E19A48E8F00A402A8 /* ZTExt_LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144BF19A48E8F00A402A8 /* ZTExt_LKDBHelper.m */; };
+		CDA1459F19A48E8F00A402A8 /* ZTExternalExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144C019A48E8F00A402A8 /* ZTExternalExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145A019A48E8F00A402A8 /* FMDatabase+InMemoryOnDiskIO.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144C319A48E8F00A402A8 /* FMDatabase+InMemoryOnDiskIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145A119A48E8F00A402A8 /* FMDatabase+InMemoryOnDiskIO.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144C419A48E8F00A402A8 /* FMDatabase+InMemoryOnDiskIO.m */; };
+		CDA145A219A48E8F00A402A8 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144C619A48E8F00A402A8 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145A319A48E8F00A402A8 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144C719A48E8F00A402A8 /* FMDatabase.m */; };
+		CDA145A419A48E8F00A402A8 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144C819A48E8F00A402A8 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145A519A48E8F00A402A8 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144C919A48E8F00A402A8 /* FMDatabaseAdditions.m */; };
+		CDA145A619A48E8F00A402A8 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144CA19A48E8F00A402A8 /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145A719A48E8F00A402A8 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144CB19A48E8F00A402A8 /* FMDatabasePool.m */; };
+		CDA145A819A48E8F00A402A8 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144CC19A48E8F00A402A8 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145A919A48E8F00A402A8 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144CD19A48E8F00A402A8 /* FMDatabaseQueue.m */; };
+		CDA145AA19A48E8F00A402A8 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144CE19A48E8F00A402A8 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145AB19A48E8F00A402A8 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144CF19A48E8F00A402A8 /* FMResultSet.m */; };
+		CDA145AC19A48E8F00A402A8 /* LKDB+Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144D119A48E8F00A402A8 /* LKDB+Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145AD19A48E8F00A402A8 /* LKDB+Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144D219A48E8F00A402A8 /* LKDB+Manager.m */; };
+		CDA145AE19A48E8F00A402A8 /* LKDB+Mapping.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144D319A48E8F00A402A8 /* LKDB+Mapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145AF19A48E8F00A402A8 /* LKDB+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144D419A48E8F00A402A8 /* LKDB+Mapping.m */; };
+		CDA145B019A48E8F00A402A8 /* LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144D519A48E8F00A402A8 /* LKDBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145B119A48E8F00A402A8 /* LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144D619A48E8F00A402A8 /* LKDBHelper.m */; };
+		CDA145B219A48E8F00A402A8 /* LKDBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144D719A48E8F00A402A8 /* LKDBUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145B319A48E8F00A402A8 /* LKDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144D819A48E8F00A402A8 /* LKDBUtils.m */; };
+		CDA145B419A48E8F00A402A8 /* NSObject+LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144D919A48E8F00A402A8 /* NSObject+LKDBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145B519A48E8F00A402A8 /* NSObject+LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144DA19A48E8F00A402A8 /* NSObject+LKDBHelper.m */; };
+		CDA145B619A48E8F00A402A8 /* NSObject+LKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144DB19A48E8F00A402A8 /* NSObject+LKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145B719A48E8F00A402A8 /* NSObject+LKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144DC19A48E8F00A402A8 /* NSObject+LKModel.m */; };
+		CDA145B819A48E8F00A402A8 /* MKAnnotationView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144DE19A48E8F00A402A8 /* MKAnnotationView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145B919A48E8F00A402A8 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144DF19A48E8F00A402A8 /* MKAnnotationView+WebCache.m */; };
+		CDA145BA19A48E8F00A402A8 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144E019A48E8F00A402A8 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145BB19A48E8F00A402A8 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144E119A48E8F00A402A8 /* NSData+ImageContentType.m */; };
+		CDA145BC19A48E8F00A402A8 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144E219A48E8F00A402A8 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145BD19A48E8F00A402A8 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144E319A48E8F00A402A8 /* SDImageCache.m */; };
+		CDA145BE19A48E8F00A402A8 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144E419A48E8F00A402A8 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145BF19A48E8F00A402A8 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144E519A48E8F00A402A8 /* SDWebImageCompat.m */; };
+		CDA145C119A48E8F00A402A8 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144E719A48E8F00A402A8 /* SDWebImageDecoder.m */; };
+		CDA145C219A48E8F00A402A8 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144E819A48E8F00A402A8 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145C319A48E8F00A402A8 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144E919A48E8F00A402A8 /* SDWebImageDownloader.m */; };
+		CDA145C519A48E8F00A402A8 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144EB19A48E8F00A402A8 /* SDWebImageDownloaderOperation.m */; };
+		CDA145C719A48E8F00A402A8 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144ED19A48E8F00A402A8 /* SDWebImageManager.m */; };
+		CDA145CA19A48E8F00A402A8 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144F019A48E8F00A402A8 /* SDWebImagePrefetcher.m */; };
+		CDA145CC19A48E8F00A402A8 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144F219A48E8F00A402A8 /* UIButton+WebCache.m */; };
+		CDA145CE19A48E8F00A402A8 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144F419A48E8F00A402A8 /* UIImage+GIF.m */; };
+		CDA145D019A48E8F00A402A8 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144F619A48E8F00A402A8 /* UIImage+MultiFormat.m */; };
+		CDA145D219A48E8F00A402A8 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144F819A48E8F00A402A8 /* UIImage+WebP.m */; };
+		CDA145D319A48E8F00A402A8 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144F919A48E8F00A402A8 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145D419A48E8F00A402A8 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144FA19A48E8F00A402A8 /* UIImageView+HighlightedWebCache.m */; };
+		CDA145D519A48E8F00A402A8 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA144FB19A48E8F00A402A8 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145D619A48E8F00A402A8 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144FC19A48E8F00A402A8 /* UIImageView+WebCache.m */; };
+		CDA145D819A48E8F00A402A8 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA144FE19A48E8F00A402A8 /* UIView+WebCacheOperation.m */; };
+		CDA145D919A48E8F00A402A8 /* YYJSONHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1450019A48E8F00A402A8 /* YYJSONHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145DA19A48E8F00A402A8 /* YYJSONHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1450119A48E8F00A402A8 /* YYJSONHelper.m */; };
+		CDA145DB19A48E8F00A402A8 /* Decoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1450619A48E8F00A402A8 /* Decoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145DE19A48E8F00A402A8 /* ImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1450919A48E8F00A402A8 /* ImageScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145DF19A48E8F00A402A8 /* Processor.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1450A19A48E8F00A402A8 /* Processor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145E019A48E8F00A402A8 /* Scanner.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1450B19A48E8F00A402A8 /* Scanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145E219A48E8F00A402A8 /* Video.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1450D19A48E8F00A402A8 /* Video.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145E419A48E8F00A402A8 /* zbar.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1450F19A48E8F00A402A8 /* zbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145E619A48E8F00A402A8 /* ZBarCaptureReader.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1451119A48E8F00A402A8 /* ZBarCaptureReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145E719A48E8F00A402A8 /* ZBarHelpController.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1451219A48E8F00A402A8 /* ZBarHelpController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145E819A48E8F00A402A8 /* ZBarImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1451319A48E8F00A402A8 /* ZBarImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145E919A48E8F00A402A8 /* ZBarImageScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1451419A48E8F00A402A8 /* ZBarImageScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145EC19A48E8F00A402A8 /* ZBarReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1451719A48E8F00A402A8 /* ZBarReaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145ED19A48E8F00A402A8 /* ZBarSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1451819A48E8F00A402A8 /* ZBarSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145EE19A48E8F00A402A8 /* ZBarSymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1451919A48E8F00A402A8 /* ZBarSymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145EF19A48E8F00A402A8 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = CDA1451B19A48E8F00A402A8 /* bitstream.c */; };
+		CDA145F119A48E8F00A402A8 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = CDA1451D19A48E8F00A402A8 /* mask.c */; };
+		CDA145F319A48E8F00A402A8 /* QRCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1451F19A48E8F00A402A8 /* QRCodeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145F419A48E8F00A402A8 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1452019A48E8F00A402A8 /* QRCodeGenerator.m */; };
+		CDA145F519A48E8F00A402A8 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = CDA1452119A48E8F00A402A8 /* qrencode.c */; };
+		CDA145F719A48E8F00A402A8 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = CDA1452319A48E8F00A402A8 /* qrinput.c */; };
+		CDA145F919A48E8F00A402A8 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = CDA1452519A48E8F00A402A8 /* qrspec.c */; };
+		CDA145FB19A48E8F00A402A8 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = CDA1452719A48E8F00A402A8 /* rscode.c */; };
+		CDA145FC19A48E8F00A402A8 /* rscode.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1452819A48E8F00A402A8 /* rscode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA145FD19A48E8F00A402A8 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = CDA1452919A48E8F00A402A8 /* split.c */; };
+		CDA145FF19A48E8F00A402A8 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA1452B19A48E8F00A402A8 /* libzbar.a */; };
+		CDA1460019A48E8F00A402A8 /* ZTExternal.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1452C19A48E8F00A402A8 /* ZTExternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1460119A48E8F00A402A8 /* ZTExternalPrecompile.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1452D19A48E8F00A402A8 /* ZTExternalPrecompile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1460219A48E8F00A402A8 /* ZTCache.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1453019A48E8F00A402A8 /* ZTCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1460319A48E8F00A402A8 /* ZTCacheFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1453119A48E8F00A402A8 /* ZTCacheFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1460419A48E8F00A402A8 /* ZTCacheFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1453219A48E8F00A402A8 /* ZTCacheFile.m */; };
+		CDA1460519A48E8F00A402A8 /* ZTCacheMemory.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1453319A48E8F00A402A8 /* ZTCacheMemory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1460619A48E8F00A402A8 /* ZTCacheMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1453419A48E8F00A402A8 /* ZTCacheMemory.m */; };
+		CDA1460719A48E8F00A402A8 /* ZTCacheProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1453519A48E8F00A402A8 /* ZTCacheProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1460819A48E8F00A402A8 /* ZTCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1453619A48E8F00A402A8 /* ZTCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1460919A48E8F00A402A8 /* ZTCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1453719A48E8F00A402A8 /* ZTCommon.m */; };
+		CDA1460A19A48E8F00A402A8 /* ZTDataLite.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1453819A48E8F00A402A8 /* ZTDataLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1460B19A48E8F00A402A8 /* ZTDataLite.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1453919A48E8F00A402A8 /* ZTDataLite.m */; };
+		CDA1460C19A48E8F00A402A8 /* ZTFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1453A19A48E8F00A402A8 /* ZTFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1460D19A48E8F00A402A8 /* ZTMacroUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1453B19A48E8F00A402A8 /* ZTMacroUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1460E19A48E8F00A402A8 /* ZTNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1453C19A48E8F00A402A8 /* ZTNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1460F19A48E8F00A402A8 /* ZTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1453D19A48E8F00A402A8 /* ZTNotification.m */; };
+		CDA1461019A48E8F00A402A8 /* ZTObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1453E19A48E8F00A402A8 /* ZTObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1461119A48E8F00A402A8 /* ZTObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1453F19A48E8F00A402A8 /* ZTObserver.m */; };
+		CDA1461219A48E8F00A402A8 /* ZTSandbox.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1454019A48E8F00A402A8 /* ZTSandbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1461319A48E8F00A402A8 /* ZTSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1454119A48E8F00A402A8 /* ZTSandbox.m */; };
+		CDA1461419A48E8F00A402A8 /* ZTSystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1454219A48E8F00A402A8 /* ZTSystemInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1461519A48E8F00A402A8 /* ZTSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1454319A48E8F00A402A8 /* ZTSystemInfo.m */; };
+		CDA1461619A48E8F00A402A8 /* ZTThread.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1454419A48E8F00A402A8 /* ZTThread.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1461719A48E8F00A402A8 /* ZTThread.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1454519A48E8F00A402A8 /* ZTThread.m */; };
+		CDA1461819A48E8F00A402A8 /* ZTAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1454819A48E8F00A402A8 /* ZTAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1461919A48E8F00A402A8 /* ZTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1454919A48E8F00A402A8 /* ZTAnimation.m */; };
+		CDA1461A19A48E8F00A402A8 /* ZTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1454B19A48E8F00A402A8 /* ZTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1461B19A48E8F00A402A8 /* ZTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1454C19A48E8F00A402A8 /* ZTButton.m */; };
+		CDA1461C19A48E8F00A402A8 /* ZTFile.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1454E19A48E8F00A402A8 /* ZTFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1461D19A48E8F00A402A8 /* ZTFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1454F19A48E8F00A402A8 /* ZTFile.m */; };
+		CDA1461E19A48E8F00A402A8 /* ZTImageBrow.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1455119A48E8F00A402A8 /* ZTImageBrow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1461F19A48E8F00A402A8 /* ZTImageBrow.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1455219A48E8F00A402A8 /* ZTImageBrow.m */; };
+		CDA1462019A48E8F00A402A8 /* ZTImageBrowModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1455319A48E8F00A402A8 /* ZTImageBrowModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1462119A48E8F00A402A8 /* ZTImageBrowModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1455419A48E8F00A402A8 /* ZTImageBrowModel.m */; };
+		CDA1462219A48E8F00A402A8 /* ZTImageBrowOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1455519A48E8F00A402A8 /* ZTImageBrowOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1462319A48E8F00A402A8 /* ZTImageBrowOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1455619A48E8F00A402A8 /* ZTImageBrowOverlayView.m */; };
+		CDA1462419A48E8F00A402A8 /* ZTImageBrowZoomView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1455719A48E8F00A402A8 /* ZTImageBrowZoomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1462519A48E8F00A402A8 /* ZTImageBrowZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1455819A48E8F00A402A8 /* ZTImageBrowZoomView.m */; };
+		CDA1462619A48E8F00A402A8 /* ZTImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1455A19A48E8F00A402A8 /* ZTImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1462719A48E8F00A402A8 /* ZTImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1455B19A48E8F00A402A8 /* ZTImageScrollView.m */; };
+		CDA1462819A48E8F00A402A8 /* ZTImageScrollViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1455C19A48E8F00A402A8 /* ZTImageScrollViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1462919A48E8F00A402A8 /* ZTImageScrollViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1455D19A48E8F00A402A8 /* ZTImageScrollViewModel.m */; };
+		CDA1462A19A48E8F00A402A8 /* ZTImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1455F19A48E8F00A402A8 /* ZTImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1462B19A48E8F00A402A8 /* ZTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1456019A48E8F00A402A8 /* ZTImageView.m */; };
+		CDA1462C19A48E8F00A402A8 /* ZTNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1456219A48E8F00A402A8 /* ZTNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1462D19A48E8F00A402A8 /* ZTNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1456319A48E8F00A402A8 /* ZTNavigation.m */; };
+		CDA1462E19A48E8F00A402A8 /* ZTQRCode.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1456519A48E8F00A402A8 /* ZTQRCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1462F19A48E8F00A402A8 /* ZTQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1456619A48E8F00A402A8 /* ZTQRCode.m */; };
+		CDA1463019A48E8F00A402A8 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1456819A48E8F00A402A8 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1463119A48E8F00A402A8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1456919A48E8F00A402A8 /* Reachability.m */; };
+		CDA1463219A48E8F00A402A8 /* ZTReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1456A19A48E8F00A402A8 /* ZTReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1463319A48E8F00A402A8 /* ZTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1456B19A48E8F00A402A8 /* ZTReachability.m */; };
+		CDA1463419A48E8F00A402A8 /* ZTSDWebCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1456D19A48E8F00A402A8 /* ZTSDWebCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1463519A48E8F00A402A8 /* ZTSDWebCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1456E19A48E8F00A402A8 /* ZTSDWebCacheManager.m */; };
+		CDA1463619A48E8F00A402A8 /* ZTTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1457019A48E8F00A402A8 /* ZTTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1463719A48E8F00A402A8 /* ZTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1457119A48E8F00A402A8 /* ZTTabBar.m */; };
+		CDA1463819A48E8F00A402A8 /* ZTTabBarConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1457219A48E8F00A402A8 /* ZTTabBarConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1463919A48E8F00A402A8 /* ZTTabBarConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1457319A48E8F00A402A8 /* ZTTabBarConfigs.m */; };
+		CDA1463A19A48E8F00A402A8 /* ZTTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1457419A48E8F00A402A8 /* ZTTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1463B19A48E8F00A402A8 /* ZTTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1457519A48E8F00A402A8 /* ZTTabBarItem.m */; };
+		CDA1463C19A48E8F00A402A8 /* ZTTabBarItemBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1457619A48E8F00A402A8 /* ZTTabBarItemBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1463D19A48E8F00A402A8 /* ZTTabBarItemBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1457719A48E8F00A402A8 /* ZTTabBarItemBadge.m */; };
+		CDA1463E19A48E8F00A402A8 /* ZTTabBarItemGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1457819A48E8F00A402A8 /* ZTTabBarItemGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1463F19A48E8F00A402A8 /* ZTTabBarItemGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1457919A48E8F00A402A8 /* ZTTabBarItemGroup.m */; };
+		CDA1464019A48E8F00A402A8 /* ZTTabBarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1457A19A48E8F00A402A8 /* ZTTabBarModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1464119A48E8F00A402A8 /* ZTTabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1457B19A48E8F00A402A8 /* ZTTabBarModel.m */; };
+		CDA1464219A48E8F00A402A8 /* ZTTabBarNotificationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1457C19A48E8F00A402A8 /* ZTTabBarNotificationModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1464319A48E8F00A402A8 /* ZTTabBarNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1457D19A48E8F00A402A8 /* ZTTabBarNotificationModel.m */; };
+		CDA1464419A48E8F00A402A8 /* ZTTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1457F19A48E8F00A402A8 /* ZTTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1464519A48E8F00A402A8 /* ZTTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1458019A48E8F00A402A8 /* ZTTableCell.m */; };
+		CDA1464619A48E8F00A402A8 /* ZTTableConstant.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1458119A48E8F00A402A8 /* ZTTableConstant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1464719A48E8F00A402A8 /* ZTTableDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1458219A48E8F00A402A8 /* ZTTableDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1464819A48E8F00A402A8 /* ZTTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1458319A48E8F00A402A8 /* ZTTableDataSource.m */; };
+		CDA1464919A48E8F00A402A8 /* ZTTableDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1458419A48E8F00A402A8 /* ZTTableDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1464A19A48E8F00A402A8 /* ZTTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1458519A48E8F00A402A8 /* ZTTableDelegate.m */; };
+		CDA1464B19A48E8F00A402A8 /* ZTTableMoreCell.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1458619A48E8F00A402A8 /* ZTTableMoreCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1464C19A48E8F00A402A8 /* ZTTableMoreCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1458719A48E8F00A402A8 /* ZTTableMoreCell.m */; };
+		CDA1464D19A48E8F00A402A8 /* ZTTableSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1458819A48E8F00A402A8 /* ZTTableSectionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1464E19A48E8F00A402A8 /* ZTTableSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1458919A48E8F00A402A8 /* ZTTableSectionModel.m */; };
+		CDA1464F19A48E8F00A402A8 /* ZTTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1458A19A48E8F00A402A8 /* ZTTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1465019A48E8F00A402A8 /* ZTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1458B19A48E8F00A402A8 /* ZTTableView.m */; };
+		CDA1465119A48E8F00A402A8 /* ZTUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1458D19A48E8F00A402A8 /* ZTUDID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1465219A48E8F00A402A8 /* ZTUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1458E19A48E8F00A402A8 /* ZTUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CDA1465319A48E8F00A402A8 /* ZTWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1459019A48E8F00A402A8 /* ZTWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1465419A48E8F00A402A8 /* ZTWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA1459119A48E8F00A402A8 /* ZTWebView.m */; };
+		CDA1465519A48E8F00A402A8 /* ZTKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1459219A48E8F00A402A8 /* ZTKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA1465619A48E8F00A402A8 /* ZTPrecompile.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1459319A48E8F00A402A8 /* ZTPrecompile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDA2CA4F19654E2F00C8D186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA4E19654E2F00C8D186 /* Foundation.framework */; };
+		CDA2CA821965535500C8D186 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA811965535500C8D186 /* UIKit.framework */; };
+		CDA2CA841965536E00C8D186 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA831965536E00C8D186 /* CoreGraphics.framework */; };
+		CDA2CA87196553D300C8D186 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA2CA86196553D300C8D186 /* QuartzCore.framework */; };
+		CDBDA85A196D23E3000FA46B /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBDA859196D23E3000FA46B /* CoreFoundation.framework */; };
+		CDBDA870196D26E2000FA46B /* Images in Resources */ = {isa = PBXBuildFile; fileRef = CDBDA86F196D26E2000FA46B /* Images */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDA2CA4919654E2F00C8D186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD13B52619A4985800691454 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CD13B52819A4986100691454 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		CD845B1E1974BFE8000D6B51 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CDA144B419A48E8F00A402A8 /* ZTDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTDebug.h; sourceTree = "<group>"; };
+		CDA144B519A48E8F00A402A8 /* ZTDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTDebug.m; sourceTree = "<group>"; };
+		CDA144B719A48E8F00A402A8 /* NSArray+ZT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZT.h"; sourceTree = "<group>"; };
+		CDA144B819A48E8F00A402A8 /* NSArray+ZT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZT.m"; sourceTree = "<group>"; };
+		CDA144B919A48E8F00A402A8 /* NSObject+ZT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZT.h"; sourceTree = "<group>"; };
+		CDA144BA19A48E8F00A402A8 /* NSObject+ZT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZT.m"; sourceTree = "<group>"; };
+		CDA144BB19A48E8F00A402A8 /* ZTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTExtension.h; sourceTree = "<group>"; };
+		CDA144BE19A48E8F00A402A8 /* ZTExt_LKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTExt_LKDBHelper.h; sourceTree = "<group>"; };
+		CDA144BF19A48E8F00A402A8 /* ZTExt_LKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTExt_LKDBHelper.m; sourceTree = "<group>"; };
+		CDA144C019A48E8F00A402A8 /* ZTExternalExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTExternalExtension.h; sourceTree = "<group>"; };
+		CDA144C319A48E8F00A402A8 /* FMDatabase+InMemoryOnDiskIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FMDatabase+InMemoryOnDiskIO.h"; sourceTree = "<group>"; };
+		CDA144C419A48E8F00A402A8 /* FMDatabase+InMemoryOnDiskIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FMDatabase+InMemoryOnDiskIO.m"; sourceTree = "<group>"; };
+		CDA144C619A48E8F00A402A8 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CDA144C719A48E8F00A402A8 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CDA144C819A48E8F00A402A8 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CDA144C919A48E8F00A402A8 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CDA144CA19A48E8F00A402A8 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		CDA144CB19A48E8F00A402A8 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		CDA144CC19A48E8F00A402A8 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		CDA144CD19A48E8F00A402A8 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CDA144CE19A48E8F00A402A8 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CDA144CF19A48E8F00A402A8 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		CDA144D119A48E8F00A402A8 /* LKDB+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LKDB+Manager.h"; sourceTree = "<group>"; };
+		CDA144D219A48E8F00A402A8 /* LKDB+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LKDB+Manager.m"; sourceTree = "<group>"; };
+		CDA144D319A48E8F00A402A8 /* LKDB+Mapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LKDB+Mapping.h"; sourceTree = "<group>"; };
+		CDA144D419A48E8F00A402A8 /* LKDB+Mapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LKDB+Mapping.m"; sourceTree = "<group>"; };
+		CDA144D519A48E8F00A402A8 /* LKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDBHelper.h; sourceTree = "<group>"; };
+		CDA144D619A48E8F00A402A8 /* LKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDBHelper.m; sourceTree = "<group>"; };
+		CDA144D719A48E8F00A402A8 /* LKDBUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKDBUtils.h; sourceTree = "<group>"; };
+		CDA144D819A48E8F00A402A8 /* LKDBUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKDBUtils.m; sourceTree = "<group>"; };
+		CDA144D919A48E8F00A402A8 /* NSObject+LKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LKDBHelper.h"; sourceTree = "<group>"; };
+		CDA144DA19A48E8F00A402A8 /* NSObject+LKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LKDBHelper.m"; sourceTree = "<group>"; };
+		CDA144DB19A48E8F00A402A8 /* NSObject+LKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LKModel.h"; sourceTree = "<group>"; };
+		CDA144DC19A48E8F00A402A8 /* NSObject+LKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LKModel.m"; sourceTree = "<group>"; };
+		CDA144DE19A48E8F00A402A8 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		CDA144DF19A48E8F00A402A8 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		CDA144E019A48E8F00A402A8 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		CDA144E119A48E8F00A402A8 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		CDA144E219A48E8F00A402A8 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		CDA144E319A48E8F00A402A8 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		CDA144E419A48E8F00A402A8 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		CDA144E519A48E8F00A402A8 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		CDA144E619A48E8F00A402A8 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		CDA144E719A48E8F00A402A8 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		CDA144E819A48E8F00A402A8 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		CDA144E919A48E8F00A402A8 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		CDA144EA19A48E8F00A402A8 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		CDA144EB19A48E8F00A402A8 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		CDA144EC19A48E8F00A402A8 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		CDA144ED19A48E8F00A402A8 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		CDA144EE19A48E8F00A402A8 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		CDA144EF19A48E8F00A402A8 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		CDA144F019A48E8F00A402A8 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		CDA144F119A48E8F00A402A8 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		CDA144F219A48E8F00A402A8 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		CDA144F319A48E8F00A402A8 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		CDA144F419A48E8F00A402A8 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		CDA144F519A48E8F00A402A8 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		CDA144F619A48E8F00A402A8 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		CDA144F719A48E8F00A402A8 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		CDA144F819A48E8F00A402A8 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		CDA144F919A48E8F00A402A8 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		CDA144FA19A48E8F00A402A8 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		CDA144FB19A48E8F00A402A8 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		CDA144FC19A48E8F00A402A8 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		CDA144FD19A48E8F00A402A8 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		CDA144FE19A48E8F00A402A8 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		CDA1450019A48E8F00A402A8 /* YYJSONHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYJSONHelper.h; sourceTree = "<group>"; };
+		CDA1450119A48E8F00A402A8 /* YYJSONHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYJSONHelper.m; sourceTree = "<group>"; };
+		CDA1450619A48E8F00A402A8 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		CDA1450719A48E8F00A402A8 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		CDA1450819A48E8F00A402A8 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		CDA1450919A48E8F00A402A8 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		CDA1450A19A48E8F00A402A8 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		CDA1450B19A48E8F00A402A8 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		CDA1450C19A48E8F00A402A8 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		CDA1450D19A48E8F00A402A8 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		CDA1450E19A48E8F00A402A8 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		CDA1450F19A48E8F00A402A8 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		CDA1451019A48E8F00A402A8 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		CDA1451119A48E8F00A402A8 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		CDA1451219A48E8F00A402A8 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		CDA1451319A48E8F00A402A8 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		CDA1451419A48E8F00A402A8 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		CDA1451519A48E8F00A402A8 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		CDA1451619A48E8F00A402A8 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		CDA1451719A48E8F00A402A8 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		CDA1451819A48E8F00A402A8 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		CDA1451919A48E8F00A402A8 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		CDA1451B19A48E8F00A402A8 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		CDA1451C19A48E8F00A402A8 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		CDA1451D19A48E8F00A402A8 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		CDA1451E19A48E8F00A402A8 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		CDA1451F19A48E8F00A402A8 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		CDA1452019A48E8F00A402A8 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		CDA1452119A48E8F00A402A8 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		CDA1452219A48E8F00A402A8 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		CDA1452319A48E8F00A402A8 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		CDA1452419A48E8F00A402A8 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		CDA1452519A48E8F00A402A8 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		CDA1452619A48E8F00A402A8 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		CDA1452719A48E8F00A402A8 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		CDA1452819A48E8F00A402A8 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		CDA1452919A48E8F00A402A8 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		CDA1452A19A48E8F00A402A8 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		CDA1452B19A48E8F00A402A8 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		CDA1452C19A48E8F00A402A8 /* ZTExternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTExternal.h; sourceTree = "<group>"; };
+		CDA1452D19A48E8F00A402A8 /* ZTExternalPrecompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTExternalPrecompile.h; sourceTree = "<group>"; };
+		CDA1453019A48E8F00A402A8 /* ZTCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTCache.h; sourceTree = "<group>"; };
+		CDA1453119A48E8F00A402A8 /* ZTCacheFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTCacheFile.h; sourceTree = "<group>"; };
+		CDA1453219A48E8F00A402A8 /* ZTCacheFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTCacheFile.m; sourceTree = "<group>"; };
+		CDA1453319A48E8F00A402A8 /* ZTCacheMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTCacheMemory.h; sourceTree = "<group>"; };
+		CDA1453419A48E8F00A402A8 /* ZTCacheMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTCacheMemory.m; sourceTree = "<group>"; };
+		CDA1453519A48E8F00A402A8 /* ZTCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTCacheProtocol.h; sourceTree = "<group>"; };
+		CDA1453619A48E8F00A402A8 /* ZTCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTCommon.h; sourceTree = "<group>"; };
+		CDA1453719A48E8F00A402A8 /* ZTCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTCommon.m; sourceTree = "<group>"; };
+		CDA1453819A48E8F00A402A8 /* ZTDataLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTDataLite.h; sourceTree = "<group>"; };
+		CDA1453919A48E8F00A402A8 /* ZTDataLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTDataLite.m; sourceTree = "<group>"; };
+		CDA1453A19A48E8F00A402A8 /* ZTFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFoundation.h; sourceTree = "<group>"; };
+		CDA1453B19A48E8F00A402A8 /* ZTMacroUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTMacroUtils.h; sourceTree = "<group>"; };
+		CDA1453C19A48E8F00A402A8 /* ZTNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTNotification.h; sourceTree = "<group>"; };
+		CDA1453D19A48E8F00A402A8 /* ZTNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTNotification.m; sourceTree = "<group>"; };
+		CDA1453E19A48E8F00A402A8 /* ZTObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTObserver.h; sourceTree = "<group>"; };
+		CDA1453F19A48E8F00A402A8 /* ZTObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTObserver.m; sourceTree = "<group>"; };
+		CDA1454019A48E8F00A402A8 /* ZTSandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTSandbox.h; sourceTree = "<group>"; };
+		CDA1454119A48E8F00A402A8 /* ZTSandbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTSandbox.m; sourceTree = "<group>"; };
+		CDA1454219A48E8F00A402A8 /* ZTSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTSystemInfo.h; sourceTree = "<group>"; };
+		CDA1454319A48E8F00A402A8 /* ZTSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTSystemInfo.m; sourceTree = "<group>"; };
+		CDA1454419A48E8F00A402A8 /* ZTThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTThread.h; sourceTree = "<group>"; };
+		CDA1454519A48E8F00A402A8 /* ZTThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTThread.m; sourceTree = "<group>"; };
+		CDA1454819A48E8F00A402A8 /* ZTAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTAnimation.h; sourceTree = "<group>"; };
+		CDA1454919A48E8F00A402A8 /* ZTAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTAnimation.m; sourceTree = "<group>"; };
+		CDA1454B19A48E8F00A402A8 /* ZTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTButton.h; sourceTree = "<group>"; };
+		CDA1454C19A48E8F00A402A8 /* ZTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTButton.m; sourceTree = "<group>"; };
+		CDA1454E19A48E8F00A402A8 /* ZTFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTFile.h; sourceTree = "<group>"; };
+		CDA1454F19A48E8F00A402A8 /* ZTFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTFile.m; sourceTree = "<group>"; };
+		CDA1455119A48E8F00A402A8 /* ZTImageBrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrow.h; sourceTree = "<group>"; };
+		CDA1455219A48E8F00A402A8 /* ZTImageBrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrow.m; sourceTree = "<group>"; };
+		CDA1455319A48E8F00A402A8 /* ZTImageBrowModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrowModel.h; sourceTree = "<group>"; };
+		CDA1455419A48E8F00A402A8 /* ZTImageBrowModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrowModel.m; sourceTree = "<group>"; };
+		CDA1455519A48E8F00A402A8 /* ZTImageBrowOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrowOverlayView.h; sourceTree = "<group>"; };
+		CDA1455619A48E8F00A402A8 /* ZTImageBrowOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrowOverlayView.m; sourceTree = "<group>"; };
+		CDA1455719A48E8F00A402A8 /* ZTImageBrowZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageBrowZoomView.h; sourceTree = "<group>"; };
+		CDA1455819A48E8F00A402A8 /* ZTImageBrowZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageBrowZoomView.m; sourceTree = "<group>"; };
+		CDA1455A19A48E8F00A402A8 /* ZTImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageScrollView.h; sourceTree = "<group>"; };
+		CDA1455B19A48E8F00A402A8 /* ZTImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageScrollView.m; sourceTree = "<group>"; };
+		CDA1455C19A48E8F00A402A8 /* ZTImageScrollViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageScrollViewModel.h; sourceTree = "<group>"; };
+		CDA1455D19A48E8F00A402A8 /* ZTImageScrollViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageScrollViewModel.m; sourceTree = "<group>"; };
+		CDA1455F19A48E8F00A402A8 /* ZTImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTImageView.h; sourceTree = "<group>"; };
+		CDA1456019A48E8F00A402A8 /* ZTImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTImageView.m; sourceTree = "<group>"; };
+		CDA1456219A48E8F00A402A8 /* ZTNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTNavigation.h; sourceTree = "<group>"; };
+		CDA1456319A48E8F00A402A8 /* ZTNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTNavigation.m; sourceTree = "<group>"; };
+		CDA1456519A48E8F00A402A8 /* ZTQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTQRCode.h; sourceTree = "<group>"; };
+		CDA1456619A48E8F00A402A8 /* ZTQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTQRCode.m; sourceTree = "<group>"; };
+		CDA1456819A48E8F00A402A8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CDA1456919A48E8F00A402A8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CDA1456A19A48E8F00A402A8 /* ZTReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTReachability.h; sourceTree = "<group>"; };
+		CDA1456B19A48E8F00A402A8 /* ZTReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTReachability.m; sourceTree = "<group>"; };
+		CDA1456D19A48E8F00A402A8 /* ZTSDWebCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTSDWebCacheManager.h; sourceTree = "<group>"; };
+		CDA1456E19A48E8F00A402A8 /* ZTSDWebCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTSDWebCacheManager.m; sourceTree = "<group>"; };
+		CDA1457019A48E8F00A402A8 /* ZTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBar.h; sourceTree = "<group>"; };
+		CDA1457119A48E8F00A402A8 /* ZTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBar.m; sourceTree = "<group>"; };
+		CDA1457219A48E8F00A402A8 /* ZTTabBarConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarConfigs.h; sourceTree = "<group>"; };
+		CDA1457319A48E8F00A402A8 /* ZTTabBarConfigs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarConfigs.m; sourceTree = "<group>"; };
+		CDA1457419A48E8F00A402A8 /* ZTTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarItem.h; sourceTree = "<group>"; };
+		CDA1457519A48E8F00A402A8 /* ZTTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarItem.m; sourceTree = "<group>"; };
+		CDA1457619A48E8F00A402A8 /* ZTTabBarItemBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarItemBadge.h; sourceTree = "<group>"; };
+		CDA1457719A48E8F00A402A8 /* ZTTabBarItemBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarItemBadge.m; sourceTree = "<group>"; };
+		CDA1457819A48E8F00A402A8 /* ZTTabBarItemGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarItemGroup.h; sourceTree = "<group>"; };
+		CDA1457919A48E8F00A402A8 /* ZTTabBarItemGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarItemGroup.m; sourceTree = "<group>"; };
+		CDA1457A19A48E8F00A402A8 /* ZTTabBarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarModel.h; sourceTree = "<group>"; };
+		CDA1457B19A48E8F00A402A8 /* ZTTabBarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarModel.m; sourceTree = "<group>"; };
+		CDA1457C19A48E8F00A402A8 /* ZTTabBarNotificationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTabBarNotificationModel.h; sourceTree = "<group>"; };
+		CDA1457D19A48E8F00A402A8 /* ZTTabBarNotificationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTabBarNotificationModel.m; sourceTree = "<group>"; };
+		CDA1457F19A48E8F00A402A8 /* ZTTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableCell.h; sourceTree = "<group>"; };
+		CDA1458019A48E8F00A402A8 /* ZTTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableCell.m; sourceTree = "<group>"; };
+		CDA1458119A48E8F00A402A8 /* ZTTableConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableConstant.h; sourceTree = "<group>"; };
+		CDA1458219A48E8F00A402A8 /* ZTTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableDataSource.h; sourceTree = "<group>"; };
+		CDA1458319A48E8F00A402A8 /* ZTTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableDataSource.m; sourceTree = "<group>"; };
+		CDA1458419A48E8F00A402A8 /* ZTTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableDelegate.h; sourceTree = "<group>"; };
+		CDA1458519A48E8F00A402A8 /* ZTTableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableDelegate.m; sourceTree = "<group>"; };
+		CDA1458619A48E8F00A402A8 /* ZTTableMoreCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableMoreCell.h; sourceTree = "<group>"; };
+		CDA1458719A48E8F00A402A8 /* ZTTableMoreCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableMoreCell.m; sourceTree = "<group>"; };
+		CDA1458819A48E8F00A402A8 /* ZTTableSectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableSectionModel.h; sourceTree = "<group>"; };
+		CDA1458919A48E8F00A402A8 /* ZTTableSectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableSectionModel.m; sourceTree = "<group>"; };
+		CDA1458A19A48E8F00A402A8 /* ZTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTTableView.h; sourceTree = "<group>"; };
+		CDA1458B19A48E8F00A402A8 /* ZTTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTTableView.m; sourceTree = "<group>"; };
+		CDA1458D19A48E8F00A402A8 /* ZTUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTUDID.h; sourceTree = "<group>"; };
+		CDA1458E19A48E8F00A402A8 /* ZTUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTUDID.m; sourceTree = "<group>"; };
+		CDA1459019A48E8F00A402A8 /* ZTWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTWebView.h; sourceTree = "<group>"; };
+		CDA1459119A48E8F00A402A8 /* ZTWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTWebView.m; sourceTree = "<group>"; };
+		CDA1459219A48E8F00A402A8 /* ZTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTKit.h; sourceTree = "<group>"; };
+		CDA1459319A48E8F00A402A8 /* ZTPrecompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTPrecompile.h; sourceTree = "<group>"; };
+		CDA1465819A48EA400A402A8 /* ZTFramework-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZTFramework-Prefix.pch"; sourceTree = "<group>"; };
+		CDA2CA4B19654E2F00C8D186 /* libZTFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZTFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDA2CA4E19654E2F00C8D186 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDA2CA5C19654E2F00C8D186 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CDA2CA811965535500C8D186 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDA2CA831965536E00C8D186 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDA2CA86196553D300C8D186 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDBDA858196D23E3000FA46B /* ZTFrameworkBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTFrameworkBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBDA859196D23E3000FA46B /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		CDBDA85D196D23E3000FA46B /* ZTFrameworkBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZTFrameworkBundle-Info.plist"; sourceTree = "<group>"; };
+		CDBDA86F196D26E2000FA46B /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDA2CA4819654E2F00C8D186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD13B52919A4986100691454 /* libiconv.dylib in Frameworks */,
+				CD13B52719A4985800691454 /* libsqlite3.dylib in Frameworks */,
+				CD845B1F1974BFE8000D6B51 /* Security.framework in Frameworks */,
+				CDA2CA87196553D300C8D186 /* QuartzCore.framework in Frameworks */,
+				CDA145FF19A48E8F00A402A8 /* libzbar.a in Frameworks */,
+				CDA2CA841965536E00C8D186 /* CoreGraphics.framework in Frameworks */,
+				CDA2CA821965535500C8D186 /* UIKit.framework in Frameworks */,
+				CDA2CA4F19654E2F00C8D186 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBDA855196D23E3000FA46B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBDA85A196D23E3000FA46B /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDA144AF19A48E8900A402A8 /* ZTFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CDA144B019A48E8F00A402A8 /* ZTFramework */,
+				CDA1465719A48E9A00A402A8 /* Supporting Files */,
+			);
+			name = ZTFramework;
+			sourceTree = "<group>";
+		};
+		CDA144B019A48E8F00A402A8 /* ZTFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CDA144B119A48E8F00A402A8 /* Debug */,
+				CDA144B619A48E8F00A402A8 /* Extension */,
+				CDA144BC19A48E8F00A402A8 /* External */,
+				CDA1452E19A48E8F00A402A8 /* Foundation */,
+				CDA1454619A48E8F00A402A8 /* UI */,
+				CDA1459219A48E8F00A402A8 /* ZTKit.h */,
+				CDA1459319A48E8F00A402A8 /* ZTPrecompile.h */,
+			);
+			path = ZTFramework;
+			sourceTree = "<group>";
+		};
+		CDA144B119A48E8F00A402A8 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				CDA144B419A48E8F00A402A8 /* ZTDebug.h */,
+				CDA144B519A48E8F00A402A8 /* ZTDebug.m */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		CDA144B619A48E8F00A402A8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CDA144B719A48E8F00A402A8 /* NSArray+ZT.h */,
+				CDA144B819A48E8F00A402A8 /* NSArray+ZT.m */,
+				CDA144B919A48E8F00A402A8 /* NSObject+ZT.h */,
+				CDA144BA19A48E8F00A402A8 /* NSObject+ZT.m */,
+				CDA144BB19A48E8F00A402A8 /* ZTExtension.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CDA144BC19A48E8F00A402A8 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				CDA144BD19A48E8F00A402A8 /* Extension */,
+				CDA144C119A48E8F00A402A8 /* FMDB_v2.3 */,
+				CDA144D019A48E8F00A402A8 /* LKDBHelper_v1.1 */,
+				CDA144DD19A48E8F00A402A8 /* SDWebImage_v3.6 */,
+				CDA144FF19A48E8F00A402A8 /* YYJSON_v1.0 */,
+				CDA1450219A48E8F00A402A8 /* ZBarSdk_v1.2.1 */,
+				CDA1452C19A48E8F00A402A8 /* ZTExternal.h */,
+				CDA1452D19A48E8F00A402A8 /* ZTExternalPrecompile.h */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		CDA144BD19A48E8F00A402A8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CDA144BE19A48E8F00A402A8 /* ZTExt_LKDBHelper.h */,
+				CDA144BF19A48E8F00A402A8 /* ZTExt_LKDBHelper.m */,
+				CDA144C019A48E8F00A402A8 /* ZTExternalExtension.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CDA144C119A48E8F00A402A8 /* FMDB_v2.3 */ = {
+			isa = PBXGroup;
+			children = (
+				CDA144C219A48E8F00A402A8 /* extra */,
+				CDA144C519A48E8F00A402A8 /* src */,
+			);
+			path = FMDB_v2.3;
+			sourceTree = "<group>";
+		};
+		CDA144C219A48E8F00A402A8 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				CDA144C319A48E8F00A402A8 /* FMDatabase+InMemoryOnDiskIO.h */,
+				CDA144C419A48E8F00A402A8 /* FMDatabase+InMemoryOnDiskIO.m */,
+			);
+			path = extra;
+			sourceTree = "<group>";
+		};
+		CDA144C519A48E8F00A402A8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CDA144C619A48E8F00A402A8 /* FMDatabase.h */,
+				CDA144C719A48E8F00A402A8 /* FMDatabase.m */,
+				CDA144C819A48E8F00A402A8 /* FMDatabaseAdditions.h */,
+				CDA144C919A48E8F00A402A8 /* FMDatabaseAdditions.m */,
+				CDA144CA19A48E8F00A402A8 /* FMDatabasePool.h */,
+				CDA144CB19A48E8F00A402A8 /* FMDatabasePool.m */,
+				CDA144CC19A48E8F00A402A8 /* FMDatabaseQueue.h */,
+				CDA144CD19A48E8F00A402A8 /* FMDatabaseQueue.m */,
+				CDA144CE19A48E8F00A402A8 /* FMResultSet.h */,
+				CDA144CF19A48E8F00A402A8 /* FMResultSet.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CDA144D019A48E8F00A402A8 /* LKDBHelper_v1.1 */ = {
+			isa = PBXGroup;
+			children = (
+				CDA144D119A48E8F00A402A8 /* LKDB+Manager.h */,
+				CDA144D219A48E8F00A402A8 /* LKDB+Manager.m */,
+				CDA144D319A48E8F00A402A8 /* LKDB+Mapping.h */,
+				CDA144D419A48E8F00A402A8 /* LKDB+Mapping.m */,
+				CDA144D519A48E8F00A402A8 /* LKDBHelper.h */,
+				CDA144D619A48E8F00A402A8 /* LKDBHelper.m */,
+				CDA144D719A48E8F00A402A8 /* LKDBUtils.h */,
+				CDA144D819A48E8F00A402A8 /* LKDBUtils.m */,
+				CDA144D919A48E8F00A402A8 /* NSObject+LKDBHelper.h */,
+				CDA144DA19A48E8F00A402A8 /* NSObject+LKDBHelper.m */,
+				CDA144DB19A48E8F00A402A8 /* NSObject+LKModel.h */,
+				CDA144DC19A48E8F00A402A8 /* NSObject+LKModel.m */,
+			);
+			path = LKDBHelper_v1.1;
+			sourceTree = "<group>";
+		};
+		CDA144DD19A48E8F00A402A8 /* SDWebImage_v3.6 */ = {
+			isa = PBXGroup;
+			children = (
+				CDA144DE19A48E8F00A402A8 /* MKAnnotationView+WebCache.h */,
+				CDA144DF19A48E8F00A402A8 /* MKAnnotationView+WebCache.m */,
+				CDA144E019A48E8F00A402A8 /* NSData+ImageContentType.h */,
+				CDA144E119A48E8F00A402A8 /* NSData+ImageContentType.m */,
+				CDA144E219A48E8F00A402A8 /* SDImageCache.h */,
+				CDA144E319A48E8F00A402A8 /* SDImageCache.m */,
+				CDA144E419A48E8F00A402A8 /* SDWebImageCompat.h */,
+				CDA144E519A48E8F00A402A8 /* SDWebImageCompat.m */,
+				CDA144E619A48E8F00A402A8 /* SDWebImageDecoder.h */,
+				CDA144E719A48E8F00A402A8 /* SDWebImageDecoder.m */,
+				CDA144E819A48E8F00A402A8 /* SDWebImageDownloader.h */,
+				CDA144E919A48E8F00A402A8 /* SDWebImageDownloader.m */,
+				CDA144EA19A48E8F00A402A8 /* SDWebImageDownloaderOperation.h */,
+				CDA144EB19A48E8F00A402A8 /* SDWebImageDownloaderOperation.m */,
+				CDA144EC19A48E8F00A402A8 /* SDWebImageManager.h */,
+				CDA144ED19A48E8F00A402A8 /* SDWebImageManager.m */,
+				CDA144EE19A48E8F00A402A8 /* SDWebImageOperation.h */,
+				CDA144EF19A48E8F00A402A8 /* SDWebImagePrefetcher.h */,
+				CDA144F019A48E8F00A402A8 /* SDWebImagePrefetcher.m */,
+				CDA144F119A48E8F00A402A8 /* UIButton+WebCache.h */,
+				CDA144F219A48E8F00A402A8 /* UIButton+WebCache.m */,
+				CDA144F319A48E8F00A402A8 /* UIImage+GIF.h */,
+				CDA144F419A48E8F00A402A8 /* UIImage+GIF.m */,
+				CDA144F519A48E8F00A402A8 /* UIImage+MultiFormat.h */,
+				CDA144F619A48E8F00A402A8 /* UIImage+MultiFormat.m */,
+				CDA144F719A48E8F00A402A8 /* UIImage+WebP.h */,
+				CDA144F819A48E8F00A402A8 /* UIImage+WebP.m */,
+				CDA144F919A48E8F00A402A8 /* UIImageView+HighlightedWebCache.h */,
+				CDA144FA19A48E8F00A402A8 /* UIImageView+HighlightedWebCache.m */,
+				CDA144FB19A48E8F00A402A8 /* UIImageView+WebCache.h */,
+				CDA144FC19A48E8F00A402A8 /* UIImageView+WebCache.m */,
+				CDA144FD19A48E8F00A402A8 /* UIView+WebCacheOperation.h */,
+				CDA144FE19A48E8F00A402A8 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage_v3.6;
+			sourceTree = "<group>";
+		};
+		CDA144FF19A48E8F00A402A8 /* YYJSON_v1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1450019A48E8F00A402A8 /* YYJSONHelper.h */,
+				CDA1450119A48E8F00A402A8 /* YYJSONHelper.m */,
+			);
+			path = YYJSON_v1.0;
+			sourceTree = "<group>";
+		};
+		CDA1450219A48E8F00A402A8 /* ZBarSdk_v1.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1450319A48E8F00A402A8 /* Headers */,
+				CDA1451A19A48E8F00A402A8 /* libqrencode */,
+				CDA1452B19A48E8F00A402A8 /* libzbar.a */,
+			);
+			path = ZBarSdk_v1.2.1;
+			sourceTree = "<group>";
+		};
+		CDA1450319A48E8F00A402A8 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1450419A48E8F00A402A8 /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		CDA1450419A48E8F00A402A8 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1450519A48E8F00A402A8 /* zbar */,
+				CDA1450F19A48E8F00A402A8 /* zbar.h */,
+				CDA1451019A48E8F00A402A8 /* ZBarCameraSimulator.h */,
+				CDA1451119A48E8F00A402A8 /* ZBarCaptureReader.h */,
+				CDA1451219A48E8F00A402A8 /* ZBarHelpController.h */,
+				CDA1451319A48E8F00A402A8 /* ZBarImage.h */,
+				CDA1451419A48E8F00A402A8 /* ZBarImageScanner.h */,
+				CDA1451519A48E8F00A402A8 /* ZBarReaderController.h */,
+				CDA1451619A48E8F00A402A8 /* ZBarReaderView.h */,
+				CDA1451719A48E8F00A402A8 /* ZBarReaderViewController.h */,
+				CDA1451819A48E8F00A402A8 /* ZBarSDK.h */,
+				CDA1451919A48E8F00A402A8 /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		CDA1450519A48E8F00A402A8 /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1450619A48E8F00A402A8 /* Decoder.h */,
+				CDA1450719A48E8F00A402A8 /* Exception.h */,
+				CDA1450819A48E8F00A402A8 /* Image.h */,
+				CDA1450919A48E8F00A402A8 /* ImageScanner.h */,
+				CDA1450A19A48E8F00A402A8 /* Processor.h */,
+				CDA1450B19A48E8F00A402A8 /* Scanner.h */,
+				CDA1450C19A48E8F00A402A8 /* Symbol.h */,
+				CDA1450D19A48E8F00A402A8 /* Video.h */,
+				CDA1450E19A48E8F00A402A8 /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		CDA1451A19A48E8F00A402A8 /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1451B19A48E8F00A402A8 /* bitstream.c */,
+				CDA1451C19A48E8F00A402A8 /* bitstream.h */,
+				CDA1451D19A48E8F00A402A8 /* mask.c */,
+				CDA1451E19A48E8F00A402A8 /* mask.h */,
+				CDA1451F19A48E8F00A402A8 /* QRCodeGenerator.h */,
+				CDA1452019A48E8F00A402A8 /* QRCodeGenerator.m */,
+				CDA1452119A48E8F00A402A8 /* qrencode.c */,
+				CDA1452219A48E8F00A402A8 /* qrencode.h */,
+				CDA1452319A48E8F00A402A8 /* qrinput.c */,
+				CDA1452419A48E8F00A402A8 /* qrinput.h */,
+				CDA1452519A48E8F00A402A8 /* qrspec.c */,
+				CDA1452619A48E8F00A402A8 /* qrspec.h */,
+				CDA1452719A48E8F00A402A8 /* rscode.c */,
+				CDA1452819A48E8F00A402A8 /* rscode.h */,
+				CDA1452919A48E8F00A402A8 /* split.c */,
+				CDA1452A19A48E8F00A402A8 /* split.h */,
+			);
+			path = libqrencode;
+			sourceTree = "<group>";
+		};
+		CDA1452E19A48E8F00A402A8 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1452F19A48E8F00A402A8 /* Caches */,
+				CDA1453619A48E8F00A402A8 /* ZTCommon.h */,
+				CDA1453719A48E8F00A402A8 /* ZTCommon.m */,
+				CDA1453819A48E8F00A402A8 /* ZTDataLite.h */,
+				CDA1453919A48E8F00A402A8 /* ZTDataLite.m */,
+				CDA1453A19A48E8F00A402A8 /* ZTFoundation.h */,
+				CDA1453B19A48E8F00A402A8 /* ZTMacroUtils.h */,
+				CDA1453C19A48E8F00A402A8 /* ZTNotification.h */,
+				CDA1453D19A48E8F00A402A8 /* ZTNotification.m */,
+				CDA1453E19A48E8F00A402A8 /* ZTObserver.h */,
+				CDA1453F19A48E8F00A402A8 /* ZTObserver.m */,
+				CDA1454019A48E8F00A402A8 /* ZTSandbox.h */,
+				CDA1454119A48E8F00A402A8 /* ZTSandbox.m */,
+				CDA1454219A48E8F00A402A8 /* ZTSystemInfo.h */,
+				CDA1454319A48E8F00A402A8 /* ZTSystemInfo.m */,
+				CDA1454419A48E8F00A402A8 /* ZTThread.h */,
+				CDA1454519A48E8F00A402A8 /* ZTThread.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		CDA1452F19A48E8F00A402A8 /* Caches */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1453019A48E8F00A402A8 /* ZTCache.h */,
+				CDA1453119A48E8F00A402A8 /* ZTCacheFile.h */,
+				CDA1453219A48E8F00A402A8 /* ZTCacheFile.m */,
+				CDA1453319A48E8F00A402A8 /* ZTCacheMemory.h */,
+				CDA1453419A48E8F00A402A8 /* ZTCacheMemory.m */,
+				CDA1453519A48E8F00A402A8 /* ZTCacheProtocol.h */,
+			);
+			path = Caches;
+			sourceTree = "<group>";
+		};
+		CDA1454619A48E8F00A402A8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1454719A48E8F00A402A8 /* ZTAnimation */,
+				CDA1454A19A48E8F00A402A8 /* ZTButton */,
+				CDA1454D19A48E8F00A402A8 /* ZTFile */,
+				CDA1455019A48E8F00A402A8 /* ZTImageBrow */,
+				CDA1455919A48E8F00A402A8 /* ZTImageScrollView */,
+				CDA1455E19A48E8F00A402A8 /* ZTImageView */,
+				CDA1456119A48E8F00A402A8 /* ZTNavigation */,
+				CDA1456419A48E8F00A402A8 /* ZTQRCode */,
+				CDA1456719A48E8F00A402A8 /* ZTReachability */,
+				CDA1456C19A48E8F00A402A8 /* ZTSDWebCacheManager */,
+				CDA1456F19A48E8F00A402A8 /* ZTTabBar */,
+				CDA1457E19A48E8F00A402A8 /* ZTTable */,
+				CDA1458C19A48E8F00A402A8 /* ZTUDID */,
+				CDA1458F19A48E8F00A402A8 /* ZTWebView */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CDA1454719A48E8F00A402A8 /* ZTAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1454819A48E8F00A402A8 /* ZTAnimation.h */,
+				CDA1454919A48E8F00A402A8 /* ZTAnimation.m */,
+			);
+			path = ZTAnimation;
+			sourceTree = "<group>";
+		};
+		CDA1454A19A48E8F00A402A8 /* ZTButton */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1454B19A48E8F00A402A8 /* ZTButton.h */,
+				CDA1454C19A48E8F00A402A8 /* ZTButton.m */,
+			);
+			path = ZTButton;
+			sourceTree = "<group>";
+		};
+		CDA1454D19A48E8F00A402A8 /* ZTFile */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1454E19A48E8F00A402A8 /* ZTFile.h */,
+				CDA1454F19A48E8F00A402A8 /* ZTFile.m */,
+			);
+			path = ZTFile;
+			sourceTree = "<group>";
+		};
+		CDA1455019A48E8F00A402A8 /* ZTImageBrow */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1455119A48E8F00A402A8 /* ZTImageBrow.h */,
+				CDA1455219A48E8F00A402A8 /* ZTImageBrow.m */,
+				CDA1455319A48E8F00A402A8 /* ZTImageBrowModel.h */,
+				CDA1455419A48E8F00A402A8 /* ZTImageBrowModel.m */,
+				CDA1455519A48E8F00A402A8 /* ZTImageBrowOverlayView.h */,
+				CDA1455619A48E8F00A402A8 /* ZTImageBrowOverlayView.m */,
+				CDA1455719A48E8F00A402A8 /* ZTImageBrowZoomView.h */,
+				CDA1455819A48E8F00A402A8 /* ZTImageBrowZoomView.m */,
+			);
+			path = ZTImageBrow;
+			sourceTree = "<group>";
+		};
+		CDA1455919A48E8F00A402A8 /* ZTImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1455A19A48E8F00A402A8 /* ZTImageScrollView.h */,
+				CDA1455B19A48E8F00A402A8 /* ZTImageScrollView.m */,
+				CDA1455C19A48E8F00A402A8 /* ZTImageScrollViewModel.h */,
+				CDA1455D19A48E8F00A402A8 /* ZTImageScrollViewModel.m */,
+			);
+			path = ZTImageScrollView;
+			sourceTree = "<group>";
+		};
+		CDA1455E19A48E8F00A402A8 /* ZTImageView */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1455F19A48E8F00A402A8 /* ZTImageView.h */,
+				CDA1456019A48E8F00A402A8 /* ZTImageView.m */,
+			);
+			path = ZTImageView;
+			sourceTree = "<group>";
+		};
+		CDA1456119A48E8F00A402A8 /* ZTNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1456219A48E8F00A402A8 /* ZTNavigation.h */,
+				CDA1456319A48E8F00A402A8 /* ZTNavigation.m */,
+			);
+			path = ZTNavigation;
+			sourceTree = "<group>";
+		};
+		CDA1456419A48E8F00A402A8 /* ZTQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1456519A48E8F00A402A8 /* ZTQRCode.h */,
+				CDA1456619A48E8F00A402A8 /* ZTQRCode.m */,
+			);
+			path = ZTQRCode;
+			sourceTree = "<group>";
+		};
+		CDA1456719A48E8F00A402A8 /* ZTReachability */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1456819A48E8F00A402A8 /* Reachability.h */,
+				CDA1456919A48E8F00A402A8 /* Reachability.m */,
+				CDA1456A19A48E8F00A402A8 /* ZTReachability.h */,
+				CDA1456B19A48E8F00A402A8 /* ZTReachability.m */,
+			);
+			path = ZTReachability;
+			sourceTree = "<group>";
+		};
+		CDA1456C19A48E8F00A402A8 /* ZTSDWebCacheManager */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1456D19A48E8F00A402A8 /* ZTSDWebCacheManager.h */,
+				CDA1456E19A48E8F00A402A8 /* ZTSDWebCacheManager.m */,
+			);
+			path = ZTSDWebCacheManager;
+			sourceTree = "<group>";
+		};
+		CDA1456F19A48E8F00A402A8 /* ZTTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1457019A48E8F00A402A8 /* ZTTabBar.h */,
+				CDA1457119A48E8F00A402A8 /* ZTTabBar.m */,
+				CDA1457219A48E8F00A402A8 /* ZTTabBarConfigs.h */,
+				CDA1457319A48E8F00A402A8 /* ZTTabBarConfigs.m */,
+				CDA1457419A48E8F00A402A8 /* ZTTabBarItem.h */,
+				CDA1457519A48E8F00A402A8 /* ZTTabBarItem.m */,
+				CDA1457619A48E8F00A402A8 /* ZTTabBarItemBadge.h */,
+				CDA1457719A48E8F00A402A8 /* ZTTabBarItemBadge.m */,
+				CDA1457819A48E8F00A402A8 /* ZTTabBarItemGroup.h */,
+				CDA1457919A48E8F00A402A8 /* ZTTabBarItemGroup.m */,
+				CDA1457A19A48E8F00A402A8 /* ZTTabBarModel.h */,
+				CDA1457B19A48E8F00A402A8 /* ZTTabBarModel.m */,
+				CDA1457C19A48E8F00A402A8 /* ZTTabBarNotificationModel.h */,
+				CDA1457D19A48E8F00A402A8 /* ZTTabBarNotificationModel.m */,
+			);
+			path = ZTTabBar;
+			sourceTree = "<group>";
+		};
+		CDA1457E19A48E8F00A402A8 /* ZTTable */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1457F19A48E8F00A402A8 /* ZTTableCell.h */,
+				CDA1458019A48E8F00A402A8 /* ZTTableCell.m */,
+				CDA1458119A48E8F00A402A8 /* ZTTableConstant.h */,
+				CDA1458219A48E8F00A402A8 /* ZTTableDataSource.h */,
+				CDA1458319A48E8F00A402A8 /* ZTTableDataSource.m */,
+				CDA1458419A48E8F00A402A8 /* ZTTableDelegate.h */,
+				CDA1458519A48E8F00A402A8 /* ZTTableDelegate.m */,
+				CDA1458619A48E8F00A402A8 /* ZTTableMoreCell.h */,
+				CDA1458719A48E8F00A402A8 /* ZTTableMoreCell.m */,
+				CDA1458819A48E8F00A402A8 /* ZTTableSectionModel.h */,
+				CDA1458919A48E8F00A402A8 /* ZTTableSectionModel.m */,
+				CDA1458A19A48E8F00A402A8 /* ZTTableView.h */,
+				CDA1458B19A48E8F00A402A8 /* ZTTableView.m */,
+			);
+			path = ZTTable;
+			sourceTree = "<group>";
+		};
+		CDA1458C19A48E8F00A402A8 /* ZTUDID */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1458D19A48E8F00A402A8 /* ZTUDID.h */,
+				CDA1458E19A48E8F00A402A8 /* ZTUDID.m */,
+			);
+			path = ZTUDID;
+			sourceTree = "<group>";
+		};
+		CDA1458F19A48E8F00A402A8 /* ZTWebView */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1459019A48E8F00A402A8 /* ZTWebView.h */,
+				CDA1459119A48E8F00A402A8 /* ZTWebView.m */,
+			);
+			path = ZTWebView;
+			sourceTree = "<group>";
+		};
+		CDA1465719A48E9A00A402A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDA1465819A48EA400A402A8 /* ZTFramework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDA2CA4219654E2F00C8D186 = {
+			isa = PBXGroup;
+			children = (
+				CDA144AF19A48E8900A402A8 /* ZTFramework */,
+				CDBDA85B196D23E3000FA46B /* ZTFrameworkBundle */,
+				CDA2CA4D19654E2F00C8D186 /* Frameworks */,
+				CDA2CA4C19654E2F00C8D186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDA2CA4C19654E2F00C8D186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDA2CA4B19654E2F00C8D186 /* libZTFramework.a */,
+				CDBDA858196D23E3000FA46B /* ZTFrameworkBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDA2CA4D19654E2F00C8D186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B52819A4986100691454 /* libiconv.dylib */,
+				CD13B52619A4985800691454 /* libsqlite3.dylib */,
+				CD845B1E1974BFE8000D6B51 /* Security.framework */,
+				CDA2CA86196553D300C8D186 /* QuartzCore.framework */,
+				CDA2CA831965536E00C8D186 /* CoreGraphics.framework */,
+				CDA2CA811965535500C8D186 /* UIKit.framework */,
+				CDA2CA4E19654E2F00C8D186 /* Foundation.framework */,
+				CDA2CA5C19654E2F00C8D186 /* XCTest.framework */,
+				CDBDA859196D23E3000FA46B /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDBDA85B196D23E3000FA46B /* ZTFrameworkBundle */ = {
+			isa = PBXGroup;
+			children = (
+				CDBDA86F196D26E2000FA46B /* Images */,
+				CDBDA85C196D23E3000FA46B /* Supporting Files */,
+			);
+			path = ZTFrameworkBundle;
+			sourceTree = "<group>";
+		};
+		CDBDA85C196D23E3000FA46B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDBDA85D196D23E3000FA46B /* ZTFrameworkBundle-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CDF07768196554DF003723DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA1459A19A48E8F00A402A8 /* NSObject+ZT.h in Headers */,
+				CDA1462019A48E8F00A402A8 /* ZTImageBrowModel.h in Headers */,
+				CDA1459619A48E8F00A402A8 /* ZTDebug.h in Headers */,
+				CDA1465519A48E8F00A402A8 /* ZTKit.h in Headers */,
+				CDA1461419A48E8F00A402A8 /* ZTSystemInfo.h in Headers */,
+				CDA1465319A48E8F00A402A8 /* ZTWebView.h in Headers */,
+				CDA1464F19A48E8F00A402A8 /* ZTTableView.h in Headers */,
+				CDA1464619A48E8F00A402A8 /* ZTTableConstant.h in Headers */,
+				CDA1461619A48E8F00A402A8 /* ZTThread.h in Headers */,
+				CDA145B019A48E8F00A402A8 /* LKDBHelper.h in Headers */,
+				CDA145B619A48E8F00A402A8 /* NSObject+LKModel.h in Headers */,
+				CDA1461A19A48E8F00A402A8 /* ZTButton.h in Headers */,
+				CDA1460A19A48E8F00A402A8 /* ZTDataLite.h in Headers */,
+				CDA1463619A48E8F00A402A8 /* ZTTabBar.h in Headers */,
+				CDA1461819A48E8F00A402A8 /* ZTAnimation.h in Headers */,
+				CDA1464B19A48E8F00A402A8 /* ZTTableMoreCell.h in Headers */,
+				CDA1460C19A48E8F00A402A8 /* ZTFoundation.h in Headers */,
+				CDA1460E19A48E8F00A402A8 /* ZTNotification.h in Headers */,
+				CDA145ED19A48E8F00A402A8 /* ZBarSDK.h in Headers */,
+				CDA1460219A48E8F00A402A8 /* ZTCache.h in Headers */,
+				CDA1461C19A48E8F00A402A8 /* ZTFile.h in Headers */,
+				CDA1464019A48E8F00A402A8 /* ZTTabBarModel.h in Headers */,
+				CDA1464419A48E8F00A402A8 /* ZTTableCell.h in Headers */,
+				CDA1462C19A48E8F00A402A8 /* ZTNavigation.h in Headers */,
+				CDA145E819A48E8F00A402A8 /* ZBarImage.h in Headers */,
+				CDA1464919A48E8F00A402A8 /* ZTTableDelegate.h in Headers */,
+				CDA1463A19A48E8F00A402A8 /* ZTTabBarItem.h in Headers */,
+				CDA1463819A48E8F00A402A8 /* ZTTabBarConfigs.h in Headers */,
+				CDA145A219A48E8F00A402A8 /* FMDatabase.h in Headers */,
+				CDA1460319A48E8F00A402A8 /* ZTCacheFile.h in Headers */,
+				CDA1461219A48E8F00A402A8 /* ZTSandbox.h in Headers */,
+				CDA1460119A48E8F00A402A8 /* ZTExternalPrecompile.h in Headers */,
+				CDA1461019A48E8F00A402A8 /* ZTObserver.h in Headers */,
+				CDA1460019A48E8F00A402A8 /* ZTExternal.h in Headers */,
+				CDA1459C19A48E8F00A402A8 /* ZTExtension.h in Headers */,
+				CDA1465619A48E8F00A402A8 /* ZTPrecompile.h in Headers */,
+				CDA1460819A48E8F00A402A8 /* ZTCommon.h in Headers */,
+				CDA1464D19A48E8F00A402A8 /* ZTTableSectionModel.h in Headers */,
+				CDA1464719A48E8F00A402A8 /* ZTTableDataSource.h in Headers */,
+				CDA1460519A48E8F00A402A8 /* ZTCacheMemory.h in Headers */,
+				CDA1459D19A48E8F00A402A8 /* ZTExt_LKDBHelper.h in Headers */,
+				CDA1460D19A48E8F00A402A8 /* ZTMacroUtils.h in Headers */,
+				CDA1463C19A48E8F00A402A8 /* ZTTabBarItemBadge.h in Headers */,
+				CDA1459F19A48E8F00A402A8 /* ZTExternalExtension.h in Headers */,
+				CDA1463219A48E8F00A402A8 /* ZTReachability.h in Headers */,
+				CDA145AA19A48E8F00A402A8 /* FMResultSet.h in Headers */,
+				CDA145AC19A48E8F00A402A8 /* LKDB+Manager.h in Headers */,
+				CDA145AE19A48E8F00A402A8 /* LKDB+Mapping.h in Headers */,
+				CDA145A419A48E8F00A402A8 /* FMDatabaseAdditions.h in Headers */,
+				CDA145E419A48E8F00A402A8 /* zbar.h in Headers */,
+				CDA1463E19A48E8F00A402A8 /* ZTTabBarItemGroup.h in Headers */,
+				CDA145B819A48E8F00A402A8 /* MKAnnotationView+WebCache.h in Headers */,
+				CDA1460719A48E8F00A402A8 /* ZTCacheProtocol.h in Headers */,
+				CDA1462419A48E8F00A402A8 /* ZTImageBrowZoomView.h in Headers */,
+				CDA145F319A48E8F00A402A8 /* QRCodeGenerator.h in Headers */,
+				CDA145DE19A48E8F00A402A8 /* ImageScanner.h in Headers */,
+				CDA145E719A48E8F00A402A8 /* ZBarHelpController.h in Headers */,
+				CDA145DB19A48E8F00A402A8 /* Decoder.h in Headers */,
+				CDA145BC19A48E8F00A402A8 /* SDImageCache.h in Headers */,
+				CDA145BA19A48E8F00A402A8 /* NSData+ImageContentType.h in Headers */,
+				CDA145DF19A48E8F00A402A8 /* Processor.h in Headers */,
+				CDA145FC19A48E8F00A402A8 /* rscode.h in Headers */,
+				CDA1463419A48E8F00A402A8 /* ZTSDWebCacheManager.h in Headers */,
+				CDA145D519A48E8F00A402A8 /* UIImageView+WebCache.h in Headers */,
+				CDA1462E19A48E8F00A402A8 /* ZTQRCode.h in Headers */,
+				CDA145B419A48E8F00A402A8 /* NSObject+LKDBHelper.h in Headers */,
+				CDA145C219A48E8F00A402A8 /* SDWebImageDownloader.h in Headers */,
+				CDA145D319A48E8F00A402A8 /* UIImageView+HighlightedWebCache.h in Headers */,
+				CDA1462219A48E8F00A402A8 /* ZTImageBrowOverlayView.h in Headers */,
+				CDA145A819A48E8F00A402A8 /* FMDatabaseQueue.h in Headers */,
+				CDA145E019A48E8F00A402A8 /* Scanner.h in Headers */,
+				CDA145B219A48E8F00A402A8 /* LKDBUtils.h in Headers */,
+				CDA145E919A48E8F00A402A8 /* ZBarImageScanner.h in Headers */,
+				CDA1462619A48E8F00A402A8 /* ZTImageScrollView.h in Headers */,
+				CDA1462819A48E8F00A402A8 /* ZTImageScrollViewModel.h in Headers */,
+				CDA145E219A48E8F00A402A8 /* Video.h in Headers */,
+				CDA1462A19A48E8F00A402A8 /* ZTImageView.h in Headers */,
+				CDA1464219A48E8F00A402A8 /* ZTTabBarNotificationModel.h in Headers */,
+				CDA145A019A48E8F00A402A8 /* FMDatabase+InMemoryOnDiskIO.h in Headers */,
+				CDA1461E19A48E8F00A402A8 /* ZTImageBrow.h in Headers */,
+				CDA145D919A48E8F00A402A8 /* YYJSONHelper.h in Headers */,
+				CDA145EE19A48E8F00A402A8 /* ZBarSymbol.h in Headers */,
+				CDA145BE19A48E8F00A402A8 /* SDWebImageCompat.h in Headers */,
+				CDA145EC19A48E8F00A402A8 /* ZBarReaderViewController.h in Headers */,
+				CDA145A619A48E8F00A402A8 /* FMDatabasePool.h in Headers */,
+				CDA145E619A48E8F00A402A8 /* ZBarCaptureReader.h in Headers */,
+				CDA1463019A48E8F00A402A8 /* Reachability.h in Headers */,
+				CDA1465119A48E8F00A402A8 /* ZTUDID.h in Headers */,
+				CDA1459819A48E8F00A402A8 /* NSArray+ZT.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CDA2CA4A19654E2F00C8D186 /* ZTFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDA2CA6E19654E2F00C8D186 /* Build configuration list for PBXNativeTarget "ZTFramework" */;
+			buildPhases = (
+				CDA2CA4719654E2F00C8D186 /* Sources */,
+				CDA2CA4819654E2F00C8D186 /* Frameworks */,
+				CDA2CA4919654E2F00C8D186 /* CopyFiles */,
+				CDF07768196554DF003723DB /* Headers */,
+				CDBDA84C196D197B000FA46B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTFramework;
+			productName = ZTFramework;
+			productReference = CDA2CA4B19654E2F00C8D186 /* libZTFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CDBDA857196D23E3000FA46B /* ZTFrameworkBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBDA862196D23E3000FA46B /* Build configuration list for PBXNativeTarget "ZTFrameworkBundle" */;
+			buildPhases = (
+				CDBDA854196D23E3000FA46B /* Sources */,
+				CDBDA855196D23E3000FA46B /* Frameworks */,
+				CDBDA856196D23E3000FA46B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTFrameworkBundle;
+			productName = ZTFrameworkBundle;
+			productReference = CDBDA858196D23E3000FA46B /* ZTFrameworkBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDA2CA4319654E2F00C8D186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Fighting;
+			};
+			buildConfigurationList = CDA2CA4619654E2F00C8D186 /* Build configuration list for PBXProject "ZTFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = CDA2CA4219654E2F00C8D186;
+			productRefGroup = CDA2CA4C19654E2F00C8D186 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDA2CA4A19654E2F00C8D186 /* ZTFramework */,
+				CDBDA857196D23E3000FA46B /* ZTFrameworkBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDBDA84C196D197B000FA46B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBDA856196D23E3000FA46B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBDA870196D26E2000FA46B /* Images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDA2CA4719654E2F00C8D186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA1461519A48E8F00A402A8 /* ZTSystemInfo.m in Sources */,
+				CDA145F519A48E8F00A402A8 /* qrencode.c in Sources */,
+				CDA1461719A48E8F00A402A8 /* ZTThread.m in Sources */,
+				CDA1461D19A48E8F00A402A8 /* ZTFile.m in Sources */,
+				CDA145C319A48E8F00A402A8 /* SDWebImageDownloader.m in Sources */,
+				CDA145F719A48E8F00A402A8 /* qrinput.c in Sources */,
+				CDA1464E19A48E8F00A402A8 /* ZTTableSectionModel.m in Sources */,
+				CDA145B519A48E8F00A402A8 /* NSObject+LKDBHelper.m in Sources */,
+				CDA1464819A48E8F00A402A8 /* ZTTableDataSource.m in Sources */,
+				CDA1459E19A48E8F00A402A8 /* ZTExt_LKDBHelper.m in Sources */,
+				CDA145CA19A48E8F00A402A8 /* SDWebImagePrefetcher.m in Sources */,
+				CDA1460919A48E8F00A402A8 /* ZTCommon.m in Sources */,
+				CDA145F419A48E8F00A402A8 /* QRCodeGenerator.m in Sources */,
+				CDA145D819A48E8F00A402A8 /* UIView+WebCacheOperation.m in Sources */,
+				CDA1464A19A48E8F00A402A8 /* ZTTableDelegate.m in Sources */,
+				CDA1461319A48E8F00A402A8 /* ZTSandbox.m in Sources */,
+				CDA1464119A48E8F00A402A8 /* ZTTabBarModel.m in Sources */,
+				CDA1459919A48E8F00A402A8 /* NSArray+ZT.m in Sources */,
+				CDA1459B19A48E8F00A402A8 /* NSObject+ZT.m in Sources */,
+				CDA1462D19A48E8F00A402A8 /* ZTNavigation.m in Sources */,
+				CDA145D019A48E8F00A402A8 /* UIImage+MultiFormat.m in Sources */,
+				CDA145D219A48E8F00A402A8 /* UIImage+WebP.m in Sources */,
+				CDA1461119A48E8F00A402A8 /* ZTObserver.m in Sources */,
+				CDA1465219A48E8F00A402A8 /* ZTUDID.m in Sources */,
+				CDA145FD19A48E8F00A402A8 /* split.c in Sources */,
+				CDA145A319A48E8F00A402A8 /* FMDatabase.m in Sources */,
+				CDA145AD19A48E8F00A402A8 /* LKDB+Manager.m in Sources */,
+				CDA1465419A48E8F00A402A8 /* ZTWebView.m in Sources */,
+				CDA145DA19A48E8F00A402A8 /* YYJSONHelper.m in Sources */,
+				CDA1462319A48E8F00A402A8 /* ZTImageBrowOverlayView.m in Sources */,
+				CDA1463D19A48E8F00A402A8 /* ZTTabBarItemBadge.m in Sources */,
+				CDA1464C19A48E8F00A402A8 /* ZTTableMoreCell.m in Sources */,
+				CDA1461F19A48E8F00A402A8 /* ZTImageBrow.m in Sources */,
+				CDA145D619A48E8F00A402A8 /* UIImageView+WebCache.m in Sources */,
+				CDA145FB19A48E8F00A402A8 /* rscode.c in Sources */,
+				CDA1463F19A48E8F00A402A8 /* ZTTabBarItemGroup.m in Sources */,
+				CDA1463919A48E8F00A402A8 /* ZTTabBarConfigs.m in Sources */,
+				CDA1460419A48E8F00A402A8 /* ZTCacheFile.m in Sources */,
+				CDA1462919A48E8F00A402A8 /* ZTImageScrollViewModel.m in Sources */,
+				CDA145B319A48E8F00A402A8 /* LKDBUtils.m in Sources */,
+				CDA1462719A48E8F00A402A8 /* ZTImageScrollView.m in Sources */,
+				CDA145A719A48E8F00A402A8 /* FMDatabasePool.m in Sources */,
+				CDA1460619A48E8F00A402A8 /* ZTCacheMemory.m in Sources */,
+				CDA1460B19A48E8F00A402A8 /* ZTDataLite.m in Sources */,
+				CDA1464519A48E8F00A402A8 /* ZTTableCell.m in Sources */,
+				CDA1463519A48E8F00A402A8 /* ZTSDWebCacheManager.m in Sources */,
+				CDA145F119A48E8F00A402A8 /* mask.c in Sources */,
+				CDA145A919A48E8F00A402A8 /* FMDatabaseQueue.m in Sources */,
+				CDA1465019A48E8F00A402A8 /* ZTTableView.m in Sources */,
+				CDA1462B19A48E8F00A402A8 /* ZTImageView.m in Sources */,
+				CDA1462F19A48E8F00A402A8 /* ZTQRCode.m in Sources */,
+				CDA1462519A48E8F00A402A8 /* ZTImageBrowZoomView.m in Sources */,
+				CDA145AF19A48E8F00A402A8 /* LKDB+Mapping.m in Sources */,
+				CDA1462119A48E8F00A402A8 /* ZTImageBrowModel.m in Sources */,
+				CDA145B119A48E8F00A402A8 /* LKDBHelper.m in Sources */,
+				CDA145F919A48E8F00A402A8 /* qrspec.c in Sources */,
+				CDA1463B19A48E8F00A402A8 /* ZTTabBarItem.m in Sources */,
+				CDA1459719A48E8F00A402A8 /* ZTDebug.m in Sources */,
+				CDA145BB19A48E8F00A402A8 /* NSData+ImageContentType.m in Sources */,
+				CDA145AB19A48E8F00A402A8 /* FMResultSet.m in Sources */,
+				CDA145A119A48E8F00A402A8 /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
+				CDA145C719A48E8F00A402A8 /* SDWebImageManager.m in Sources */,
+				CDA1460F19A48E8F00A402A8 /* ZTNotification.m in Sources */,
+				CDA145C119A48E8F00A402A8 /* SDWebImageDecoder.m in Sources */,
+				CDA145C519A48E8F00A402A8 /* SDWebImageDownloaderOperation.m in Sources */,
+				CDA145B719A48E8F00A402A8 /* NSObject+LKModel.m in Sources */,
+				CDA1463319A48E8F00A402A8 /* ZTReachability.m in Sources */,
+				CDA145A519A48E8F00A402A8 /* FMDatabaseAdditions.m in Sources */,
+				CDA145B919A48E8F00A402A8 /* MKAnnotationView+WebCache.m in Sources */,
+				CDA145BF19A48E8F00A402A8 /* SDWebImageCompat.m in Sources */,
+				CDA145CC19A48E8F00A402A8 /* UIButton+WebCache.m in Sources */,
+				CDA145EF19A48E8F00A402A8 /* bitstream.c in Sources */,
+				CDA1464319A48E8F00A402A8 /* ZTTabBarNotificationModel.m in Sources */,
+				CDA1463719A48E8F00A402A8 /* ZTTabBar.m in Sources */,
+				CDA1463119A48E8F00A402A8 /* Reachability.m in Sources */,
+				CDA1461B19A48E8F00A402A8 /* ZTButton.m in Sources */,
+				CDA145D419A48E8F00A402A8 /* UIImageView+HighlightedWebCache.m in Sources */,
+				CDA145CE19A48E8F00A402A8 /* UIImage+GIF.m in Sources */,
+				CDA1461919A48E8F00A402A8 /* ZTAnimation.m in Sources */,
+				CDA145BD19A48E8F00A402A8 /* SDImageCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBDA854196D23E3000FA46B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDA2CA6C19654E2F00C8D186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDA2CA6D19654E2F00C8D186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDA2CA6F19654E2F00C8D186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/../build/$(TARGET_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/ZTFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZTFramework-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/ZTFramework/External/ZBarSdk_v1.2.1/Headers/**",
+				);
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZTFramework/External/ZBarSdk_v1.2.1",
+					"$(PROJECT_DIR)/External/ZBarSdk_v1.2.1",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+				SKIP_INSTALL = YES;
+				SYMROOT = "$(SRCROOT)/../build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDA2CA7019654E2F00C8D186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				CONFIGURATION_TEMP_DIR = "$(SRCROOT)/../build/$(TARGET_NAME).build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				DSTROOT = /tmp/ZTFramework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZTFramework-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/ZTFramework/External/ZBarSdk_v1.2.1/Headers/**",
+				);
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZTFramework/External/ZBarSdk_v1.2.1",
+					"$(PROJECT_DIR)/External/ZBarSdk_v1.2.1",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
+				SKIP_INSTALL = YES;
+				SYMROOT = "$(SRCROOT)/../build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDBDA863196D23E3000FA46B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZTFrameworkBundle/ZTFrameworkBundle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZTFrameworkBundle/ZTFrameworkBundle-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CDBDA864196D23E3000FA46B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZTFrameworkBundle/ZTFrameworkBundle-Prefix.pch";
+				INFOPLIST_FILE = "ZTFrameworkBundle/ZTFrameworkBundle-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDA2CA4619654E2F00C8D186 /* Build configuration list for PBXProject "ZTFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA2CA6C19654E2F00C8D186 /* Debug */,
+				CDA2CA6D19654E2F00C8D186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDA2CA6E19654E2F00C8D186 /* Build configuration list for PBXNativeTarget "ZTFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDA2CA6F19654E2F00C8D186 /* Debug */,
+				CDA2CA7019654E2F00C8D186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBDA862196D23E3000FA46B /* Build configuration list for PBXNativeTarget "ZTFrameworkBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDBDA863196D23E3000FA46B /* Debug */,
+				CDBDA864196D23E3000FA46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDA2CA4319654E2F00C8D186 /* Project object */;
+}

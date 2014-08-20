@@ -1,0 +1,1071 @@
+TZTFrameworkRun
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch.pch ZTFrameworkRun-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/debugVC.o /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/AppDelegate.o /Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/main.o /Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/listVC.o /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun normal i386
+cCopyPlistFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun-Info.plist ZTFrameworkRun-Info.plist
+cCopyStringsFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+cCompileStoryboard /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/Storyboard.storyboard
+cCompileAssetCatalog /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app /Volumes/E/product/ZTFramework/ZTFrameworkRun/Images.xcassets
+cProcessInfoPlistFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/Info.plist /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Info.plist
+cGenerateDSYMFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app.dSYM /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun
+cTouch /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000534B4CF500000000000003B4
+t1397443829
+s948
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000534B4CFC000000000000019E
+t1397443836
+s414
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000053C889180000000000484210
+t1405651224
+s4735504
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c0000000053C889180000000000098030
+t1405651224
+s622640
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000053C889170000000000904120
+t1405651223
+s9453856
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000053C8891A000000000058E0E0
+t1405651226
+s5824736
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000053C8891A00000000000FB140
+t1405651226
+s1028416
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000053C8891C00000000005B82F0
+t1405651228
+s5997296
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053C8891E0000000000446820
+t1405651230
+s4483104
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c0000000053C8892000000000003599D0
+t1405651232
+s3512784
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000053C8892100000000000F1A80
+t1405651233
+s989824
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+c0000000053C8892300000000000CF090
+t1405651235
+s848016
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000053C88922000000000013B8C0
+t1405651234
+s1292480
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+c0000000053C8892400000000001D2FF0
+t1405651236
+s1912816
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c0000000053C8892500000000002FC3B0
+t1405651237
+s3130288
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000053C88925000000000004B000
+t1405651237
+s307200
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053C88926000000000088D8C0
+t1405651238
+s8968384
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c0000000053C88927000000000067F940
+t1405651239
+s6814016
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c0000000053C8892800000000002E6B60
+t1405651240
+s3042144
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+c0000000053C8892B0000000000666DB0
+t1405651243
+s6712752
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000053C8892F0000000000037680
+t1405651247
+s226944
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053C8892F000000000048F720
+t1405651247
+s4781856
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000053C88930000000000013FD70
+t1405651248
+s1310064
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Social.framework/Social
+c0000000053C889300000000000222210
+t1405651248
+s2236944
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000053C8893000000000001081C0
+t1405651248
+s1081792
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053C889310000000001F1DE10
+t1405651249
+s32628240
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c0000000053C8894D00000000002BC360
+t1405651277
+s2868064
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c0000000053C889520000000000002338
+t1405651282
+s9016
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c0000000053C88956000000000008D370
+t1405651286
+s578416
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libiconv.dylib
+c0000000053C889540000000000205FF0
+t1405651284
+s2121712
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c0000000053C889560000000000392E20
+t1405651286
+s3747360
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libsqlite3.dylib
+c0000000053C8895600000000001D35B0
+t1405651286
+s1914288
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c0000000053C891FD00000000000141F0
+t1405653501
+s82416
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c0000000053C889560000000000014A80
+t1405651286
+s84608
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c0000000053C889560000000000033BA0
+t1405651286
+s211872
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c0000000053C88956000000000001CFB0
+t1405651286
+s118704
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c0000000053C88956000000000001B2B0
+t1405651286
+s111280
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c0000000053C8895600000000000C9570
+t1405651286
+s824688
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c0000000053C889560000000000063280
+t1405651286
+s406144
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c0000000053C889560000000000008880
+t1405651286
+s34944
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c0000000053C889560000000000015080
+t1405651286
+s86144
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c0000000053C8895600000000000230F0
+t1405651286
+s143600
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c0000000053C88956000000000000E380
+t1405651286
+s58240
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c0000000053C889560000000000089380
+t1405651286
+s562048
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c0000000053C889560000000000017320
+t1405651286
+s95008
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c0000000053C889560000000000039CD0
+t1405651286
+s236752
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c0000000053C88956000000000000B0B0
+t1405651286
+s45232
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c0000000053C889560000000000167E80
+t1405651286
+s1474176
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c0000000053C8895600000000000106A0
+t1405651286
+s67232
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c0000000053C88956000000000001CE40
+t1405651286
+s118336
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c0000000053C8895700000000000740C0
+t1405651287
+s475328
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c0000000053C88957000000000006CA60
+t1405651287
+s445024
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c0000000053C88957000000000001BAD0
+t1405651287
+s113360
+
+N/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c0000000053C889570000000000084A20
+t1405651287
+s543264
+
+N/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000534B4D550000000000000ADC
+t1397443925
+s2780
+
+N/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c00000000534B4D55000000000000514C
+t1397443925
+s20812
+
+N/Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-aqlhpyugulooumdoyiqqtcixquvj/ZTFrameworkRun-Prefix.pch.pch
+t1408524155
+s122040
+
+N/Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch.pch
+t1408525862
+s438096
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.h
+c0000000053F458D50000000000000119
+t1408522453
+s281
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m
+c0000000053F465D40000000000000797
+t1408525780
+s1943
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/Images.xcassets
+c0000000053F458D50000000000000088
+t1408522453
+s136
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Info.plist
+c0000000053F4631D00000000000004C9
+t1408525085
+s1225
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch
+c0000000053F465CF000000000000016E
+t1408525775
+s366
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/Storyboard.storyboard
+c0000000053F469AB00000000000031FF
+t1408526763
+s12799
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.h
+c0000000053F4698600000000000000F7
+t1408526726
+s247
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m
+c0000000053F469850000000000000605
+t1408526725
+s1541
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.h
+c0000000053F4635500000000000000D0
+t1408525141
+s208
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m
+c0000000053F465EA000000000000121F
+t1408525802
+s4639
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/en.lproj/InfoPlist.strings
+c0000000053F458D5000000000000002D
+t1408522453
+s45
+
+N/Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m
+c0000000053F458D50000000000000155
+t1408522453
+s341
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app
+t1408526763
+s340
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app.dSYM
+t1408526732
+s102
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/Info.plist
+t1408525576
+s1072
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/PkgInfo
+t1408525576
+s8
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/Storyboard.storyboardc
+t1408526763
+s238
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun
+t1408526729
+s1468404
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun-Info.plist
+t1408525571
+s704
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/en.lproj/InfoPlist.strings
+t1408524900
+s42
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/FMDatabase.h
+c0000000053F462630000000000008587
+t1408524899
+s34183
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/FMDatabasePool.h
+c0000000053F462630000000000000E3C
+t1408524899
+s3644
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/FMDatabaseQueue.h
+c0000000053F4626300000000000014E5
+t1408524899
+s5349
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/FMResultSet.h
+c0000000053F462630000000000002E38
+t1408524899
+s11832
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/LKDB+Manager.h
+c0000000053F4626300000000000004EE
+t1408524899
+s1262
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/LKDB+Mapping.h
+c0000000053F462630000000000000772
+t1408524899
+s1906
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/LKDBHelper.h
+c0000000053F4626300000000000017E5
+t1408524899
+s6117
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/LKDBUtils.h
+c0000000053F462630000000000000A22
+t1408524899
+s2594
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/NSArray+ZT.h
+c0000000053F4626300000000000001B7
+t1408524899
+s439
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/NSObject+LKDBHelper.h
+c0000000053F4626300000000000005C0
+t1408524899
+s1472
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/NSObject+LKModel.h
+c0000000053F4626300000000000009D7
+t1408524899
+s2519
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/NSObject+ZT.h
+c0000000053F462630000000000000392
+t1408524899
+s914
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCache.h
+c0000000053F4626300000000000001FD
+t1408524899
+s509
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCacheFile.h
+c0000000053F462630000000000000364
+t1408524899
+s868
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCacheProtocol.h
+c0000000053F46263000000000000045A
+t1408524899
+s1114
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCommon.h
+c0000000053F462630000000000000804
+t1408524899
+s2052
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTDataLite.h
+c0000000053F4626300000000000001E0
+t1408524899
+s480
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTDebug.h
+c0000000053F46263000000000000056F
+t1408524899
+s1391
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTExt_LKDBHelper.h
+c0000000053F4626300000000000003C0
+t1408524899
+s960
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTExtension.h
+c0000000053F4626300000000000001EE
+t1408524899
+s494
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTExternal.h
+c0000000053F462630000000000000295
+t1408524899
+s661
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTExternalExtension.h
+c0000000053F4626300000000000001CC
+t1408524899
+s460
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTExternalPrecompile.h
+c0000000053F4626300000000000002B1
+t1408524899
+s689
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h
+c0000000053F4626300000000000002DD
+t1408524899
+s733
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h
+c0000000053F462630000000000000281
+t1408524899
+s641
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTMacroUtils.h
+c0000000053F4626300000000000014FD
+t1408524899
+s5373
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTNotification.h
+c0000000053F46263000000000000060F
+t1408524899
+s1551
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTObserver.h
+c0000000053F462630000000000000841
+t1408524899
+s2113
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTPrecompile.h
+c0000000053F462630000000000000464
+t1408524899
+s1124
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTSandbox.h
+c0000000053F462630000000000000885
+t1408524899
+s2181
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTSystemInfo.h
+c0000000053F462630000000000000F6B
+t1408524899
+s3947
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTThread.h
+c0000000053F46263000000000000068C
+t1408524899
+s1676
+
+N/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/libZTFramework.a
+c0000000053F4626300000000004A23A8
+t1408524899
+s4858792
+
+N/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/AppDelegate.o
+t1408525863
+s66148
+
+N/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/ZTFrameworkRun.LinkFileList
+c0000000053F46503000000000000020C
+t1408525571
+s524
+
+N/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/debugVC.o
+t1408526728
+s51828
+
+N/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/listVC.o
+t1408525863
+s61944
+
+N/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/main.o
+t1408525863
+s8024
+
+N/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/assetcatalog_dependencies.txt
+t1408524905
+s359
+
+N/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/assetcatalog_generated_info.plist
+t1408524905
+s585
+
+N/usr/lib/libSystem.B.dylib
+c0000000053C891FC000000000000E6D0
+t1405653500
+s59088
+
+N/usr/lib/system/libcache.dylib
+c0000000053C891FD0000000000012A00
+t1405653501
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c0000000053C891FD000000000002E320
+t1405653501
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c0000000053C891FD0000000000021860
+t1405653501
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c0000000053C891FD000000000001B610
+t1405653501
+s112144
+
+N/usr/lib/system/libcorecrypto.dylib
+c0000000053C891FD00000000000BD920
+t1405653501
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c0000000053C891FD00000000000141F0
+t1405653501
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c0000000053C891FD000000000000A120
+t1405653501
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c0000000053C891FD000000000001D550
+t1405653501
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c0000000053C891FD0000000000014EE0
+t1405653501
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c0000000053C891FD0000000000010380
+t1405653501
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c0000000053C891FD000000000000C4C0
+t1405653501
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c0000000053C891FD00000000000357A0
+t1405653501
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c0000000053C891FD000000000000C070
+t1405653501
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c0000000053C891FD0000000000168D00
+t1405653501
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c0000000053C891FD0000000000010630
+t1405653501
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c0000000053C891FD000000000001DF10
+t1405653501
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c0000000053C891FD0000000000075B00
+t1405653501
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c0000000053C891FD000000000007CD60
+t1405653501
+s511328
+
+N/usr/lib/system/libsystem_m.dylib
+c0000000053C891FD00000000000766C0
+t1405653501
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c0000000053C891FD0000000000044DC0
+t1405653501
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c0000000053C891FD0000000000021FA0
+t1405653501
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c0000000053C891FD000000000002D920
+t1405653501
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c0000000053C891FD000000000001E570
+t1405653501
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c0000000053C891FD000000000000CC70
+t1405653501
+s52336
+
+N/usr/lib/system/libunc.dylib
+c0000000053C891FD000000000000C3F0
+t1405653501
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c0000000053C891FD00000000000199F0
+t1405653501
+s104944
+
+CBuild AST from /Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m
+r0
+
+CBuild AST from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m
+r0
+
+CBuild AST from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m
+r0
+
+CBuild AST from /Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa48b5d2ba1a4b941^17f55d2ba1a4b941^-115"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'ZTFrameworkRun-Info.plist'.1(21%IDEActivityLogMessage2@114"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'ZTFrameworkRun-Info.plist'.-430219563#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"613FDE75-8199-4996-BC68-16E5B977826D-
+
+CCompileAssetCatalog /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app /Volumes/E/product/ZTFramework/ZTFrameworkRun/Images.xcassets
+s430217700.309019
+e430217705.054332
+r1
+xCompileAssetCatalog
+x/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app
+x/Volumes/E/product/ZTFramework/ZTFrameworkRun/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/LaunchImage-700-568h@2x.png
+o/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/LaunchImage-568h@2x.png
+o/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"CompileAssetCatalog /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app Images.xcassets113"CompileAssetCatalog /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app Images.xcassets83344fe499a4b941^f7e80de999a4b941^-387"/* com.apple.actool.compilation-results *//Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/LaunchImage-700-568h@2x.png/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/LaunchImage-568h@2x.png/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@69"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/Images.xcassets/0000000000000000^1142"CompileAssetCatalog /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app Images.xcassets    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/assetcatalog_dependencies.txt --output-partial-info-plist /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 6.1 --target-device iphone --compress-pngs --compile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app /Volumes/E/product/ZTFramework/ZTFrameworkRun/Images.xcassets36"5C29C45A-771D-478F-81AD-21C6BE412EB8-
+bFA9C1B07-E5BD-4B2C-8E6D-0D824BC7351E
+
+CCompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/AppDelegate.o /Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430218662.973922
+e430218663.224963
+r1
+xCompileC
+x/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/AppDelegate.o
+x/Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m
+d/Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.h
+oIn file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m:1:
+oIn file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:
+oIn file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:
+oIn file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:
+o/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCommon.h:22:15: warning: unused function 'ZT_COMMON_SwizzleInstanceMethod' [-Wunused-function]
+ostatic Method ZT_COMMON_SwizzleInstanceMethod(Class c, SEL original, SEL replacement) {
+o              ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m225"CompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/AppDelegate.o AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6d71f9a69da4b941^f33e4ea79da4b941^-681"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m:1:In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCommon.h:22:15: warning: unused function 'ZT_COMMON_SwizzleInstanceMethod' [-Wunused-function]static Method ZT_COMMON_SwizzleInstanceMethod(Class c, SEL original, SEL replacement) {              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@49"Unused function 'ZT_COMMON_SwizzleInstanceMethod'-430218663#18446744073709551615#0#4(2@84"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m:1:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@66"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m0000000000000000^0#0#0#0#0#0#21"Apple LLVM 5.1 Notice--2@97"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@78"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch0000000000000000^15#12#15#12#349#0#21"Apple LLVM 5.1 Notice--2@100"In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/ZTKit.h0000000000000000^25#8#25#8#530#0#21"Apple LLVM 5.1 Notice--2@107"In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/Foundation/ZTFoundation.h0000000000000000^14#8#14#8#422#0#21"Apple LLVM 5.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@83"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/Foundation/ZTCommon.h0000000000000000^21#14#21#14#536#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@66"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m0000000000000000^3752"CompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/AppDelegate.o AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fighting/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-generated-files.hmap -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-own-target-headers.hmap -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-all-target-headers.hmap -iquote /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-project-headers.hmap -iquote/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include -I/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include -I/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/DerivedSources/i386 -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/DerivedSources -F/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator -include /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch -MMD -MT dependencies -MF /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/AppDelegate.dia -c /Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.m -o /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/AppDelegate.o36"97CA4346-A875-4F73-8FAF-72B69FB53AF0-
+b774CE863-8E60-4B8B-81EB-6FA8C44E300E
+
+CCompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/debugVC.o /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430219526.626678
+e430219528.806877
+r1
+xCompileC
+x/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/debugVC.o
+x/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m
+d/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.h
+oIn file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m:1:
+oIn file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:
+oIn file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:
+oIn file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:
+o/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCommon.h:22:15: warning: unused function 'ZT_COMMON_SwizzleInstanceMethod' [-Wunused-function]
+ostatic Method ZT_COMMON_SwizzleInstanceMethod(Class c, SEL original, SEL replacement) {
+o              ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m232"CompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/debugVC.o ZTFrameworkRun/debugVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf794a006a1a4b941^8e8fce08a1a4b941^-692"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m:1:In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCommon.h:22:15: warning: unused function 'ZT_COMMON_SwizzleInstanceMethod' [-Wunused-function]static Method ZT_COMMON_SwizzleInstanceMethod(Class c, SEL original, SEL replacement) {              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@49"Unused function 'ZT_COMMON_SwizzleInstanceMethod'-430219528#18446744073709551615#0#4(2@95"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m:1:-430219528#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@77"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m0000000000000000^0#0#0#0#0#0#21"Apple LLVM 5.1 Notice--2@97"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:-430219528#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@78"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch0000000000000000^15#12#15#12#349#0#21"Apple LLVM 5.1 Notice--2@100"In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:-430219528#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/ZTKit.h0000000000000000^25#8#25#8#530#0#21"Apple LLVM 5.1 Notice--2@107"In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:-430219528#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/Foundation/ZTFoundation.h0000000000000000^14#8#14#8#422#0#21"Apple LLVM 5.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@83"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/Foundation/ZTCommon.h0000000000000000^21#14#21#14#536#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@77"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m0000000000000000^3758"CompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/debugVC.o ZTFrameworkRun/debugVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fighting/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-generated-files.hmap -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-own-target-headers.hmap -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-all-target-headers.hmap -iquote /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-project-headers.hmap -iquote/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include -I/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include -I/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/DerivedSources/i386 -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/DerivedSources -F/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator -include /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch -MMD -MT dependencies -MF /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/debugVC.d --serialize-diagnostics /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/debugVC.dia -c /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/debugVC.m -o /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/debugVC.o36"8E6941E9-E4EF-42B2-A8D5-2C741CB0BB09-
+b48AE7E41-3D4D-4EB8-A3D9-63C8A5ACD387
+
+CCompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/listVC.o /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430218662.974767
+e430218663.207144
+r1
+xCompileC
+x/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/listVC.o
+x/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m
+d/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.h
+oIn file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m:1:
+oIn file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:
+oIn file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:
+oIn file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:
+o/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCommon.h:22:15: warning: unused function 'ZT_COMMON_SwizzleInstanceMethod' [-Wunused-function]
+ostatic Method ZT_COMMON_SwizzleInstanceMethod(Class c, SEL original, SEL replacement) {
+o              ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m230"CompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/listVC.o ZTFrameworkRun/listVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1fb9f9a69da4b941^72354ea79da4b941^-691"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m:1:In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCommon.h:22:15: warning: unused function 'ZT_COMMON_SwizzleInstanceMethod' [-Wunused-function]static Method ZT_COMMON_SwizzleInstanceMethod(Class c, SEL original, SEL replacement) {              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@49"Unused function 'ZT_COMMON_SwizzleInstanceMethod'-430218663#18446744073709551615#0#4(2@94"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m:1:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@76"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m0000000000000000^0#0#0#0#0#0#21"Apple LLVM 5.1 Notice--2@97"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@78"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch0000000000000000^15#12#15#12#349#0#21"Apple LLVM 5.1 Notice--2@100"In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/ZTKit.h0000000000000000^25#8#25#8#530#0#21"Apple LLVM 5.1 Notice--2@107"In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/Foundation/ZTFoundation.h0000000000000000^14#8#14#8#422#0#21"Apple LLVM 5.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@83"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/Foundation/ZTCommon.h0000000000000000^21#14#21#14#536#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@76"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m0000000000000000^3752"CompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/listVC.o ZTFrameworkRun/listVC.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fighting/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-generated-files.hmap -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-own-target-headers.hmap -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-all-target-headers.hmap -iquote /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-project-headers.hmap -iquote/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include -I/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include -I/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/DerivedSources/i386 -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/DerivedSources -F/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator -include /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch -MMD -MT dependencies -MF /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/listVC.d --serialize-diagnostics /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/listVC.dia -c /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/listVC.m -o /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/listVC.o36"649B550A-8742-4244-A474-87E4DECD58D7-
+b774CE863-8E60-4B8B-81EB-6FA8C44E300E
+
+CCompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/main.o /Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430218662.974357
+e430218663.086212
+r1
+xCompileC
+x/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/main.o
+x/Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m
+d/Volumes/E/product/ZTFramework/ZTFrameworkRun/AppDelegate.h
+oIn file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m:1:
+oIn file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:
+oIn file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:
+oIn file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:
+o/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCommon.h:22:15: warning: unused function 'ZT_COMMON_SwizzleInstanceMethod' [-Wunused-function]
+ostatic Method ZT_COMMON_SwizzleInstanceMethod(Class c, SEL original, SEL replacement) {
+o              ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m211"CompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6492f9a69da4b941^4b1f4ea79da4b941^-674"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m:1:In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCommon.h:22:15: warning: unused function 'ZT_COMMON_SwizzleInstanceMethod' [-Wunused-function]static Method ZT_COMMON_SwizzleInstanceMethod(Class c, SEL original, SEL replacement) {              ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@49"Unused function 'ZT_COMMON_SwizzleInstanceMethod'-430218663#18446744073709551615#0#4(2@77"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m:1:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@59"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m0000000000000000^0#0#0#0#0#0#21"Apple LLVM 5.1 Notice--2@97"In file included from /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch:16:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@78"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch0000000000000000^15#12#15#12#349#0#21"Apple LLVM 5.1 Notice--2@100"In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h:26:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/ZTKit.h0000000000000000^25#8#25#8#530#0#21"Apple LLVM 5.1 Notice--2@107"In file included from /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h:15:-430218663#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@87"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/Foundation/ZTFoundation.h0000000000000000^14#8#14#8#422#0#21"Apple LLVM 5.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@83"file:///Volumes/E/product/ZTFramework/ZTFramework/ZTFramework/Foundation/ZTCommon.h0000000000000000^21#14#21#14#536#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@59"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m0000000000000000^3710"CompileC /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/main.o main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fighting/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-generated-files.hmap -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-own-target-headers.hmap -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-all-target-headers.hmap -iquote /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-project-headers.hmap -iquote/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include -I/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include -I/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/DerivedSources/i386 -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/DerivedSources -F/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator -include /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch -MMD -MT dependencies -MF /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/main.d --serialize-diagnostics /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/main.dia -c /Volumes/E/product/ZTFramework/ZTFrameworkRun/main.m -o /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/main.o36"A0D689F8-9B07-4FF5-9FF5-D648E4730585-
+b774CE863-8E60-4B8B-81EB-6FA8C44E300E
+
+CCompileStoryboard /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/Storyboard.storyboard
+s430219563.372228
+e430219563.943900
+r1
+xCompileStoryboard
+x/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/Storyboard.storyboard
+o/* com.apple.ibtool.document.warnings */
+o/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/Storyboard.storyboard:5Fu-ft-XbD: warning: Prototype table cells must have reuse identifiers [9]
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"CompileStoryboard ZTFrameworkRun/Storyboard.storyboard54"CompileStoryboard ZTFrameworkRun/Storyboard.storyboard5f5f5f2ba1a4b941^38a4f12ba1a4b941^-195"/* com.apple.ibtool.document.warnings *//Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/Storyboard.storyboard:5Fu-ft-XbD: warning: Prototype table cells must have reuse identifiers1(21%IDEActivityLogMessage2@49"Prototype table cells must have reuse identifiers-430219563#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@89"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/Storyboard.storyboard0000000000000000^4#18446744073709551615#4#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#1#-19%DVTDocumentLocation4@89"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/Storyboard.storyboard0000000000000000^846"CompileStoryboard ZTFrameworkRun/Storyboard.storyboard    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export IBSC_MINIMUM_COMPATIBILITY_VERSION=6.1    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode5.app/Contents/Developer/usr/bin/..    /Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/Storyboard.storyboardc /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun/Storyboard.storyboard36"7A811361-77E1-49DC-971C-BF6944467641-
+bD06F0C5C-CE73-460C-948B-A3A054F14764
+
+CCopyPlistFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun-Info.plist ZTFrameworkRun-Info.plist
+s430218371.262166
+e430218371.266749
+r1
+xCopyPlistFile
+x/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun-Info.plist
+xZTFrameworkRun-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection30"Copy ZTFrameworkRun-Info.plist143"CopyPlistFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun-Info.plist ZTFrameworkRun-Info.plistc32d43839ca4b941^e84a44839ca4b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Info.plist0000000000000000^550"CopyPlistFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun-Info.plist ZTFrameworkRun-Info.plist    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app -- ZTFrameworkRun-Info.plist36"B1D763A1-CD37-474C-8AA6-77C8944040E9-
+b99C21968-1790-4A8E-B62F-8216BD7764B0
+
+CCopyStringsFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+s430217700.308178
+e430217700.314060
+r1
+xCopyStringsFile
+x/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/en.lproj/InfoPlist.strings
+xen.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy en.lproj/InfoPlist.strings147"CopyStringsFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings1afb4ee499a4b941^4b7650e499a4b941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/en.lproj/InfoPlist.strings0000000000000000^605"CopyStringsFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/en.lproj -- en.lproj/InfoPlist.strings36"FCA3CEE1-414A-4C62-BB95-D466CB401CB0-
+bFA9C1B07-E5BD-4B2C-8E6D-0D824BC7351E
+
+CGenerateDSYMFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app.dSYM /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun
+s430219532.373098
+e430219532.641364
+r1
+xGenerateDSYMFile
+x/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app.dSYM
+x/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Generate /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app.dSYM192"GenerateDSYMFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app.dSYM /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun07965f0ca1a4b941^d49aba0ca1a4b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app.dSYM/0000000000000000^723"GenerateDSYMFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app.dSYM /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun -o /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app.dSYM36"DD94F4F7-BBA1-4986-98D9-EE8CD9C3D5F2-
+b48AE7E41-3D4D-4EB8-A3D9-63C8A5ACD387
+
+CLd /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun normal i386
+s430219528.809269
+e430219529.381417
+r1
+xLd
+x/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun
+xnormal
+xi386
+d/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/ZTFrameworkRun.LinkFileList
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/debugVC.o
+d/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/AppDelegate.o
+d/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/main.o
+d/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/listVC.o
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libiconv.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libsqlite3.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/libZTFramework.a
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Social.framework/Social
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Link /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun107"Ld /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun normal i3864243cf08a1a4b941^87a56109a1a4b941^---0#0#1#--1513"Ld /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun normal i386    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export IPHONEOS_DEPLOYMENT_TARGET=6.1    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator -F/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator -filelist /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/ZTFrameworkRun.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -all_load -objC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -liconv -lsqlite3 -framework CoreFoundation -framework QuartzCore -framework Security -lZTFramework -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/Objects-normal/i386/ZTFrameworkRun_dependency_info.dat -o /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/ZTFrameworkRun36"BD0B7111-8727-4F33-B05B-BFA72D572961-
+b48AE7E41-3D4D-4EB8-A3D9-63C8A5ACD387
+
+CProcessInfoPlistFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/Info.plist /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Info.plist
+s430218376.378434
+e430218376.402244
+r1
+xProcessInfoPlistFile
+x/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/Info.plist
+x/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Process /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Info.plist135"ProcessInfoPlistFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/Info.plist ZTFrameworkRun-Info.plist91ed60889ca4b941^d7fa66889ca4b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Info.plist0000000000000000^897"ProcessInfoPlistFile /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/Info.plist ZTFrameworkRun-Info.plist    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Info.plist -genpkginfo /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/assetcatalog_generated_info.plist -o /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app/Info.plist36"08BDDB32-ECB1-4D14-87D5-30AFD151684C-
+b99C21968-1790-4A8E-B62F-8216BD7764B0
+
+CProcessPCH /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-aqlhpyugulooumdoyiqqtcixquvj/ZTFrameworkRun-Prefix.pch.pch ZTFrameworkRun-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch.pch ZTFrameworkRun-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s430218662.891343
+e430218662.972436
+r1
+xProcessPCH
+x/Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch.pch
+xZTFrameworkRun-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTKit.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTPrecompile.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTMacroUtils.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTDebug.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTFoundation.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCommon.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTThread.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTDataLite.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTSystemInfo.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTObserver.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTNotification.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCache.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCacheProtocol.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTCacheFile.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTSandbox.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTExtension.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/NSObject+ZT.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/NSArray+ZT.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTExternal.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTExternalPrecompile.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/FMDatabase.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/FMResultSet.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/FMDatabasePool.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/LKDBHelper.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/FMDatabaseQueue.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/LKDBUtils.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/LKDB+Manager.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/LKDB+Mapping.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/NSObject+LKModel.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/NSObject+LKDBHelper.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTExternalExtension.h
+d/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include/ZTExt_LKDBHelper.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile ZTFrameworkRun-Prefix.pch317"ProcessPCH /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch.pch ZTFrameworkRun-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerba4de4a69da4b941^5af2f8a69da4b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch0000000000000000^3875"ProcessPCH /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch.pch ZTFrameworkRun-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/fighting/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-generated-files.hmap -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-own-target-headers.hmap -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-all-target-headers.hmap -iquote /Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/ZTFrameworkRun-project-headers.hmap -iquote/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include -I/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/include -I/Applications/Xcode5.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/DerivedSources/i386 -I/Volumes/E/product/ZTFramework/build/ZTFrameworkRun.build/Debug-iphonesimulator/ZTFrameworkRun.build/DerivedSources -F/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator --serialize-diagnostics /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch.dia -MMD -MT dependencies -MF /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch.d -c /Volumes/E/product/ZTFramework/ZTFrameworkRun/ZTFrameworkRun-Prefix.pch -o /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Build/Intermediates/PrecompiledHeaders/ZTFrameworkRun-Prefix-bzxkosyytyrnjygkhpfbdpkrxvoi/ZTFrameworkRun-Prefix.pch.pch36"C1CBF60B-93CB-413A-99D3-7E80C134C0CE-
+b774CE863-8E60-4B8B-81EB-6FA8C44E300E
+
+CProcessPCH /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Index/PrecompiledHeaders/ZTFrameworkRun-Prefix-dsyhsvqgnudnwebivovyuzefhjdl_ast/ZTFrameworkRun-Prefix.pch.pch ZTFrameworkRun-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/fighting/Library/Developer/Xcode/DerivedData/ZTFramework-ghzyvbgwbmcvdtausnwvzaeuxfyq/Index/PrecompiledHeaders/ZTFrameworkRun-Prefix-fusxxtenmdoytvahgvwynyazoyof_ast/ZTFrameworkRun-Prefix.pch.pch ZTFrameworkRun-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app
+s430218376.552079
+e430218376.605333
+r1
+xTouch
+x/Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app83"Touch /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app1c618d889ca4b941^af94a1889ca4b941^---0#0#1#--434"Touch /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app    cd /Volumes/E/product/ZTFramework/ZTFrameworkRun    export PATH="/Applications/Xcode5.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode5.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/E/product/ZTFramework/build/Debug-iphonesimulator/ZTFrameworkRun.app36"32EE71AA-1B3E-4A21-B302-9D68F2FD110F-
+b99C21968-1790-4A8E-B62F-8216BD7764B0
+
